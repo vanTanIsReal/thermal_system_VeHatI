@@ -1,0 +1,86 @@
+[
+ {
+  "tuan": 1,
+  "gas_that": 100,
+  "Ta": 34,
+  "dB": 2.2,
+  "soc_bat_dau": 0.27
+ },
+ {
+  "tuan": 2,
+  "gas_that": 96,
+  "Ta": 33.4,
+  "dB": 4.4,
+  "soc_bat_dau": 0.26
+ },
+ {
+  "tuan": 3,
+  "gas_that": 92,
+  "Ta": 37.2,
+  "dB": 2.8,
+  "soc_bat_dau": 0.27
+ },
+ {
+  "tuan": 4,
+  "gas_that": 88,
+  "Ta": 35.1,
+  "dB": 2,
+  "soc_bat_dau": 0.28
+ },
+ {
+  "tuan": 5,
+  "gas_that": 84,
+  "Ta": 37.6,
+  "dB": 1.4,
+  "soc_bat_dau": 0.28
+ },
+ {
+  "tuan": 6,
+  "gas_that": 80,
+  "Ta": 33.5,
+  "dB": 2.5,
+  "soc_bat_dau": 0.25
+ },
+ {
+  "tuan": 7,
+  "gas_that": 76,
+  "Ta": 34,
+  "dB": 1.3,
+  "soc_bat_dau": 0.29
+ },
+ {
+  "tuan": 8,
+  "gas_that": 72,
+  "Ta": 37.3,
+  "dB": -0.3,
+  "soc_bat_dau": 0.29
+ },
+ {
+  "tuan": 9,
+  "gas_that": 68,
+  "Ta": 32.5,
+  "dB": 1.4,
+  "soc_bat_dau": 0.23
+ },
+ {
+  "tuan": 10,
+  "gas_that": 64,
+  "Ta": 32.5,
+  "dB": 5,
+  "soc_bat_dau": 0.23
+ },
+ {
+  "tuan": 11,
+  "gas_that": 60,
+  "Ta": 35.8,
+  "dB": -0.1,
+  "soc_bat_dau": 0.26
+ },
+ {
+  "tuan": 12,
+  "gas_that": 56,
+  "Ta": 35.6,
+  "dB": -0.2,
+  "soc_bat_dau": 0.3
+ }
+]

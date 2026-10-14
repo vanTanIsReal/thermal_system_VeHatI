@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="640" viewBox="0 0 960 640" font-family="Segoe UI, Arial, sans-serif">
+<defs><marker id="ar_E2552F" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E2552F"/></marker><marker id="ar_F0912A" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#F0912A"/></marker><marker id="ar_2F86E0" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2F86E0"/></marker><marker id="ar_14A892" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#14A892"/></marker><marker id="ar_D49A12" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#D49A12"/></marker><marker id="ar_9A78E0" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#9A78E0"/></marker><marker id="ar_F07A1A" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#F07A1A"/></marker><marker id="ar_C2418A" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#C2418A"/></marker><marker id="ar_15212C" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#15212C"/></marker><marker id="ar_5A6775" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#5A6775"/></marker><marker id="ar_D0D8DF" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#D0D8DF"/></marker><marker id="ar_F6F8FA" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#F6F8FA"/></marker><marker id="ar_FFFFFF" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#FFFFFF"/></marker><marker id="ar_D5DCE2" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#D5DCE2"/></marker><marker id="ar_AEB8C2" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#AEB8C2"/></marker><marker id="ar_7E8A96" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7E8A96"/></marker><marker id="ar_2E363F" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2E363F"/></marker><marker id="ar_444E59" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#444E59"/></marker><marker id="ar_7FB3E6" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7FB3E6"/></marker></defs>
+<rect width="960" height="640" fill="#F6F8FA"/>
+<text x="32" y="46" font-size="26" font-weight="700" fill="#15212C">BDU – hộp ngắt cao áp</text>
+<text x="32" y="70" font-size="14" fill="#5A6775">Battery disconnect unit · trong vỏ pin · điện cao áp</text>
+<line x1="32" y1="84" x2="928" y2="84" stroke="#D0D8DF"/>
+<text x="928" y="46" font-size="13" fill="#5A6775" text-anchor="end">#24</text>
+<g transform="translate(14,34) scale(0.86)">
+<polygon points="519.2,405.0 354.6,500.0 354.6,410.0 519.2,315.0" fill="#4d412c" stroke="#352d1e" stroke-width="1" opacity="0.35" stroke-linejoin="round"/>
+<polygon points="112.2,360.0 354.6,500.0 354.6,410.0 112.2,270.0" fill="#5c4e35" stroke="#403625" stroke-width="1" opacity="0.35" stroke-linejoin="round"/>
+<polygon points="276.7,175.0 519.2,315.0 354.6,410.0 112.2,270.0" fill="#7c6e55" stroke="#564d3b" stroke-width="1" opacity="0.35" stroke-linejoin="round"/>
+<rect x="198" y="210" width="64" height="80" rx="0" fill="#3b444e" stroke="#292f36" stroke-width="1.2" opacity="1"/>
+<rect x="198" y="210" width="19.2" height="80" fill="#727a82" opacity=".45"/>
+<ellipse cx="230" cy="290" rx="32" ry="10.24" fill="#363e47" stroke="#252b31" stroke-width="1.2"/>
+<ellipse cx="230" cy="210" rx="32" ry="10.24" fill="#5a636c" stroke="#3e454b" stroke-width="1.2"/>
+<rect x="298" y="230" width="64" height="80" rx="0" fill="#3b444e" stroke="#292f36" stroke-width="1.2" opacity="1"/>
+<rect x="298" y="230" width="19.2" height="80" fill="#727a82" opacity=".45"/>
+<ellipse cx="330" cy="310" rx="32" ry="10.24" fill="#363e47" stroke="#252b31" stroke-width="1.2"/>
+<ellipse cx="330" cy="230" rx="32" ry="10.24" fill="#5a636c" stroke="#3e454b" stroke-width="1.2"/>
+<rect x="400" y="260" width="70" height="26" rx="4" fill="#E8E2CF" stroke="#a29e90" stroke-width="1.2" opacity="1"/>
+<line x1="150.0" y1="300.0" x2="230.0" y2="300.0" stroke="#F07A1A" stroke-width="8" stroke-linecap="round"/>
+<line x1="262.0" y1="300.0" x2="330.0" y2="310.0" stroke="#F07A1A" stroke-width="8" stroke-linecap="round"/>
+<line x1="362.0" y1="310.0" x2="400.0" y2="273.0" stroke="#F07A1A" stroke-width="8" stroke-linecap="round"/>
+<line x1="470.0" y1="273.0" x2="540.0" y2="260.0" stroke="#F07A1A" stroke-width="8" stroke-linecap="round"/>
+<rect x="250" y="330" width="80" height="18" rx="3" fill="#7E8A96" stroke="#586069" stroke-width="1.2" opacity="1"/>
+<line x1="230.0" y1="230.0" x2="180.0" y2="140.0" stroke="#15212C" stroke-width="1" opacity=".55"/>
+<circle cx="230.0" cy="230.0" r="3.2" fill="#15212C"/>
+<text x="175.0" y="144.0" font-size="13" font-weight="600" fill="#15212C" text-anchor="end">Contactor (+ / −)</text>
+<line x1="435.0" y1="273.0" x2="480.0" y2="200.0" stroke="#15212C" stroke-width="1" opacity=".55"/>
+<circle cx="435.0" cy="273.0" r="3.2" fill="#15212C"/>
+<text x="485.0" y="204.0" font-size="13" font-weight="600" fill="#15212C" text-anchor="start">Cầu chì chính</text>
+<line x1="290.0" y1="339.0" x2="290.0" y2="470.0" stroke="#15212C" stroke-width="1" opacity=".55"/>
+<circle cx="290.0" cy="339.0" r="3.2" fill="#15212C"/>
+<text x="295.0" y="474.0" font-size="13" font-weight="600" fill="#15212C" text-anchor="start">Cảm biến dòng (shunt)</text>
+<line x1="150.0" y1="300.0" x2="40.0" y2="380.0" stroke="#15212C" stroke-width="1" opacity=".55"/>
+<circle cx="150.0" cy="300.0" r="3.2" fill="#15212C"/>
+<text x="45.0" y="384.0" font-size="13" font-weight="600" fill="#15212C" text-anchor="start">Thanh cái cao áp</text>
+</g>
+<rect x="652" y="104" width="276" height="478" rx="10" fill="#FFFFFF" stroke="#D0D8DF"/>
+<text x="668" y="132" font-size="11" font-weight="700" letter-spacing="1.2" fill="#5A6775">CHỨC NĂNG</text>
+<text x="668" y="150" font-size="12.5" fill="#15212C">Hộp ngắt điện cao áp trong pin: đóng /</text>
+<text x="668" y="166" font-size="12.5" fill="#15212C">ngắt pin với xe, chứa contactor, cầu</text>
+<text x="668" y="182" font-size="12.5" fill="#15212C">chì, cảm biến dòng. Dòng lớn khi sạc</text>
+<text x="668" y="198" font-size="12.5" fill="#15212C">nhanh làm BDU nóng.</text>
+<text x="668" y="228" font-size="11" font-weight="700" letter-spacing="1.2" fill="#5A6775">HAY HỎNG</text>
+<text x="680" y="246" font-size="12.5" fill="#15212C">Tiếp điểm contactor nóng / hàn dính</text>
+<circle cx="672" cy="242" r="2.2" fill="#E2552F"/>
+<text x="680" y="264" font-size="12.5" fill="#15212C">Mối nối lỏng → nóng cục bộ</text>
+<circle cx="672" cy="260" r="2.2" fill="#E2552F"/>
+<text x="668" y="294" font-size="11" font-weight="700" letter-spacing="1.2" fill="#5A6775">TELEMETRY</text>
+<text x="680" y="312" font-size="12.5" fill="#15212C">BDU Temperature</text>
+<circle cx="672" cy="308" r="2.2" fill="#E2552F"/>
+<text x="680" y="330" font-size="12.5" fill="#15212C">BDU temperature warning, BDU hot</text>
+<circle cx="672" cy="326" r="2.2" fill="#E2552F"/>
+<text x="668" y="360" font-size="11" font-weight="700" letter-spacing="1.2" fill="#5A6775">NGUỒN</text>
+<text x="668" y="378" font-size="12.5" fill="#15212C">VF 5: trong vỏ pin có BDU+, BDU−, cầu</text>
+<text x="668" y="394" font-size="12.5" fill="#15212C">chì chính, cầu chì nổ (VATC).</text>
+<rect x="32" y="596" width="18" height="6" rx="3" fill="#F07A1A"/><text x="56" y="603" font-size="12" fill="#5A6775">Điện cao áp</text>
+<text x="928" y="620" font-size="11" fill="#5A6775" text-anchor="end">Hình minh họa kỹ thuật chung — không theo bản vẽ VinFast</text>
+</svg>

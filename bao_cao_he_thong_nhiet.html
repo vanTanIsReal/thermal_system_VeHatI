@@ -1,0 +1,369 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<title>Báo cáo nhóm Nhiệt và Điều hòa</title>
+<style>
+body{font-family:Arial,sans-serif;font-size:11pt;line-height:1.45;max-width:960px;margin:24px auto;padding:0 16px;color:#1b1b1b}
+h1{font-size:20pt}h2{font-size:15pt;margin-top:28px}h3{font-size:12.5pt;margin-top:18px}
+table{border-collapse:collapse;width:100%;margin:8px 0 14px}
+th,td{border:1px solid #999;padding:5px 7px;vertical-align:top;text-align:left;font-size:10pt}
+th{background:#dbe5f1}
+pre{font-family:"Courier New",monospace;font-size:9pt;background:#f3f3f3;padding:8px;white-space:pre-wrap}
+.note{color:#555;font-style:italic}
+</style>
+</head>
+<body>
+
+<h1>Nhóm Nhiệt và Điều hòa: bộ phận, lỗi và bài toán</h1>
+<p class="note">VeHatI · 10/2026. Tên và mã trường lấy từ resource_dictionary_full.csv; danh sách 299 trường nhóm nhiệt ở thermal_hvac_signals.csv (viết tắt bỏ tiền tố “content.”). Vị trí và lỗi bộ phận là kiến thức kỹ thuật chung, chưa đối chiếu tài liệu sửa chữa VinFast. Mọi ngưỡng số là giá trị tạm, chọn trên dữ liệu mô phỏng.</p>
+
+<h2>0. Yêu cầu đề bài và phạm vi</h2>
+<p><b>Yêu cầu:</b></p>
+<ol>
+<li>Tìm hiểu các bộ phận (làm mát pin và mô-tơ, chiller, bơm, quạt, ống và kẹp ống, máy nén, HVAC…): nằm ở đâu trên xe, có thể xảy ra lỗi gì, bài toán liên quan là gì.</li>
+<li>Ngoài 4 bài đã có, đề xuất thêm bài liên quan; mỗi bài có phát biểu, input, output kỳ vọng.</li>
+<li>Dùng tên trường telemetry đã có; dữ liệu không tìm được thì fake.</li>
+<li>Không phải bài nào cũng là ML: bài thống kê thì làm thống kê; bài cần ML thì dùng phương pháp truyền thống trước.</li>
+</ol>
+<p><b>Phạm vi:</b> domain là <b>toàn bộ hệ thống quản lý nhiệt của xe</b>, gồm hai nhánh dùng chung phần cứng: (a) làm mát/sưởi thiết bị (pin, mô-tơ, biến tần, OBC, DC-DC) và (b) điều hòa cabin cho người dùng. Hai nhánh dùng chung máy nén, gas lạnh, dàn nóng, quạt két và chiller, nên một lỗi thường ảnh hưởng cả hai (ví dụ thiếu gas: cabin kém lạnh <b>và</b> pin nóng khi sạc nhanh).</p>
+
+<h2>Phần I. Các bộ phận</h2>
+<p>Mỗi bảng ghi: vị trí trên xe, lỗi có thể gặp, trường telemetry thấy được, và bài toán liên quan (số bài theo Phần II).</p>
+
+<h3>1. Tổng quan hệ thống quản lý nhiệt (TMS)</h3>
+<p>TMS giữ mỗi bộ phận trong vùng nhiệt tối ưu: <b>pin 20–40°C</b> (chênh giữa các cell &lt; 5°C), <b>nước làm mát biến tần ≤ khoảng 65°C</b>, <b>cuộn dây mô-tơ chịu khoảng 150–180°C</b>, <b>cabin 22–24°C</b>. Pin nóng thì chai nhanh và sạc chậm; pin lạnh thì mất công suất và không sạc nhanh được. Xe gồm 3 vòng tuần hoàn và 1 hộp HVAC:</p>
+<pre>
+[Vòng gas lạnh]   Máy nén điện → Dàn nóng (+ quạt két, AGS) → EXV ─┬→ Dàn lạnh (làm mát cabin)
+                                                                   └→ Chiller (làm mát nước của pin)
+[Vòng nước pin]   Bơm pin → Chiller / sưởi PTC nước → Tấm làm mát dưới pin → Bình nước phụ
+[Vòng nước motor] Bơm motor → OBC / DC-DC → Biến tần → Mô-tơ → Két nước (+ quạt két)
+                  (van nhiều ngả có thể nối hai vòng nước)
+[HVAC cabin]      Quạt gió + lọc gió + dàn lạnh + sưởi PTC / bơm nhiệt + cửa gió + cảm biến cabin
+</pre>
+
+<h3>2. Vòng gas lạnh (nguồn tạo lạnh)</h3>
+<table>
+<tr><th>Bộ phận</th><th>Ở đâu trên xe</th><th>Có thể hỏng gì</th><th>Thấy trên telemetry qua</th><th>Bài liên quan</th></tr>
+<tr><td>Máy nén điện (EAC)</td><td>Khoang trước, bắt vào khung/hệ truyền động</td><td>Kẹt cơ khí, hỏng biến tần máy nén, thiếu dầu (do rò gas), mất cách điện cao áp</td><td>Cờ <code>EAC Compressor Fault Status</code> 34233.2.184, <code>EAC Module failure</code> 34233.2.183; <code>VCU Hvac component error level</code> 34233.2.13. Không có tốc độ, công suất máy nén</td><td>2, 3, 4, A</td></tr>
+<tr><td>Dàn nóng (condenser)</td><td>Đầu xe, sau cản trước, trước két nước</td><td>Bám bụi/côn trùng, móp, rò ở mối nối</td><td>Gián tiếp: nhiệt dàn lạnh 34233.9.39 cao khi xe chạy chậm/đứng</td><td>3, 4, A</td></tr>
+<tr><td>Van tiết lưu điện tử (EXV) – thường 2 van (dàn lạnh, chiller)</td><td>Khoang trước, gần vách ngăn; van chiller gắn cạnh chiller</td><td>Kẹt mở/đóng, mở sai độ</td><td><code>VCU Valve component error level</code> 34233.2.11; nhiệt dàn lạnh bất thường. Không có độ mở van</td><td>3, 4</td></tr>
+<tr><td>Dàn lạnh (evaporator)</td><td>Trong hộp HVAC, sau taplo</td><td>Đóng băng, bám bẩn/nấm mốc, rò, tắc ống xả nước ngưng</td><td><code>Actual evaporator temperature</code> 34233.9.39 – số đo trực tiếp duy nhất của vòng gas</td><td>3, 4, 9</td></tr>
+<tr><td>Bình tách lỏng / phin lọc ẩm</td><td>Khoang trước, cạnh dàn nóng hoặc trên đường hút máy nén</td><td>Tắc, bão hòa ẩm</td><td>Không có tín hiệu riêng</td><td>4</td></tr>
+<tr><td>Gas lạnh và dầu máy nén</td><td>Trong toàn vòng gas</td><td>Thiếu gas do rò chậm ở O-ring/mối nối – nguyên nhân kém lạnh phổ biến nhất; nạp nhầm dầu không cách điện</td><td>Không có áp suất gas; cờ <code>High pressure interlock failure</code> 34233.2.199 đang “Reserved”</td><td>3, 9, A</td></tr>
+</table>
+
+<h3>3. Điều hòa cabin (HVAC)</h3>
+<table>
+<tr><th>Bộ phận</th><th>Ở đâu trên xe</th><th>Có thể hỏng gì</th><th>Thấy trên telemetry qua</th><th>Bài liên quan</th></tr>
+<tr><td>Hộp HVAC</td><td>Sau taplo, giữa khoang lái</td><td>Rò gió, kêu, đọng nước</td><td><code>Climate control malfunction</code> 34200.11.2</td><td>2, 4</td></tr>
+<tr><td>Quạt gió cabin (blower)</td><td>Trong hộp HVAC, phía hành khách</td><td>Mô-tơ mòn, kẹt vật lạ, hỏng bộ điều tốc</td><td>Chỉ có mức người dùng chọn <code>Driver Air Blow Level</code> 34184.1.25. Không có tốc độ thực</td><td>3, C</td></tr>
+<tr><td>Lọc gió cabin</td><td>Sau hộc đựng đồ hoặc dưới taplo</td><td>Tắc → gió yếu, mùi hôi</td><td>Không có tín hiệu; chỉ nhắc theo thời gian/km (odometer 34183.1.3)</td><td>3</td></tr>
+<tr><td>Sưởi PTC gió / PTC nước</td><td>PTC gió trong hộp HVAC; PTC nước ở khoang trước trên vòng nước</td><td>Hỏng phần tử, hỏng mạch cao áp</td><td><code>PTC module failure</code> 34233.2.198, <code>VCU Ptc component error level</code> 34233.2.10 (chưa rõ gió hay nước)</td><td>C, A</td></tr>
+<tr><td>Bơm nhiệt (nếu có)</td><td>Dùng chung vòng gas + van đảo chiều ở khoang trước</td><td>Van đảo chiều kẹt, thiếu gas làm giảm sưởi</td><td>Dictionary không có trường riêng; cần biết dòng xe nào có (34181.1.x)</td><td>C</td></tr>
+<tr><td>Cửa gió trộn, cửa chế độ, cửa gió hồi</td><td>Trong hộp HVAC, mô-tơ bước gắn bên hộp</td><td>Kẹt → gió chỉ ra nóng/lạnh, sai hướng</td><td>Chỉ có lệnh: hướng gió 34184.1.12, gió hồi 34184.1.11, sấy kính 34184.1.9. Không có vị trí thực</td><td>C, 4</td></tr>
+<tr><td>Cảm biến cabin, ngoài trời</td><td>Cabin: taplo/gương; ngoài trời: sau cản trước</td><td>Lệch, đứng giá trị</td><td>Nhiệt cabin 34183.1.15, ngoài trời 34183.1.7, nhiệt cài đặt 34184.1.6. Không có cảm biến nắng – tạm dùng cửa sổ trời/rèm 34183.1.12/13</td><td>8, 3, C</td></tr>
+</table>
+
+<h3>4. Làm mát pin</h3>
+<table>
+<tr><th>Bộ phận</th><th>Ở đâu trên xe</th><th>Có thể hỏng gì</th><th>Thấy trên telemetry qua</th><th>Bài liên quan</th></tr>
+<tr><td>Tấm làm mát (cold plate)</td><td>Dưới sàn xe, trong khay pin, dưới các module</td><td>Tắc rãnh do cặn, rò ở đầu nối</td><td>Nhiệt nước vào/ra pin 34220.1.104 / 34220.1.105</td><td>1, A</td></tr>
+<tr><td>Keo dẫn nhiệt</td><td>Giữa cell và tấm làm mát</td><td>Bong, lão hóa → nhiệt cell không đều</td><td>Chênh nhiệt cell 34220.1.81 tăng dần; cờ chênh nhiệt 34220.1.99</td><td>A</td></tr>
+<tr><td>Chiller</td><td>Khoang trước, nối vòng gas với vòng nước pin</td><td>Rò gas ở O-ring, đóng cặn, van chiller kẹt</td><td>BMS yêu cầu làm mát 34220.1.109 mà nước vào pin không lạnh hơn cell bao nhiêu. Không có trạng thái chiller</td><td>A, 4</td></tr>
+<tr><td>Sưởi pin (PTC nước)</td><td>Khoang trước, trên vòng nước pin</td><td>Hỏng → pin lạnh, sạc chậm mùa đông</td><td>Làm ấm pin 34233.4.4; <code>Pack Power Degrade: battery is cold</code> 34220.1.93</td><td>A, C</td></tr>
+<tr><td>Cảm biến nhiệt cell</td><td>Trong từng module pin</td><td>Hở/chập mạch (đọc -40°C hoặc rất cao), lệch</td><td>Cell max/min 34220.1.80 / 34220.1.78; cờ lỗi cảm biến nhiệt module 34220.1.42/44/45</td><td>8, A</td></tr>
+<tr><td>Cảm biến rò nước trong pin</td><td>Trong vỏ pin</td><td>Báo rò khi nước lọt vào pin</td><td><code>Coolant Leakage warning</code> 34220.1.97; điện trở cách điện nhỏ nhất 34220.1.108 (giảm dần khi rò)</td><td>1</td></tr>
+</table>
+
+<h3>5. Làm mát mô-tơ và điện tử công suất</h3>
+<table>
+<tr><th>Bộ phận</th><th>Ở đâu trên xe</th><th>Có thể hỏng gì</th><th>Thấy trên telemetry qua</th><th>Bài liên quan</th></tr>
+<tr><td>Biến tần (inverter / EDS)</td><td>Gắn trên cụm mô-tơ trục trước (và trục sau với xe 2 mô-tơ)</td><td>IGBT quá nhiệt khi làm mát kém; lỗi điện IGBT</td><td>Nhiệt EDS 34233.3.232; cờ quá nhiệt IGBT 34233.3.57/58/88/89, drive plate 34233.3.56/87, nước làm mát EDS quá nóng 34233.3.10/34; lỗi điện IGBT 34233.3.54/85</td><td>B</td></tr>
+<tr><td>Bộ sạc OBC</td><td>Khoang trước hoặc gần cổng sạc</td><td>Quá nhiệt khi sạc AC</td><td>Các trường OBC trong danh sách (nhóm 8)</td><td>B</td></tr>
+<tr><td>Bộ đổi điện DC-DC</td><td>Khoang trước, thường chung vỏ với OBC</td><td>Quá nhiệt, giảm công suất 12 V</td><td>Các trường DC-DC; SOC 12 V 34183.1.5</td><td>B</td></tr>
+<tr><td>Áo nước mô-tơ</td><td>Bao quanh stator trong vỏ mô-tơ</td><td>Cặn bám, thiếu nước → mô-tơ nóng</td><td>Nhiệt mô-tơ 34233.3.231; cờ quá nhiệt mô-tơ 34233.3.3/4/27/28; lỗi cảm biến nhiệt stator 34233.3.5/29</td><td>B, 8</td></tr>
+<tr><td>Làm mát bằng dầu (nếu có)</td><td>Trong cụm mô-tơ – hộp số</td><td>Dầu biến chất, bơm dầu yếu</td><td>Không có tín hiệu riêng</td><td>B</td></tr>
+</table>
+
+<h3>6. Tuần hoàn và tản nhiệt (dùng chung)</h3>
+<table>
+<tr><th>Bộ phận</th><th>Ở đâu trên xe</th><th>Có thể hỏng gì</th><th>Thấy trên telemetry qua</th><th>Bài liên quan</th></tr>
+<tr><td>Bơm nước điện (pin, mô-tơ)</td><td>Khoang trước, phía dưới</td><td>Mòn, kẹt cánh, lỗi điện, chạy khô khi thiếu nước</td><td>Trạng thái bơm pin 34233.8.12, bơm mô-tơ 34233.8.11; <code>Water pump failure</code> 34233.2.192; mức lỗi bơm 34233.2.16</td><td>1, 4, A, B</td></tr>
+<tr><td>Quạt két nước</td><td>Đầu xe, sau két nước</td><td>Mô-tơ quạt yếu/chết, gãy cánh</td><td><code>VCU Fan component error level</code> 34233.2.9 (mức 0–3)</td><td>4, A, B</td></tr>
+<tr><td>Két nước (radiator)</td><td>Đầu xe, sau dàn nóng</td><td>Tắc do bụi bẩn, rò</td><td>Gián tiếp: mô-tơ nóng ở tải bình thường; cờ nước làm mát EDS quá nóng</td><td>B</td></tr>
+<tr><td>Van nước nhiều ngả</td><td>Khoang trước, nơi giao hai vòng nước</td><td>Kẹt một vị trí → nước đi tắt</td><td><code>VCU Valve component error level</code> 34233.2.11</td><td>4, A, B</td></tr>
+<tr><td>Bình nước phụ + cảm biến mức</td><td>Khoang trước, vị trí cao nhất của vòng nước</td><td>Nứt, mức nước giảm do rò, phao kẹt</td><td><code>Low level coolant water</code> 34200.7.1 (chỉ 0/1, không có %)</td><td>1</td></tr>
+<tr><td>Cửa gió chủ động (AGS)</td><td>Lưới tản nhiệt / cản trước</td><td>Kẹt đóng → dàn nóng, két không có gió</td><td><code>VCU Ags component error level</code> 34233.2.6; <code>Active Grille Shutters stuck</code> 34200.2.32</td><td>4, B</td></tr>
+</table>
+
+<h3>7. Đường ống và kết nối</h3>
+<table>
+<tr><th>Bộ phận</th><th>Ở đâu trên xe</th><th>Có thể hỏng gì</th><th>Thấy trên telemetry qua</th><th>Bài liên quan</th></tr>
+<tr><td>Ống nước cao su (EPDM) / nhựa (PA12)</td><td>Khắp khoang trước, chạy dọc gầm xuống pin</td><td>Lão hóa, nứt, cọ xát, phồng</td><td rowspan="5">Không có cảm biến riêng. Nhận biết gián tiếp: cờ thiếu nước 34200.7.1, rò nước 34220.1.97, nhiệt tăng bất thường; rò gas qua nhiệt dàn lạnh ấm dần</td><td rowspan="5">1, 9</td></tr>
+<tr><td>Ống gas nhôm + ống mềm chống thấm</td><td>Khoang trước, từ máy nén tới dàn nóng, chiller, vách ngăn</td><td>Rò ở mối nối, thấm gas qua ống cũ</td></tr>
+<tr><td>Kẹp ống (lò xo, vít, kẹp tai)</td><td>Tại mọi đầu ống nước</td><td>Lỏng theo thời gian, lắp sai vị trí</td></tr>
+<tr><td>Đầu nối nhanh (VDA/SAE)</td><td>Nối ống với bơm, pin, van</td><td>Khóa không hết, gãy chốt</td></tr>
+<tr><td>O-ring (HNBR cho gas, EPDM cho nước)</td><td>Tại mối nối ống gas, chiller, cảm biến</td><td>Chai, nứt → rò chậm</td></tr>
+</table>
+
+<h3>8. Điều khiển, vận hành và bảo dưỡng</h3>
+<table>
+<tr><th>Thành phần</th><th>Ở đâu trên xe</th><th>Có thể hỏng gì</th><th>Thấy trên telemetry qua</th><th>Bài liên quan</th></tr>
+<tr><td>BMS</td><td>Trong pin</td><td>Lỗi cảm biến, lỗi giao tiếp</td><td>Nhiệt pin, yêu cầu làm mát, dòng sạc/xả cho phép, cảnh báo nhiệt pin (57 trường)</td><td>A, B, 1, 8</td></tr>
+<tr><td>CCU (điều hòa)</td><td>Sau taplo / hộp HVAC</td><td>Lỗi phần mềm, mất giao tiếp</td><td>Chế độ, nhiệt cài đặt, mức gió, nhiệt dàn lạnh (32 trường)</td><td>2, 3, C</td></tr>
+<tr><td>VCU</td><td>Khoang trước / dưới ghế</td><td>—</td><td>Trạng thái bơm, mức lỗi quạt/van/PTC/AGS/cảm biến (26 trường)</td><td>4, B</td></tr>
+<tr><td>EDS/MCU (trong biến tần)</td><td>Cụm mô-tơ</td><td>—</td><td>Nhiệt mô-tơ, IGBT, mô-men, cờ quá nhiệt (50 trường)</td><td>B</td></tr>
+<tr><td>T-Box</td><td>Sau taplo</td><td>Gửi thưa, mất mẫu</td><td>Gom và gửi telemetry; VIN, thời gian, môi trường, DTC</td><td>Tất cả</td></tr>
+</table>
+<p><b>Chế độ vận hành chính:</b> trời mát chỉ dùng két nước; trời nóng hoặc sạc nhanh thì chiller làm mát pin (BMS có thể ưu tiên pin hơn cabin); trước khi sạc nhanh làm ấm/làm mát pin; trời lạnh bật PTC hoặc bơm nhiệt (chiller thu nhiệt thải); chống mờ kính thì chạy máy nén để hút ẩm.</p>
+<p><b>Bảo dưỡng tham khảo:</b> lọc gió cabin khoảng 1 năm hoặc 15.000–20.000 km; nước làm mát pin 4–8 năm; kiểm tra gas khi kém lạnh (máy nạp có dầu cách điện); vệ sinh dàn nóng và két nước trước mùa hè.</p>
+<p><b>Lỗi lan giữa hai nhánh:</b> máy nén hỏng hoặc thiếu gas → cabin kém lạnh <b>và</b> chiller yếu; quạt két hỏng → kém lạnh khi đứng <b>và</b> mô-tơ nóng; PTC nước hỏng → pin lạnh, sạc nhanh chậm mùa đông.</p>
+
+<h2>Phần II. Các bài toán</h2>
+
+<h3>Tổng hợp</h3>
+<table>
+<tr><th>#</th><th>Bài toán</th><th>Bộ phận chính</th><th>Cách làm</th><th>Ghi chú</th></tr>
+<tr><td>1</td><td>Phát hiện rò / thiếu nước làm mát, bất thường vòng làm mát</td><td>Bơm, ống, kẹp, bình nước phụ, tấm làm mát</td><td>Luật + thống kê</td><td>Đã có</td></tr>
+<tr><td>2</td><td>Phát hiện sớm lỗi điều hòa theo dòng xe và mùa</td><td>Máy nén, quạt, HVAC</td><td>Thống kê thuần</td><td>Đã có</td></tr>
+<tr><td>3</td><td>Điều hòa kém lạnh nhận ra từ telemetry</td><td>Vòng gas, HVAC</td><td>Luật + hồi quy tuyến tính</td><td>Đã có</td></tr>
+<tr><td>4</td><td>Phân biệt kiểu hỏng: không đủ lạnh / không hoạt động / máy nén / quạt / chiller</td><td>Máy nén, quạt, chiller, van</td><td>Luật (bảng quyết định); cây quyết định khi có nhãn xưởng</td><td>Đã có</td></tr>
+<tr><td>A</td><td>Sạc nhanh bị chậm vì nhiệt + dự đoán khi nào làm mát pin kém</td><td>Chiller, bơm pin, PTC nước, pin</td><td>Luật + thống kê; hồi quy xu hướng để dự đoán thời gian hỏng</td><td><b>Mới, ưu tiên 1</b></td></tr>
+<tr><td>B</td><td>Xe bị giảm công suất vì quá nhiệt + dự đoán khi nào bắt đầu bị giới hạn</td><td>Két nước, quạt, bơm mô-tơ, biến tần</td><td>Luật + thống kê; hồi quy nhiệt mô-tơ + xu hướng để dự đoán thời gian hỏng</td><td><b>Mới, ưu tiên 2</b></td></tr>
+<tr><td>C</td><td>Sưởi kém / không sưởi + xác suất PTC hỏng trước mùa đông</td><td>PTC, cửa gió, blower</td><td>Luật + thống kê; Kaplan–Meier / Weibull trên đội xe</td><td><b>Mới, ưu tiên 3</b></td></tr>
+<tr><td>8</td><td>Lọc cảm biến nhiệt sai</td><td>Mọi cảm biến nhiệt</td><td>Thống kê thuần</td><td>Mới, làm trước vì là bước nền</td></tr>
+<tr><td>9</td><td>Rò gas chậm (ước lượng gián tiếp)</td><td>Gas, O-ring, ống gas</td><td>Hồi quy tuyến tính + xu hướng</td><td>Mới, gián tiếp</td></tr>
+<tr><td>10</td><td>Năng lượng điều hòa tiêu thụ bất thường</td><td>Máy nén, PTC, van</td><td>Thống kê (phân vị theo nhóm)</td><td>Mới</td></tr>
+<tr><td>11</td><td>Độ tin cậy linh kiện nhiệt theo đội xe</td><td>Máy nén, bơm, quạt, PTC, chiller</td><td>Thống kê (tỷ lệ hỏng, Kaplan–Meier)</td><td>Mới, cần dữ liệu bảo hành</td></tr>
+</table>
+<p class="note">Hai bài cân nhắc nhưng chưa khả thi: van/EXV/cửa gió kẹt (không có vị trí van) và lọc gió tắc/blower yếu (không có công suất blower) – tạm chỉ đếm cờ lỗi và nhắc thay lọc theo thời gian/km.</p>
+
+<h3>Bài 1. Phát hiện rò / thiếu nước làm mát và bất thường vòng làm mát (đã có)</h3>
+<ul>
+<li><b>Phát biểu:</b> xe nào đang rò hoặc thiếu nước làm mát, ở vòng pin hay vòng mô-tơ, trước khi đèn thiếu nước bật?</li>
+<li><b>Cách làm:</b> luật và thống kê. Đếm cờ thiếu nước/rò; theo dõi xu hướng điện trở cách điện của pin; khi bơm đang chạy mà chênh nhiệt nước ra – vào pin lớn bất thường so với xe cùng dòng (phân vị &gt; 95) thì cảnh báo.</li>
+<li><b>Input:</b> <code>Low level coolant water</code> 34200.7.1, <code>Coolant Leakage warning</code> 34220.1.97, điện trở cách điện 34220.1.108, nước vào/ra pin 34220.1.104/105, trạng thái bơm 34233.8.12/11, <code>Water pump failure</code> 34233.2.192, cell max 34220.1.80, nhiệt mô-tơ 34233.3.231, ngoài trời 34183.1.7.</li>
+<li><b>Output kỳ vọng:</b></li>
+</ul>
+<pre>{"vin": "VF000123", "date": "2026-10-13", "loop": "pin", "status": "nghi_ro",
+ "evidence": ["điện trở cách điện giảm 35% trong 4 tuần", "chênh nước ra-vào pin 6,2°C (nhóm: 2,5°C)"],
+ "low_coolant_flag": 0, "recommend": "kiểm tra mức nước, ống, kẹp, đầu nối vòng pin"}</pre>
+
+<h3>Bài 2. Phát hiện sớm lỗi điều hòa theo dòng xe và mùa (đã có)</h3>
+<ul>
+<li><b>Phát biểu:</b> nhóm xe nào (dòng xe × phiên bản × tháng sản xuất × vùng) đang có tỷ lệ lỗi điều hòa tăng bất thường, và có đúng mùa nóng không?</li>
+<li><b>Cách làm:</b> thống kê thuần. Tính tỷ lệ xe có cờ lỗi / 1000 xe theo tuần cho từng nhóm; so với cùng kỳ và với nhóm khác (kiểm định tỷ lệ, biểu đồ kiểm soát). Không cần ML.</li>
+<li><b>Input:</b> cờ <code>EAC Compressor Fault Status</code> 34233.2.184, <code>EAC Module failure</code> 34233.2.183, <code>VCU Hvac component error level</code> 34233.2.13, <code>VCU Fan component error level</code> 34233.2.9, <code>Climate control malfunction</code> 34200.11.2, nhật ký DTC 34201.1.2; dòng xe 34181.1.x, VIN 34180.1.1, odometer 34183.1.3, ngoài trời 34183.1.7; kết quả bài 3 (số chuyến kém lạnh).</li>
+<li><b>Output kỳ vọng:</b></li>
+</ul>
+<pre>{"week": "2026-W24", "group": {"model": "VF 8", "build_month": "2025-03", "region": "Nam"},
+ "failure_rate_per_1000": 7.8, "baseline_per_1000": 2.1, "ratio": 3.7, "p_value": 0.002,
+ "top_flag": "EAC Compressor Fault Status", "alert": true}</pre>
+
+<h3>Bài 3. Điều hòa kém lạnh nhận ra từ telemetry (đã có)</h3>
+<ul>
+<li><b>Phát biểu:</b> trong chuyến này điều hòa có làm lạnh kém so với điều kiện thời tiết không, hay chỉ do cách dùng?</li>
+<li><b>Cách làm:</b> luật trước: AC bật, cài đặt thấp hơn cabin, sau 15 phút cabin vẫn cao hơn cài đặt &gt; 4°C hoặc nhiệt dàn lạnh &gt; 12°C. Sau đó hồi quy tuyến tính dự đoán nhiệt dàn lạnh “bình thường” theo nhiệt ngoài trời, mức gió, gió hồi, tốc độ xe; phần chênh lớn là kém lạnh. Loại trừ: cài đặt cao, mở cửa sổ trời, xe vừa phơi nắng.</li>
+<li><b>Input:</b> <code>Air Condition</code> 34184.1.42, <code>Driver AC Mode</code> 34184.1.5, nhiệt cài đặt 34184.1.6, mức gió 34184.1.25, gió hồi 34184.1.11, nhiệt dàn lạnh 34233.9.39, nhiệt cabin 34183.1.15, ngoài trời 34183.1.7, tốc độ 34183.1.2, cửa sổ trời/rèm 34183.1.12/13, thời gian đỗ 34183.1.30.</li>
+<li><b>Output kỳ vọng:</b></li>
+</ul>
+<pre>{"vin": "VF000123", "trip_id": "T-5521", "cooling_status": "kem_lanh",
+ "evap_temp_c": 14.8, "evap_expected_c": 6.5, "cabin_gap_after_15min_c": 5.3,
+ "excluded_reason": null}</pre>
+<p><code>cooling_status ∈ {binh_thuong, kem_lanh, khong_lanh, do_cach_dung}</code></p>
+
+<h3>Bài 4. Phân biệt kiểu hỏng điều hòa và làm mát (đã có)</h3>
+<ul>
+<li><b>Phát biểu:</b> với xe đã có dấu hiệu bất thường (từ bài 1, 3, A, B), lỗi thuộc kiểu nào: không đủ lạnh, không hoạt động, máy nén, quạt, chiller, bơm, van?</li>
+<li><b>Cách làm:</b> bảng quyết định dựa trên cờ và bằng chứng. Ví dụ: có cờ EAC → máy nén; kém lạnh <b>và</b> làm mát pin kém ở mọi tốc độ → thiếu gas/máy nén; kém rõ chỉ khi xe đứng → quạt/dàn nóng; chỉ làm mát pin kém, dàn lạnh bình thường → chiller/bơm pin. Khi có nhãn từ phiếu xưởng thì thử cây quyết định / random forest.</li>
+<li><b>Input:</b> kết quả bài 1, 3, A, B; cờ EAC 34233.2.184, quạt 34233.2.9, van 34233.2.11, bơm 34233.2.192, PTC 34233.2.198, AGS 34233.2.6; nhiệt dàn lạnh 34233.9.39; tốc độ xe 34183.1.2.</li>
+<li><b>Output kỳ vọng:</b></li>
+</ul>
+<pre>{"vin": "VF000123", "fault_class": "thieu_gas_hoac_may_nen",
+ "candidates": [{"part": "thieu_gas", "score": 0.55}, {"part": "may_nen", "score": 0.30}, {"part": "chiller", "score": 0.15}],
+ "evidence": ["dàn lạnh ấm hơn kỳ vọng 7°C", "làm mát pin kém ở mọi tốc độ", "không có cờ EAC"]}</pre>
+<p><code>fault_class ∈ {khong_du_lanh, khong_hoat_dong, may_nen, quat, chiller, bom, van, thieu_gas_hoac_may_nen, chua_ro}</code></p>
+
+<h3>Dự đoán thời gian hỏng cho 3 bài chốt A, B, C: cách làm chung</h3>
+<p>Baseline luật của A, B, C chỉ phát hiện khi lỗi đã xảy ra (đèn đã bật, sạc đã chậm). Phần dự đoán thêm 4 bước, chỉ dùng thống kê và hồi quy truyền thống:</p>
+<ol>
+<li><b>Chỉ số sức khỏe:</b> một con số tính mỗi tuần, xấu dần khi bộ phận xuống cấp, đã loại ảnh hưởng của thời tiết và tải (ví dụ: mô-tơ nóng hơn mức bình thường của chính xe này bao nhiêu độ ở cùng tải).</li>
+<li><b>Ngưỡng hỏng:</b> mức chỉ số mà khách bắt đầu bị ảnh hưởng, tức lúc baseline luật của bài sẽ bật.</li>
+<li><b>Xu hướng:</b> hồi quy tuyến tính chỉ số theo thời gian trên 4–8 tuần gần nhất; kéo dài tới chỗ cắt ngưỡng → số ngày còn lại <code>eta_days</code>, kèm khoảng sai số từ sai số của độ dốc.</li>
+<li><b>Chỉ báo khi đáng tin:</b> độ dốc dương rõ ràng, đủ số tuần dữ liệu; nếu không thì không báo.</li>
+</ol>
+<pre>
+chỉ số sức khỏe (°C chênh so với bình thường)
+ 8 ┤                                         ngưỡng hỏng ─ ─ ─ ─ ─ ─ ─ ─
+ 6 ┤                                   ╱·  ← kéo dài xu hướng
+ 4 ┤                          ●  ●  ╱·
+ 2 ┤               ●   ●  ●  ╱
+ 0 ┤ ●  ●  ●  ●  ●                        │◄── eta ≈ 25 ngày ──►│
+   └──────────────────────────────────────────────────────────────► tuần
+     xe khỏe            bắt đầu xấu dần   hôm nay              dự kiến chạm ngưỡng
+</pre>
+<p><b>Lỗi đột ngột</b> (PTC cháy, quạt chết) không dự đoán được ngày trên từng xe. Với loại này dùng thống kê đội xe: đường sống sót Kaplan–Meier hoặc phân phối Weibull theo km/tuổi xe, ra <b>xác suất hỏng trong 30 hoặc 90 ngày tới</b>.</p>
+<p><b>Lưu ý:</b> cùng một mức xuống cấp, mùa đông có thể chưa lộ nhưng mùa hè thì có; vì vậy đầu ra gồm cả ngày dự kiến và ảnh hưởng dự kiến tháng tới. “Bình thường” học trên chính xe đó (30–60 ngày đầu hoặc ngay sau bảo dưỡng), không dùng một ngưỡng chung. Gộp theo tuần nên vẫn chạy được khi telemetry gửi thưa.</p>
+
+<h3>Bài A. Sạc nhanh bị chậm vì nhiệt (mới)</h3>
+<ul>
+<li><b>Phát biểu:</b> phiên sạc nhanh này mất bao nhiêu phút vì nhiệt, do pin nóng hay pin lạnh, và bộ phận nào đáng ngờ?</li>
+<li><b>Cách làm:</b> thống kê + luật. Đường sạc chuẩn = phân vị 90 công suất theo SOC của các phiên có cell 20–35°C (theo dòng xe). Phiên bị giới hạn do nhiệt khi công suất thực/chuẩn &lt; 0,85 trong ≥ 2 phút và cell &gt; 45°C hoặc &lt; 15°C. Nguyên nhân: nước vào pin lạnh hơn cell ≥ 7°C → tải nhiệt cao; &lt; 6°C → làm mát pin kém; pin lạnh đã làm ấm → làm ấm kém (PTC nước); pin lạnh chưa làm ấm → do cách dùng.</li>
+<li><b>Input:</b> công suất sạc 34220.1.118, dòng sạc cho phép 34220.1.106, SOC 34183.1.9, cell max/min 34220.1.80/78, chênh cell 34220.1.81, yêu cầu làm mát 34220.1.109, nước vào/ra pin 34220.1.104/105, bơm pin 34233.8.12, làm ấm pin 34233.4.4, trạng thái sạc 34193.1.5, ngoài trời 34183.1.7; nhãn tham khảo <code>Super Fast Charge Longer</code> 34193.1.30, <code>Pack Power Degrade: battery is cold</code> 34220.1.93.</li>
+<li><b>Output kỳ vọng:</b></li>
+</ul>
+<pre>{"session_id": "S-88812", "vin": "VF000123", "thermally_limited": true, "minutes_lost": 11,
+ "cause": "lam_mat_pin_kem", "suspected_part": "chiller",
+ "evidence": ["BMS yêu cầu làm mát 18 phút", "nước vào pin chỉ lạnh hơn cell 4,1°C"]}</pre>
+<p><code>cause ∈ {tai_nhiet_cao, lam_mat_pin_kem, lam_am_kem, khong_lam_am_truoc, khong_do_nhiet}</code></p>
+<p><b>Dự đoán thời gian hỏng: khi nào làm mát pin trở nên kém</b></p>
+<table>
+<tr><th>Mục</th><th>Nội dung</th></tr>
+<tr><td>Lỗi xấu dần</td><td>Rò gas chậm, chiller đóng cặn, bơm pin mòn, dàn nóng bẩn</td></tr>
+<tr><td>Chỉ số sức khỏe</td><td>Độ lạnh của nước vào pin so với cell khi BMS đang yêu cầu làm mát: cell max 34220.1.80 − nước vào pin 34220.1.104, chỉ lấy lúc 34220.1.109 &gt; 0, chuẩn hóa theo công suất sạc 34220.1.118 và nhiệt ngoài trời 34183.1.7; lấy trung vị theo tuần</td></tr>
+<tr><td>Ngưỡng hỏng</td><td>Dưới 6°C (mức baseline kết luận <code>lam_mat_pin_kem</code>)</td></tr>
+<tr><td>Cách dự đoán</td><td>Hồi quy tuyến tính chỉ số theo tuần → ngày cắt 6°C; kết hợp nhiệt độ trung bình các tháng tới để ước lượng số phút sạc mất tháng tới</td></tr>
+<tr><td>Lỗi đột ngột</td><td>PTC nước hỏng (pin lạnh mùa đông): Weibull trên đội xe → xác suất hỏng trước mùa đông</td></tr>
+</table>
+<pre>{"vin": "VF000123", "week": "2026-W41", "problem": "A",
+ "health_index_c": 7.4, "health_trend_c_per_week": -0.35, "threshold_c": 6.0,
+ "eta_days": 28, "eta_range_days": [18, 45],
+ "expected_minutes_lost_per_session_next_month": 9,
+ "likely_cause": "ro_gas_cham_hoac_chiller", "confidence": "trung_binh"}</pre>
+<p class="note">Không có áp suất gas nên chỉ nói được “nghi rò gas hoặc chiller”, chưa tách được hai nguyên nhân.</p>
+
+<h3>Bài B. Xe bị giảm công suất vì quá nhiệt (mới)</h3>
+<ul>
+<li><b>Phát biểu:</b> xe nào hay bị giới hạn công suất vì nóng, ở mô-tơ/biến tần hay pin, do điều kiện chạy hay do hệ làm mát kém?</li>
+<li><b>Cách làm:</b> luật + thống kê: sự kiện = đèn giới hạn công suất (gộp các lần cách nhau &lt; 2 phút); nguồn theo cờ quá nhiệt EDS/IGBT hoặc cell &gt; 50°C; nguyên nhân: ngoài trời &gt; 38°C → môi trường nóng, mô-men/ga &gt; phân vị 90 trong 5 phút trước → tải nặng, còn lại → hệ làm mát kém; xếp hạng xe theo số sự kiện / 1000 km so với xe cùng dòng. Bước sau (ML truyền thống): hồi quy tuyến tính hoặc gradient boosting dự đoán nhiệt mô-tơ từ tải, tốc độ, nhiệt ngoài trời, học trên xe khỏe; phần chênh tăng dần qua các tuần → báo trước.</li>
+<li><b>Input:</b> đèn giới hạn công suất 34200.1.68 / 34200.25.28, 34200.9.5, 34200.9.6; BMS yêu cầu giới hạn 34220.1.70; nhiệt mô-tơ/EDS 34233.3.231/232; cờ quá nhiệt IGBT, drive plate, nước làm mát EDS 34233.3.57/58/88/89/56/87/10/34; lỗi điện IGBT 34233.3.54/85 (loại trừ); mô-men 34233.3.148/153; tốc độ 34183.1.2; ga 34183.1.26; cell max 34220.1.80; dòng xả cho phép 34220.1.107; quạt 34233.2.9; thiếu nước 34200.7.1; odometer 34183.1.3.</li>
+<li><b>Output kỳ vọng:</b></li>
+</ul>
+<pre>{"vin": "VF000123", "month": "2026-10", "derate_events_per_1000km": 4.2, "derate_minutes_total": 37,
+ "source": "motor_eds", "main_cause": "he_lam_mat_kem", "fleet_percentile": 97,
+ "motor_temp_residual_c": 6.5, "trend_c_per_week": 0.8}</pre>
+<p><code>source ∈ {motor_eds, pin}</code> · <code>main_cause ∈ {moi_truong_nong, tai_nang, he_lam_mat_kem}</code></p>
+<p><b>Dự đoán thời gian hỏng: khi nào xe bắt đầu bị giới hạn công suất</b></p>
+<table>
+<tr><th>Mục</th><th>Nội dung</th></tr>
+<tr><td>Lỗi xấu dần</td><td>Két nước bẩn dần, bơm mô-tơ mòn, quạt két yếu dần, thiếu nước từ từ</td></tr>
+<tr><td>Chỉ số sức khỏe</td><td>Phần chênh nhiệt mô-tơ = nhiệt thực 34233.3.231 − nhiệt dự đoán. Nhiệt dự đoán từ hồi quy tuyến tính học trên 30–60 ngày đầu của chính xe, đầu vào: mô-men 34233.3.148, tốc độ 34183.1.2, ngoài trời 34183.1.7, trạng thái bơm 34233.8.11; lấy trung bình theo tuần</td></tr>
+<tr><td>Ngưỡng hỏng</td><td>Phần chênh mà trong kịch bản nặng chuẩn (leo dốc 15 phút, 38°C) nhiệt mô-tơ chạm ngưỡng giới hạn công suất; tính một lần cho mỗi dòng xe</td></tr>
+<tr><td>Cách dự đoán</td><td>Hồi quy tuyến tính phần chênh theo tuần → ngày cắt ngưỡng. Phân biệt nguyên nhân: chênh lớn chủ yếu khi chạy chậm → két bẩn/quạt; chênh lớn ở mọi tốc độ → bơm/thiếu nước</td></tr>
+<tr><td>Lỗi đột ngột</td><td>Quạt két chết (cờ 34233.2.9): Weibull trên đội xe</td></tr>
+</table>
+<pre>{"vin": "VF000123", "week": "2026-W41", "problem": "B",
+ "motor_temp_residual_c": 6.5, "residual_trend_c_per_week": 0.8, "threshold_c": 10.0,
+ "eta_days": 25, "eta_range_days": [16, 40],
+ "worse_at_low_speed": true, "likely_cause": "ket_nuoc_ban_hoac_quat",
+ "recommend": "vệ sinh két nước trước mùa hè"}</pre>
+
+<h3>Bài C. Sưởi kém / không sưởi (mới)</h3>
+<ul>
+<li><b>Phát biểu:</b> xe nào bật sưởi mà cabin không ấm lên được, và nghi bộ phận nào?</li>
+<li><b>Cách làm:</b> luật + thống kê: đo thời gian để cabin đạt gần nhiệt cài đặt, so với xe cùng dòng, cùng ngày, cùng vùng; sau 10 phút sưởi cabin vẫn thấp hơn cài đặt &gt; 5°C → kém nóng; có cờ PTC → PTC, không có cờ → nghi cửa gió trộn/blower. Không cần ML vì dữ liệu chủ yếu mùa đông miền Bắc.</li>
+<li><b>Input:</b> chế độ 34184.1.5, nhiệt cài đặt 34184.1.6, nhiệt cabin 34183.1.15, ngoài trời 34183.1.7, mức gió 34184.1.25, hướng gió 34184.1.12, sấy kính 34184.1.9, cờ PTC 34233.2.198 / 34233.2.10, <code>Climate control malfunction</code> 34200.11.2; lịch/phiên điều hòa từ xa 34224.1.9, 34199.1.16.</li>
+<li><b>Output kỳ vọng:</b></li>
+</ul>
+<pre>{"vin": "VF000123", "date": "2026-01-10", "heating_status": "kem_nong",
+ "time_to_setpoint_min": null, "cabin_gap_after_10min_c": 11.8, "suspected_cause": "ptc"}</pre>
+<p><code>heating_status ∈ {binh_thuong, cham, kem_nong, khong_suoi}</code> · <code>suspected_cause ∈ {ptc, cua_gio_tron, blower, chua_ro}</code></p>
+<p><b>Dự đoán thời gian hỏng: chủ yếu là xác suất, ít dự đoán theo ngày</b></p>
+<p>PTC thường hỏng đột ngột nên khó dự đoán ngày hỏng trên từng xe. Bổ sung hai cách:</p>
+<table>
+<tr><th>Cách</th><th>Làm thế nào</th><th>Đầu ra</th></tr>
+<tr><td>Xác suất hỏng trên đội xe (chính)</td><td>Kaplan–Meier / Weibull theo km và tuổi xe; “hỏng” = lần đầu có cờ PTC 34233.2.198; xe chưa hỏng tính là dữ liệu bị cắt; so sánh giữa các lô sản xuất</td><td>Xác suất PTC hỏng trước/trong mùa đông tới theo xe và theo lô → chủ động kiểm tra trước tháng 11</td></tr>
+<tr><td>Sưởi yếu dần (phụ)</td><td>So thời gian cabin đạt nhiệt cài đặt (đã chuẩn hóa theo ngoài trời, mức gió) giữa các tháng/mùa; tăng dần → PTC có thể đang yếu</td><td>Cảnh báo “sưởi chậm hơn mùa trước X%”</td></tr>
+</table>
+<pre>{"vin": "VF000123", "season": "2026-2027", "problem": "C",
+ "ptc_failure_prob_next_90d": 0.12, "fleet_avg_prob": 0.03, "batch": "2025-03",
+ "time_to_setpoint_change_vs_last_season_pct": 38,
+ "recommend": "kiểm tra PTC trước mùa đông"}</pre>
+
+<h3>Bài 8. Lọc cảm biến nhiệt sai (mới, làm trước)</h3>
+<ul>
+<li><b>Phát biểu:</b> cảm biến nhiệt nào trên xe đang lệch, đứng giá trị hoặc trôi dần, để loại khỏi các bài khác và tránh báo động giả?</li>
+<li><b>Cách làm:</b> thống kê thuần. Khi xe đỗ nguội ≥ 6 giờ, mọi cảm biến nhiệt phải xấp xỉ nhau: lệch &gt; 3°C so với trung vị → offset; phương sai ≈ 0 nhiều giờ khi xe chạy → đứng giá trị; độ lệch tăng theo thời gian → trôi; giá trị -40°C hoặc mã lỗi → hỏng.</li>
+<li><b>Input:</b> thời gian đỗ 34183.1.30; ngoài trời 34183.1.7, cabin 34183.1.15, dàn lạnh 34233.9.39, nước vào/ra pin 34220.1.104/105, cell max/min 34220.1.80/78, mô-tơ 34233.3.231, EDS 34233.3.232; nhãn đối chiếu <code>VCU Tsen component error level</code> 34233.2.12, lỗi cảm biến nhiệt mô-tơ 34233.3.5/29, cờ cảm biến nhiệt module pin 34220.1.42/44/45.</li>
+<li><b>Output kỳ vọng:</b></li>
+</ul>
+<pre>{"vin": "VF000123", "sensor": "34220.1.104", "fault_type": "offset", "offset_c": 6.2, "first_seen": "2026-09-14"}</pre>
+
+<h3>Bài 9. Rò gas chậm (mới, gián tiếp)</h3>
+<ul>
+<li><b>Phát biểu:</b> xe nào có dấu hiệu lượng gas giảm dần (điều hòa và chiller kém dần theo tuần) trước khi khách thấy kém lạnh?</li>
+<li><b>Cách làm:</b> hồi quy tuyến tính dự đoán nhiệt dàn lạnh khi AC chạy ổn định (theo ngoài trời, cabin, cài đặt, mức gió, tốc độ), học trên 30–60 ngày đầu của chính xe; theo dõi phần chênh theo tuần, độ dốc dương kéo dài → nghi rò gas. Vì không có áp suất gas nên chỉ là cảnh báo gián tiếp.</li>
+<li><b>Input:</b> nhiệt dàn lạnh 34233.9.39, AC 34184.1.42, cài đặt 34184.1.6, cabin 34183.1.15, ngoài trời 34183.1.7, mức gió 34184.1.25, gió hồi 34184.1.11, tốc độ 34183.1.2; kết quả làm mát pin của bài A.</li>
+<li><b>Output kỳ vọng:</b></li>
+</ul>
+<pre>{"vin": "VF000123", "week": "2026-W41", "evap_residual_c": 3.4, "trend_c_per_month": 1.1,
+ "suspect": "ro_gas_cham", "confidence": "trung_binh", "recommend": "đo áp suất gas, kiểm tra rò"}</pre>
+
+<h3>Bài 10. Năng lượng điều hòa tiêu thụ bất thường (mới)</h3>
+<ul>
+<li><b>Phát biểu:</b> xe nào tiêu thụ điện cho điều hòa nhiều bất thường so với xe cùng dòng trong cùng thời tiết (ví dụ sưởi và làm lạnh chạy cùng lúc do van kẹt, PTC bật khi trời nóng), và mất bao nhiêu km quãng đường?</li>
+<li><b>Cách làm:</b> thống kê: lấy hiệu của năng lượng điều hòa cộng dồn theo chuyến, chia theo giờ; so phân vị trong nhóm cùng dòng xe × khoảng nhiệt độ ngoài trời × chế độ; &gt; phân vị 95 nhiều chuyến liên tiếp → bất thường.</li>
+<li><b>Input:</b> <code>Accumulated Climate Energy Consumption</code> 34198.1.6, chế độ 34184.1.5, cài đặt 34184.1.6, ngoài trời 34183.1.7, quãng đường/tiêu thụ chuyến 34187.x, cờ PTC 34233.2.198, van 34233.2.11.</li>
+<li><b>Output kỳ vọng:</b></li>
+</ul>
+<pre>{"vin": "VF000123", "month": "2026-07", "climate_kwh_per_hour": 2.9, "group_p50": 1.6,
+ "percentile": 98, "range_loss_km_month": 85, "possible_cause": "van_hoac_ptc"}</pre>
+
+<h3>Bài 11. Độ tin cậy linh kiện nhiệt theo đội xe (mới, cần dữ liệu bảo hành)</h3>
+<ul>
+<li><b>Phát biểu:</b> linh kiện nào (máy nén, bơm, quạt, PTC, chiller) hỏng nhiều nhất, sau bao nhiêu km/tháng, có tập trung ở lô sản xuất hoặc nhà cung cấp nào không?</li>
+<li><b>Cách làm:</b> thống kê: tỷ lệ hỏng theo lô, đường sống sót Kaplan–Meier theo km/tháng, so sánh nhóm. Không cần ML.</li>
+<li><b>Input:</b> lần đầu xuất hiện cờ lỗi theo bộ phận (EAC 34233.2.184, bơm 34233.2.192, quạt 34233.2.9, PTC 34233.2.198), VIN 34180.1.1, dòng xe 34181.1.x, odometer 34183.1.3; dữ liệu bảo hành/phiếu xưởng (cần xin, tạm fake).</li>
+<li><b>Output kỳ vọng:</b></li>
+</ul>
+<pre>{"part": "bom_nuoc_pin", "model": "VF 8", "failure_rate_per_1000_vehicles": 4.6,
+ "km_at_10pct_failure": 62000, "worst_batch": "2025-03", "batch_ratio": 2.4}</pre>
+
+<h2>Phần III. Dữ liệu</h2>
+
+<h3>Dữ liệu thật cần xin</h3>
+<p>Một mẫu vài xe × vài tuần (có sạc nhanh, chạy đường dài/leo dốc, nếu được có mùa đông) để kiểm tần suất gửi, đơn vị, trường nào thực sự có dữ liệu và chỉnh ngưỡng. Cần thêm: phiếu xưởng/bảo hành để làm nhãn cho bài 4 và 11.</p>
+
+<h3>Dữ liệu fake (sinh khi chưa có dữ liệu thật)</h3>
+<ul>
+<li><b>Đã có:</b> bộ mô phỏng trong vinfast_thermal_3d.html xuất CSV mỗi 10 giây với các cột đúng tên trường telemetry, kèm cột nhãn lỗi; mẫu mo_phong_hn_51dong.csv (Hà Nội, sáng mùa đông).</li>
+<li><b>Quy mô dự kiến:</b> khoảng 200 xe × 180 ngày, Hà Nội và TP.HCM, dòng 1/2 mô-tơ; mỗi xe khác nhau ±10–20%, có nhiễu cảm biến và mất mẫu 1–5%.</li>
+<li><b>Lỗi bơm vào (có nhãn, phần lớn phát triển dần):</b></li>
+</ul>
+<table>
+<tr><th>Lỗi</th><th>Cách mô phỏng</th><th>Thấy được qua</th><th>Phục vụ bài</th></tr>
+<tr><td>Két nước / dàn nóng bẩn dần</td><td>Khả năng tản nhiệt giảm 1–3%/tuần</td><td>Mô-tơ nóng hơn, rõ khi chạy chậm</td><td>B, 4</td></tr>
+<tr><td>Bơm mô-tơ / bơm pin mòn</td><td>Lưu lượng giảm dần</td><td>Mô-tơ nóng ở mọi tốc độ; chênh nước ra–vào pin lớn</td><td>B, A, 1</td></tr>
+<tr><td>Quạt két chết</td><td>Đột ngột, có cờ</td><td>Cờ quạt, nóng khi đứng</td><td>4, B, A</td></tr>
+<tr><td>Rò gas chậm</td><td>Lượng gas giảm 1–5%/tháng</td><td>Dàn lạnh ấm dần, làm mát pin kém dần</td><td>3, 9, A</td></tr>
+<tr><td>Chiller đóng cặn</td><td>Hiệu suất trao đổi nhiệt giảm dần</td><td>Làm mát pin kém, dàn lạnh bình thường</td><td>A, 4</td></tr>
+<tr><td>Rò nước làm mát</td><td>Mức nước giảm, cờ khi dưới ngưỡng; điện trở cách điện giảm nếu rò trong pin</td><td>Cờ thiếu nước, nhiệt tăng</td><td>1, A, B</td></tr>
+<tr><td>Máy nén hỏng</td><td>Đột ngột, có cờ EAC</td><td>Mất lạnh, chiller không chạy</td><td>2, 3, 4</td></tr>
+<tr><td>PTC hỏng</td><td>Đột ngột, có cờ</td><td>Cabin không ấm, pin lạnh khi sạc mùa đông</td><td>C, A</td></tr>
+<tr><td>Cửa gió trộn kẹt</td><td>Đột ngột, không cờ</td><td>Cabin không ấm, không có cờ PTC</td><td>C</td></tr>
+<tr><td>Cảm biến lệch / đứng / trôi</td><td>Offset, stuck, drift</td><td>Chính giá trị cảm biến</td><td>8</td></tr>
+<tr><td>Hỏng linh kiện theo lô</td><td>Một lô có tỷ lệ hỏng bơm/máy nén gấp 2–3 lần</td><td>Cờ lỗi tập trung theo lô</td><td>2, 11</td></tr>
+</table>
+<p class="note">Dữ liệu fake chỉ để dựng và kiểm tra quy trình, không dùng để báo độ chính xác trên xe thật.</p>
+<p><b>Đánh giá phần dự đoán thời gian hỏng trên dữ liệu fake.</b> Vì biết trước ngày bắt đầu xấu và ngày thực sự chạm ngưỡng của các lỗi phát triển dần, đo được:</p>
+<table>
+<tr><th>Chỉ số</th><th>Ý nghĩa</th></tr>
+<tr><td>Báo sớm được bao nhiêu ngày</td><td>Từ lần báo <code>eta</code> đầu tiên đến khi baseline luật bật; mục tiêu sớm hơn ít nhất 2 tuần</td></tr>
+<tr><td>Sai số <code>eta_days</code></td><td>Sai số tuyệt đối trung bình (ngày) giữa dự đoán và ngày chạm ngưỡng thật</td></tr>
+<tr><td>Báo nhầm</td><td>Số lần báo <code>eta</code> trên xe khỏe / 1000 xe-tháng</td></tr>
+<tr><td>Khoảng dự đoán chứa đúng ngày thật</td><td>Tỷ lệ <code>eta_range_days</code> chứa ngày thật; mục tiêu khoảng 80%</td></tr>
+</table>
+<p>Với lỗi đột ngột (PTC, quạt): bơm vào một lô có tỷ lệ hỏng gấp 2–3 lần, kiểm tra Weibull/Kaplan–Meier có tìm ra lô đó không.</p>
+
+<h3>Giới hạn của telemetry và câu hỏi cho team</h3>
+<ul>
+<li>Telemetry <b>không có</b>: áp suất gas, tốc độ/công suất máy nén, tốc độ thực quạt/bơm/blower, lưu lượng nước, vị trí van/cửa gió, công suất PTC, cảm biến nắng/độ ẩm → bài 3, 4, 9 chỉ suy luận gián tiếp.</li>
+<li>Tần suất gửi telemetry thực tế (1 giây, 10 giây hay theo sự kiện)?</li>
+<li>Cờ PTC là PTC gió hay nước? Dòng xe nào có heat pump, 2 mô-tơ, AGS?</li>
+<li>Bảng mã của các trường mức lỗi 0–3 và trạng thái bơm? 26 nhóm mã trùng nghĩa dùng mã nào?</li>
+<li>Có phiếu xưởng/bảo hành để làm nhãn không? Đầu ra cần ở dạng nào (dashboard, cảnh báo cho xưởng, thông báo trên app)?</li>
+</ul>
+
+</body>
+</html>

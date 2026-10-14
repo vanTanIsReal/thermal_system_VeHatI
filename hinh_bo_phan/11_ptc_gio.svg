@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="640" viewBox="0 0 960 640" font-family="Segoe UI, Arial, sans-serif">
+<defs><marker id="ar_E2552F" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E2552F"/></marker><marker id="ar_F0912A" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#F0912A"/></marker><marker id="ar_2F86E0" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2F86E0"/></marker><marker id="ar_14A892" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#14A892"/></marker><marker id="ar_D49A12" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#D49A12"/></marker><marker id="ar_9A78E0" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#9A78E0"/></marker><marker id="ar_F07A1A" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#F07A1A"/></marker><marker id="ar_C2418A" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#C2418A"/></marker><marker id="ar_15212C" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#15212C"/></marker><marker id="ar_5A6775" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#5A6775"/></marker><marker id="ar_D0D8DF" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#D0D8DF"/></marker><marker id="ar_F6F8FA" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#F6F8FA"/></marker><marker id="ar_FFFFFF" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#FFFFFF"/></marker><marker id="ar_D5DCE2" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#D5DCE2"/></marker><marker id="ar_AEB8C2" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#AEB8C2"/></marker><marker id="ar_7E8A96" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7E8A96"/></marker><marker id="ar_2E363F" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2E363F"/></marker><marker id="ar_444E59" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#444E59"/></marker><marker id="ar_7FB3E6" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7FB3E6"/></marker></defs>
+<rect width="960" height="640" fill="#F6F8FA"/>
+<text x="32" y="46" font-size="26" font-weight="700" fill="#15212C">Sưởi PTC gió</text>
+<text x="32" y="70" font-size="14" fill="#5A6775">PTC air heater · trong hộp HVAC · sưởi cabin</text>
+<line x1="32" y1="84" x2="928" y2="84" stroke="#D0D8DF"/>
+<text x="928" y="46" font-size="13" fill="#5A6775" text-anchor="end">#11</text>
+<g transform="translate(14,34) scale(0.86)">
+<rect x="120" y="170" width="400" height="250" rx="6" fill="#AEB8C2" stroke="#798087" stroke-width="1.2" opacity="1"/>
+<rect x="132" y="190" width="376" height="18" rx="3" fill="#C86B4F" stroke="#8c4a37" stroke-width="1.2" opacity="1"/>
+<rect x="140" y="194" width="18" height="10" rx="2" fill="#F2E2C9" stroke="#8B5A3C" stroke-width="0.8" opacity="1"/>
+<rect x="170" y="194" width="18" height="10" rx="2" fill="#F2E2C9" stroke="#8B5A3C" stroke-width="0.8" opacity="1"/>
+<rect x="200" y="194" width="18" height="10" rx="2" fill="#F2E2C9" stroke="#8B5A3C" stroke-width="0.8" opacity="1"/>
+<rect x="230" y="194" width="18" height="10" rx="2" fill="#F2E2C9" stroke="#8B5A3C" stroke-width="0.8" opacity="1"/>
+<rect x="260" y="194" width="18" height="10" rx="2" fill="#F2E2C9" stroke="#8B5A3C" stroke-width="0.8" opacity="1"/>
+<rect x="290" y="194" width="18" height="10" rx="2" fill="#F2E2C9" stroke="#8B5A3C" stroke-width="0.8" opacity="1"/>
+<rect x="320" y="194" width="18" height="10" rx="2" fill="#F2E2C9" stroke="#8B5A3C" stroke-width="0.8" opacity="1"/>
+<rect x="350" y="194" width="18" height="10" rx="2" fill="#F2E2C9" stroke="#8B5A3C" stroke-width="0.8" opacity="1"/>
+<rect x="380" y="194" width="18" height="10" rx="2" fill="#F2E2C9" stroke="#8B5A3C" stroke-width="0.8" opacity="1"/>
+<rect x="410" y="194" width="18" height="10" rx="2" fill="#F2E2C9" stroke="#8B5A3C" stroke-width="0.8" opacity="1"/>
+<rect x="440" y="194" width="18" height="10" rx="2" fill="#F2E2C9" stroke="#8B5A3C" stroke-width="0.8" opacity="1"/>
+<rect x="470" y="194" width="18" height="10" rx="2" fill="#F2E2C9" stroke="#8B5A3C" stroke-width="0.8" opacity="1"/>
+<rect x="132" y="236" width="376" height="18" rx="3" fill="#C86B4F" stroke="#8c4a37" stroke-width="1.2" opacity="1"/>
+<rect x="140" y="240" width="18" height="10" rx="2" fill="#F2E2C9" stroke="#8B5A3C" stroke-width="0.8" opacity="1"/>
+<rect x="170" y="240" width="18" height="10" rx="2" fill="#F2E2C9" stroke="#8B5A3C" stroke-width="0.8" opacity="1"/>
+<rect x="200" y="240" width="18" height="10" rx="2" fill="#F2E2C9" stroke="#8B5A3C" stroke-width="0.8" opacity="1"/>
+<rect x="230" y="240" width="18" height="10" rx="2" fill="#F2E2C9" stroke="#8B5A3C" stroke-width="0.8" opacity="1"/>
+<rect x="260" y="240" width="18" height="10" rx="2" fill="#F2E2C9" stroke="#8B5A3C" stroke-width="0.8" opacity="1"/>
+<rect x="290" y="240" width="18" height="10" rx="2" fill="#F2E2C9" stroke="#8B5A3C" stroke-width="0.8" opacity="1"/>
+<rect x="320" y="240" width="18" height="10" rx="2" fill="#F2E2C9" stroke="#8B5A3C" stroke-width="0.8" opacity="1"/>
+<rect x="350" y="240" width="18" height="10" rx="2" fill="#F2E2C9" stroke="#8B5A3C" stroke-width="0.8" opacity="1"/>
+<rect x="380" y="240" width="18" height="10" rx="2" fill="#F2E2C9" stroke="#8B5A3C" stroke-width="0.8" opacity="1"/>
+<rect x="410" y="240" width="18" height="10" rx="2" fill="#F2E2C9" stroke="#8B5A3C" stroke-width="0.8" opacity="1"/>
+<rect x="440" y="240" width="18" height="10" rx="2" fill="#F2E2C9" stroke="#8B5A3C" stroke-width="0.8" opacity="1"/>
+<rect x="470" y="240" width="18" height="10" rx="2" fill="#F2E2C9" stroke="#8B5A3C" stroke-width="0.8" opacity="1"/>
+<rect x="132" y="282" width="376" height="18" rx="3" fill="#C86B4F" stroke="#8c4a37" stroke-width="1.2" opacity="1"/>
+<rect x="140" y="286" width="18" height="10" rx="2" fill="#F2E2C9" stroke="#8B5A3C" stroke-width="0.8" opacity="1"/>
+<rect x="170" y="286" width="18" height="10" rx="2" fill="#F2E2C9" stroke="#8B5A3C" stroke-width="0.8" opacity="1"/>
+<rect x="200" y="286" width="18" height="10" rx="2" fill="#F2E2C9" stroke="#8B5A3C" stroke-width="0.8" opacity="1"/>
+<rect x="230" y="286" width="18" height="10" rx="2" fill="#F2E2C9" stroke="#8B5A3C" stroke-width="0.8" opacity="1"/>
+<rect x="260" y="286" width="18" height="10" rx="2" fill="#F2E2C9" stroke="#8B5A3C" stroke-width="0.8" opacity="1"/>
+<rect x="290" y="286" width="18" height="10" rx="2" fill="#F2E2C9" stroke="#8B5A3C" stroke-width="0.8" opacity="1"/>
+<rect x="320" y="286" width="18" height="10" rx="2" fill="#F2E2C9" stroke="#8B5A3C" stroke-width="0.8" opacity="1"/>
+<rect x="350" y="286" width="18" height="10" rx="2" fill="#F2E2C9" stroke="#8B5A3C" stroke-width="0.8" opacity="1"/>
+<rect x="380" y="286" width="18" height="10" rx="2" fill="#F2E2C9" stroke="#8B5A3C" stroke-width="0.8" opacity="1"/>
+<rect x="410" y="286" width="18" height="10" rx="2" fill="#F2E2C9" stroke="#8B5A3C" stroke-width="0.8" opacity="1"/>
+<rect x="440" y="286" width="18" height="10" rx="2" fill="#F2E2C9" stroke="#8B5A3C" stroke-width="0.8" opacity="1"/>
+<rect x="470" y="286" width="18" height="10" rx="2" fill="#F2E2C9" stroke="#8B5A3C" stroke-width="0.8" opacity="1"/>
+<rect x="132" y="328" width="376" height="18" rx="3" fill="#C86B4F" stroke="#8c4a37" stroke-width="1.2" opacity="1"/>
+<rect x="140" y="332" width="18" height="10" rx="2" fill="#F2E2C9" stroke="#8B5A3C" stroke-width="0.8" opacity="1"/>
+<rect x="170" y="332" width="18" height="10" rx="2" fill="#F2E2C9" stroke="#8B5A3C" stroke-width="0.8" opacity="1"/>
+<rect x="200" y="332" width="18" height="10" rx="2" fill="#F2E2C9" stroke="#8B5A3C" stroke-width="0.8" opacity="1"/>
+<rect x="230" y="332" width="18" height="10" rx="2" fill="#F2E2C9" stroke="#8B5A3C" stroke-width="0.8" opacity="1"/>
+<rect x="260" y="332" width="18" height="10" rx="2" fill="#F2E2C9" stroke="#8B5A3C" stroke-width="0.8" opacity="1"/>
+<rect x="290" y="332" width="18" height="10" rx="2" fill="#F2E2C9" stroke="#8B5A3C" stroke-width="0.8" opacity="1"/>
+<rect x="320" y="332" width="18" height="10" rx="2" fill="#F2E2C9" stroke="#8B5A3C" stroke-width="0.8" opacity="1"/>
+<rect x="350" y="332" width="18" height="10" rx="2" fill="#F2E2C9" stroke="#8B5A3C" stroke-width="0.8" opacity="1"/>
+<rect x="380" y="332" width="18" height="10" rx="2" fill="#F2E2C9" stroke="#8B5A3C" stroke-width="0.8" opacity="1"/>
+<rect x="410" y="332" width="18" height="10" rx="2" fill="#F2E2C9" stroke="#8B5A3C" stroke-width="0.8" opacity="1"/>
+<rect x="440" y="332" width="18" height="10" rx="2" fill="#F2E2C9" stroke="#8B5A3C" stroke-width="0.8" opacity="1"/>
+<rect x="470" y="332" width="18" height="10" rx="2" fill="#F2E2C9" stroke="#8B5A3C" stroke-width="0.8" opacity="1"/>
+<rect x="132" y="374" width="376" height="18" rx="3" fill="#C86B4F" stroke="#8c4a37" stroke-width="1.2" opacity="1"/>
+<rect x="140" y="378" width="18" height="10" rx="2" fill="#F2E2C9" stroke="#8B5A3C" stroke-width="0.8" opacity="1"/>
+<rect x="170" y="378" width="18" height="10" rx="2" fill="#F2E2C9" stroke="#8B5A3C" stroke-width="0.8" opacity="1"/>
+<rect x="200" y="378" width="18" height="10" rx="2" fill="#F2E2C9" stroke="#8B5A3C" stroke-width="0.8" opacity="1"/>
+<rect x="230" y="378" width="18" height="10" rx="2" fill="#F2E2C9" stroke="#8B5A3C" stroke-width="0.8" opacity="1"/>
+<rect x="260" y="378" width="18" height="10" rx="2" fill="#F2E2C9" stroke="#8B5A3C" stroke-width="0.8" opacity="1"/>
+<rect x="290" y="378" width="18" height="10" rx="2" fill="#F2E2C9" stroke="#8B5A3C" stroke-width="0.8" opacity="1"/>
+<rect x="320" y="378" width="18" height="10" rx="2" fill="#F2E2C9" stroke="#8B5A3C" stroke-width="0.8" opacity="1"/>
+<rect x="350" y="378" width="18" height="10" rx="2" fill="#F2E2C9" stroke="#8B5A3C" stroke-width="0.8" opacity="1"/>
+<rect x="380" y="378" width="18" height="10" rx="2" fill="#F2E2C9" stroke="#8B5A3C" stroke-width="0.8" opacity="1"/>
+<rect x="410" y="378" width="18" height="10" rx="2" fill="#F2E2C9" stroke="#8B5A3C" stroke-width="0.8" opacity="1"/>
+<rect x="440" y="378" width="18" height="10" rx="2" fill="#F2E2C9" stroke="#8B5A3C" stroke-width="0.8" opacity="1"/>
+<rect x="470" y="378" width="18" height="10" rx="2" fill="#F2E2C9" stroke="#8B5A3C" stroke-width="0.8" opacity="1"/>
+<line x1="80.0" y1="220.0" x2="115.0" y2="220.0" stroke="#7FB3E6" stroke-width="2.5" stroke-linecap="round" marker-end="url(#ar_7FB3E6)"/>
+<line x1="525.0" y1="220.0" x2="570.0" y2="220.0" stroke="#E2552F" stroke-width="2.5" stroke-linecap="round" marker-end="url(#ar_E2552F)"/>
+<line x1="80.0" y1="270.0" x2="115.0" y2="270.0" stroke="#7FB3E6" stroke-width="2.5" stroke-linecap="round" marker-end="url(#ar_7FB3E6)"/>
+<line x1="525.0" y1="270.0" x2="570.0" y2="270.0" stroke="#E2552F" stroke-width="2.5" stroke-linecap="round" marker-end="url(#ar_E2552F)"/>
+<line x1="80.0" y1="320.0" x2="115.0" y2="320.0" stroke="#7FB3E6" stroke-width="2.5" stroke-linecap="round" marker-end="url(#ar_7FB3E6)"/>
+<line x1="525.0" y1="320.0" x2="570.0" y2="320.0" stroke="#E2552F" stroke-width="2.5" stroke-linecap="round" marker-end="url(#ar_E2552F)"/>
+<line x1="80.0" y1="370.0" x2="115.0" y2="370.0" stroke="#7FB3E6" stroke-width="2.5" stroke-linecap="round" marker-end="url(#ar_7FB3E6)"/>
+<line x1="525.0" y1="370.0" x2="570.0" y2="370.0" stroke="#E2552F" stroke-width="2.5" stroke-linecap="round" marker-end="url(#ar_E2552F)"/>
+<rect x="250" y="140" width="60" height="26" rx="4" fill="#F07A1A" stroke="#a85512" stroke-width="1.2" opacity="1"/>
+<line x1="200.0" y1="199.0" x2="200.0" y2="128.0" stroke="#15212C" stroke-width="1" opacity=".55"/>
+<circle cx="200.0" cy="199.0" r="3.2" fill="#15212C"/>
+<text x="195.0" y="132.0" font-size="13" font-weight="600" fill="#15212C" text-anchor="end">Viên gốm PTC</text>
+<line x1="420.0" y1="245.0" x2="430.0" y2="470.0" stroke="#15212C" stroke-width="1" opacity=".55"/>
+<circle cx="420.0" cy="245.0" r="3.2" fill="#15212C"/>
+<text x="435.0" y="474.0" font-size="13" font-weight="600" fill="#15212C" text-anchor="start">Lá nhôm tản nhiệt</text>
+<line x1="280.0" y1="150.0" x2="380.0" y2="118.0" stroke="#15212C" stroke-width="1" opacity=".55"/>
+<circle cx="280.0" cy="150.0" r="3.2" fill="#15212C"/>
+<text x="385.0" y="122.0" font-size="13" font-weight="600" fill="#15212C" text-anchor="start">Cực cao áp</text>
+<line x1="90.0" y1="220.0" x2="60.0" y2="480.0" stroke="#15212C" stroke-width="1" opacity=".55"/>
+<circle cx="90.0" cy="220.0" r="3.2" fill="#15212C"/>
+<text x="65.0" y="484.0" font-size="13" font-weight="600" fill="#15212C" text-anchor="start">Gió lạnh vào</text>
+<line x1="560.0" y1="220.0" x2="600.0" y2="480.0" stroke="#15212C" stroke-width="1" opacity=".55"/>
+<circle cx="560.0" cy="220.0" r="3.2" fill="#15212C"/>
+<text x="605.0" y="484.0" font-size="13" font-weight="600" fill="#15212C" text-anchor="start">Gió ấm ra</text>
+</g>
+<rect x="652" y="104" width="276" height="478" rx="10" fill="#FFFFFF" stroke="#D0D8DF"/>
+<text x="668" y="132" font-size="11" font-weight="700" letter-spacing="1.2" fill="#5A6775">CHỨC NĂNG</text>
+<text x="668" y="150" font-size="12.5" fill="#15212C">Điện trở gốm PTC đặt trong luồng gió,</text>
+<text x="668" y="166" font-size="12.5" fill="#15212C">sưởi cabin trên xe không có heat pump.</text>
+<text x="668" y="182" font-size="12.5" fill="#15212C">Gốm PTC tự giới hạn nhiệt nên an toàn.</text>
+<text x="668" y="212" font-size="11" font-weight="700" letter-spacing="1.2" fill="#5A6775">HAY HỎNG</text>
+<text x="680" y="230" font-size="12.5" fill="#15212C">Đứt viên gốm / cực</text>
+<circle cx="672" cy="226" r="2.2" fill="#E2552F"/>
+<text x="680" y="248" font-size="12.5" fill="#15212C">Rơ-le, mạch cao áp hỏng</text>
+<circle cx="672" cy="244" r="2.2" fill="#E2552F"/>
+<text x="668" y="278" font-size="11" font-weight="700" letter-spacing="1.2" fill="#5A6775">TELEMETRY</text>
+<text x="680" y="296" font-size="12.5" fill="#15212C">PTC module failure (cờ)</text>
+<circle cx="672" cy="292" r="2.2" fill="#E2552F"/>
+<text x="680" y="314" font-size="12.5" fill="#15212C">Interior temperature</text>
+<circle cx="672" cy="310" r="2.2" fill="#E2552F"/>
+<text x="680" y="332" font-size="12.5" fill="#15212C">Không có công suất PTC, nhiệt gió ra</text>
+<circle cx="672" cy="328" r="2.2" fill="#E2552F"/>
+<rect x="32" y="596" width="18" height="6" rx="3" fill="#9A78E0"/><text x="56" y="603" font-size="12" fill="#5A6775">Luồng gió</text>
+<rect x="121.4" y="596" width="18" height="6" rx="3" fill="#E2552F"/><text x="145.4" y="603" font-size="12" fill="#5A6775">Gas nóng cao áp</text>
+<rect x="250.4" y="596" width="18" height="6" rx="3" fill="#F07A1A"/><text x="274.4" y="603" font-size="12" fill="#5A6775">Điện cao áp</text>
+<text x="928" y="620" font-size="11" fill="#5A6775" text-anchor="end">Hình minh họa kỹ thuật chung — không theo bản vẽ VinFast</text>
+</svg>

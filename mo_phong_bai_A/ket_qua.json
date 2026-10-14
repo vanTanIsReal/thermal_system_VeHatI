@@ -1,0 +1,3129 @@
+{
+ "chuan_gas_100": {
+  "ten": "chuan_gas_100",
+  "su_that": "",
+  "tang1": {
+   "cham_do_nhiet": false,
+   "phut_mat": 0.9,
+   "phut_mat_nong": 0.9,
+   "phut_mat_lanh": 0.0,
+   "ty_le_cong_suat_thap_nhat": 0.89,
+   "thoi_gian_sac_phut": 24.7,
+   "soc": [
+    18,
+    80
+   ],
+   "cell_max_dau": 37.1,
+   "cell_max_dinh": 46.2,
+   "cell_min_dau": 35.9,
+   "T_ngoai": 36.9,
+   "ly_do": "pin_nong"
+  },
+  "bang_chung": {
+   "do_lanh_nuoc_c": 10.18,
+   "nuoc_ra_tru_vao_c": 3.23,
+   "nuoc_vao_cao_hon_ra": false,
+   "bom_tat_khi_can": false,
+   "a": 10.28,
+   "k": 0.081,
+   "b": 0.0025,
+   "R2": 1.0,
+   "nhiet_can_bang_du_kien_c": 44.7,
+   "dan_lanh_tb_c": 2.8,
+   "co_loi": [],
+   "lam_am_truoc": false,
+   "nuoc_am_hon_pin_khi_lam_am": null
+  },
+  "flag": {
+   "quat": false,
+   "may_nen": false,
+   "thieu_nuoc": false,
+   "van": false,
+   "ptc": false
+  },
+  "tang2": {
+   "khau_kem": "binh_thuong",
+   "bo_phan_nghi": [],
+   "suc_khoe_nguon_lanh": 1.0,
+   "suc_khoe_dong_nuoc_k": 1.0
+  }
+ },
+ "chuan_gas_50": {
+  "ten": "chuan_gas_50",
+  "su_that": "gas=50@0min",
+  "tang1": {
+   "cham_do_nhiet": true,
+   "phut_mat": 8.1,
+   "phut_mat_nong": 8.1,
+   "phut_mat_lanh": 0.0,
+   "ty_le_cong_suat_thap_nhat": 0.64,
+   "thoi_gian_sac_phut": 31.3,
+   "soc": [
+    19,
+    80
+   ],
+   "cell_max_dau": 39.3,
+   "cell_max_dinh": 48.8,
+   "cell_min_dau": 37.9,
+   "T_ngoai": 36.9,
+   "ly_do": "pin_nong"
+  },
+  "bang_chung": {
+   "do_lanh_nuoc_c": 4.0,
+   "nuoc_ra_tru_vao_c": 0.99,
+   "nuoc_vao_cao_hon_ra": false,
+   "bom_tat_khi_can": false,
+   "a": 10.32,
+   "k": 0.0833,
+   "b": 0.0018,
+   "R2": 0.999,
+   "nhiet_can_bang_du_kien_c": 49.4,
+   "dan_lanh_tb_c": 36.3,
+   "co_loi": [],
+   "lam_am_truoc": false,
+   "nuoc_am_hon_pin_khi_lam_am": null
+  },
+  "flag": {
+   "quat": false,
+   "may_nen": false,
+   "thieu_nuoc": false,
+   "van": false,
+   "ptc": false
+  },
+  "tang2": {
+   "khau_kem": "nuoc_khong_du_lanh",
+   "bo_phan_nghi": [
+    {
+     "bo_phan": "thieu_gas",
+     "p": 0.65
+    },
+    {
+     "bo_phan": "may_nen",
+     "p": 0.2
+    },
+    {
+     "bo_phan": "quat_ket",
+     "p": 0.15
+    }
+   ],
+   "suc_khoe_nguon_lanh": 0.42,
+   "suc_khoe_dong_nuoc_k": 1.02
+  }
+ },
+ "chuan_gas_55": {
+  "ten": "chuan_gas_55",
+  "su_that": "gas=55@0min",
+  "tang1": {
+   "cham_do_nhiet": true,
+   "phut_mat": 5.3,
+   "phut_mat_nong": 5.3,
+   "phut_mat_lanh": 0.0,
+   "ty_le_cong_suat_thap_nhat": 0.72,
+   "thoi_gian_sac_phut": 28.7,
+   "soc": [
+    19,
+    80
+   ],
+   "cell_max_dau": 38.0,
+   "cell_max_dinh": 48.0,
+   "cell_min_dau": 36.6,
+   "T_ngoai": 36.9,
+   "ly_do": "pin_nong"
+  },
+  "bang_chung": {
+   "do_lanh_nuoc_c": 5.09,
+   "nuoc_ra_tru_vao_c": 1.35,
+   "nuoc_vao_cao_hon_ra": false,
+   "bom_tat_khi_can": false,
+   "a": 10.29,
+   "k": 0.0818,
+   "b": 0.002,
+   "R2": 0.999,
+   "nhiet_can_bang_du_kien_c": 49.0,
+   "dan_lanh_tb_c": 32.0,
+   "co_loi": [],
+   "lam_am_truoc": false,
+   "nuoc_am_hon_pin_khi_lam_am": null
+  },
+  "flag": {
+   "quat": false,
+   "may_nen": false,
+   "thieu_nuoc": false,
+   "van": false,
+   "ptc": false
+  },
+  "tang2": {
+   "khau_kem": "nuoc_khong_du_lanh",
+   "bo_phan_nghi": [
+    {
+     "bo_phan": "thieu_gas",
+     "p": 0.65
+    },
+    {
+     "bo_phan": "may_nen",
+     "p": 0.2
+    },
+    {
+     "bo_phan": "quat_ket",
+     "p": 0.15
+    }
+   ],
+   "suc_khoe_nguon_lanh": 0.51,
+   "suc_khoe_dong_nuoc_k": 1.0
+  }
+ },
+ "chuan_gas_60": {
+  "ten": "chuan_gas_60",
+  "su_that": "gas=60@0min",
+  "tang1": {
+   "cham_do_nhiet": true,
+   "phut_mat": 4.2,
+   "phut_mat_nong": 4.2,
+   "phut_mat_lanh": 0.0,
+   "ty_le_cong_suat_thap_nhat": 0.75,
+   "thoi_gian_sac_phut": 27.7,
+   "soc": [
+    19,
+    80
+   ],
+   "cell_max_dau": 37.8,
+   "cell_max_dinh": 47.7,
+   "cell_min_dau": 36.5,
+   "T_ngoai": 36.9,
+   "ly_do": "pin_nong"
+  },
+  "bang_chung": {
+   "do_lanh_nuoc_c": 6.01,
+   "nuoc_ra_tru_vao_c": 1.69,
+   "nuoc_vao_cao_hon_ra": false,
+   "bom_tat_khi_can": false,
+   "a": 10.29,
+   "k": 0.0816,
+   "b": 0.002,
+   "R2": 0.999,
+   "nhiet_can_bang_du_kien_c": 48.3,
+   "dan_lanh_tb_c": 27.1,
+   "co_loi": [],
+   "lam_am_truoc": false,
+   "nuoc_am_hon_pin_khi_lam_am": null
+  },
+  "flag": {
+   "quat": false,
+   "may_nen": false,
+   "thieu_nuoc": false,
+   "van": false,
+   "ptc": false
+  },
+  "tang2": {
+   "khau_kem": "nuoc_khong_du_lanh",
+   "bo_phan_nghi": [
+    {
+     "bo_phan": "thieu_gas",
+     "p": 0.65
+    },
+    {
+     "bo_phan": "may_nen",
+     "p": 0.2
+    },
+    {
+     "bo_phan": "quat_ket",
+     "p": 0.15
+    }
+   ],
+   "suc_khoe_nguon_lanh": 0.6,
+   "suc_khoe_dong_nuoc_k": 1.0
+  }
+ },
+ "chuan_gas_65": {
+  "ten": "chuan_gas_65",
+  "su_that": "gas=65@0min",
+  "tang1": {
+   "cham_do_nhiet": true,
+   "phut_mat": 3.3,
+   "phut_mat_nong": 3.3,
+   "phut_mat_lanh": 0.0,
+   "ty_le_cong_suat_thap_nhat": 0.78,
+   "thoi_gian_sac_phut": 26.8,
+   "soc": [
+    18,
+    80
+   ],
+   "cell_max_dau": 37.6,
+   "cell_max_dinh": 47.4,
+   "cell_min_dau": 36.4,
+   "T_ngoai": 36.9,
+   "ly_do": "pin_nong"
+  },
+  "bang_chung": {
+   "do_lanh_nuoc_c": 6.86,
+   "nuoc_ra_tru_vao_c": 1.99,
+   "nuoc_vao_cao_hon_ra": false,
+   "bom_tat_khi_can": false,
+   "a": 10.29,
+   "k": 0.0817,
+   "b": 0.002,
+   "R2": 0.999,
+   "nhiet_can_bang_du_kien_c": 47.6,
+   "dan_lanh_tb_c": 22.4,
+   "co_loi": [],
+   "lam_am_truoc": false,
+   "nuoc_am_hon_pin_khi_lam_am": null
+  },
+  "flag": {
+   "quat": false,
+   "may_nen": false,
+   "thieu_nuoc": false,
+   "van": false,
+   "ptc": false
+  },
+  "tang2": {
+   "khau_kem": "nuoc_khong_du_lanh",
+   "bo_phan_nghi": [
+    {
+     "bo_phan": "thieu_gas",
+     "p": 0.65
+    },
+    {
+     "bo_phan": "may_nen",
+     "p": 0.2
+    },
+    {
+     "bo_phan": "quat_ket",
+     "p": 0.15
+    }
+   ],
+   "suc_khoe_nguon_lanh": 0.69,
+   "suc_khoe_dong_nuoc_k": 1.0
+  }
+ },
+ "chuan_gas_70": {
+  "ten": "chuan_gas_70",
+  "su_that": "gas=70@0min",
+  "tang1": {
+   "cham_do_nhiet": true,
+   "phut_mat": 2.6,
+   "phut_mat_nong": 2.6,
+   "phut_mat_lanh": 0.0,
+   "ty_le_cong_suat_thap_nhat": 0.8,
+   "thoi_gian_sac_phut": 26.2,
+   "soc": [
+    18,
+    80
+   ],
+   "cell_max_dau": 37.5,
+   "cell_max_dinh": 47.1,
+   "cell_min_dau": 36.3,
+   "T_ngoai": 36.9,
+   "ly_do": "pin_nong"
+  },
+  "bang_chung": {
+   "do_lanh_nuoc_c": 7.63,
+   "nuoc_ra_tru_vao_c": 2.28,
+   "nuoc_vao_cao_hon_ra": false,
+   "bom_tat_khi_can": false,
+   "a": 10.31,
+   "k": 0.0823,
+   "b": 0.0017,
+   "R2": 1.0,
+   "nhiet_can_bang_du_kien_c": 47.0,
+   "dan_lanh_tb_c": 19.6,
+   "co_loi": [],
+   "lam_am_truoc": false,
+   "nuoc_am_hon_pin_khi_lam_am": null
+  },
+  "flag": {
+   "quat": false,
+   "may_nen": false,
+   "thieu_nuoc": false,
+   "van": false,
+   "ptc": false
+  },
+  "tang2": {
+   "khau_kem": "nuoc_khong_du_lanh",
+   "bo_phan_nghi": [
+    {
+     "bo_phan": "thieu_gas",
+     "p": 0.65
+    },
+    {
+     "bo_phan": "may_nen",
+     "p": 0.2
+    },
+    {
+     "bo_phan": "quat_ket",
+     "p": 0.15
+    }
+   ],
+   "suc_khoe_nguon_lanh": 0.76,
+   "suc_khoe_dong_nuoc_k": 1.01
+  }
+ },
+ "chuan_gas_75": {
+  "ten": "chuan_gas_75",
+  "su_that": "gas=75@0min",
+  "tang1": {
+   "cham_do_nhiet": true,
+   "phut_mat": 2.0,
+   "phut_mat_nong": 2.0,
+   "phut_mat_lanh": 0.0,
+   "ty_le_cong_suat_thap_nhat": 0.83,
+   "thoi_gian_sac_phut": 25.7,
+   "soc": [
+    18,
+    80
+   ],
+   "cell_max_dau": 37.4,
+   "cell_max_dinh": 46.9,
+   "cell_min_dau": 36.2,
+   "T_ngoai": 36.9,
+   "ly_do": "pin_nong"
+  },
+  "bang_chung": {
+   "do_lanh_nuoc_c": 8.36,
+   "nuoc_ra_tru_vao_c": 2.55,
+   "nuoc_vao_cao_hon_ra": false,
+   "bom_tat_khi_can": false,
+   "a": 10.33,
+   "k": 0.0827,
+   "b": 0.0015,
+   "R2": 1.0,
+   "nhiet_can_bang_du_kien_c": 46.4,
+   "dan_lanh_tb_c": 14.7,
+   "co_loi": [],
+   "lam_am_truoc": false,
+   "nuoc_am_hon_pin_khi_lam_am": null
+  },
+  "flag": {
+   "quat": false,
+   "may_nen": false,
+   "thieu_nuoc": false,
+   "van": false,
+   "ptc": false
+  },
+  "tang2": {
+   "khau_kem": "binh_thuong",
+   "bo_phan_nghi": [],
+   "suc_khoe_nguon_lanh": 0.83,
+   "suc_khoe_dong_nuoc_k": 1.02
+  }
+ },
+ "chuan_gas_80": {
+  "ten": "chuan_gas_80",
+  "su_that": "gas=80@0min",
+  "tang1": {
+   "cham_do_nhiet": false,
+   "phut_mat": 1.5,
+   "phut_mat_nong": 1.5,
+   "phut_mat_lanh": 0.0,
+   "ty_le_cong_suat_thap_nhat": 0.85,
+   "thoi_gian_sac_phut": 25.2,
+   "soc": [
+    18,
+    80
+   ],
+   "cell_max_dau": 37.3,
+   "cell_max_dinh": 46.6,
+   "cell_min_dau": 36.1,
+   "T_ngoai": 36.9,
+   "ly_do": "pin_nong"
+  },
+  "bang_chung": {
+   "do_lanh_nuoc_c": 9.05,
+   "nuoc_ra_tru_vao_c": 2.81,
+   "nuoc_vao_cao_hon_ra": false,
+   "bom_tat_khi_can": false,
+   "a": 10.29,
+   "k": 0.0813,
+   "b": 0.0022,
+   "R2": 0.999,
+   "nhiet_can_bang_du_kien_c": 45.8,
+   "dan_lanh_tb_c": 12.2,
+   "co_loi": [],
+   "lam_am_truoc": false,
+   "nuoc_am_hon_pin_khi_lam_am": null
+  },
+  "flag": {
+   "quat": false,
+   "may_nen": false,
+   "thieu_nuoc": false,
+   "van": false,
+   "ptc": false
+  },
+  "tang2": {
+   "khau_kem": "binh_thuong",
+   "bo_phan_nghi": [],
+   "suc_khoe_nguon_lanh": 0.9,
+   "suc_khoe_dong_nuoc_k": 1.0
+  }
+ },
+ "chuan_gas_85": {
+  "ten": "chuan_gas_85",
+  "su_that": "gas=85@0min",
+  "tang1": {
+   "cham_do_nhiet": false,
+   "phut_mat": 1.1,
+   "phut_mat_nong": 1.1,
+   "phut_mat_lanh": 0.0,
+   "ty_le_cong_suat_thap_nhat": 0.87,
+   "thoi_gian_sac_phut": 24.8,
+   "soc": [
+    18,
+    80
+   ],
+   "cell_max_dau": 37.2,
+   "cell_max_dinh": 46.4,
+   "cell_min_dau": 36.0,
+   "T_ngoai": 36.9,
+   "ly_do": "pin_nong"
+  },
+  "bang_chung": {
+   "do_lanh_nuoc_c": 9.7,
+   "nuoc_ra_tru_vao_c": 3.05,
+   "nuoc_vao_cao_hon_ra": false,
+   "bom_tat_khi_can": false,
+   "a": 10.28,
+   "k": 0.081,
+   "b": 0.0024,
+   "R2": 0.999,
+   "nhiet_can_bang_du_kien_c": 45.2,
+   "dan_lanh_tb_c": 10.0,
+   "co_loi": [],
+   "lam_am_truoc": false,
+   "nuoc_am_hon_pin_khi_lam_am": null
+  },
+  "flag": {
+   "quat": false,
+   "may_nen": false,
+   "thieu_nuoc": false,
+   "van": false,
+   "ptc": false
+  },
+  "tang2": {
+   "khau_kem": "binh_thuong",
+   "bo_phan_nghi": [],
+   "suc_khoe_nguon_lanh": 0.96,
+   "suc_khoe_dong_nuoc_k": 1.0
+  }
+ },
+ "chuan_gas_90": {
+  "ten": "chuan_gas_90",
+  "su_that": "gas=90@0min",
+  "tang1": {
+   "cham_do_nhiet": false,
+   "phut_mat": 0.9,
+   "phut_mat_nong": 0.9,
+   "phut_mat_lanh": 0.0,
+   "ty_le_cong_suat_thap_nhat": 0.89,
+   "thoi_gian_sac_phut": 24.7,
+   "soc": [
+    18,
+    80
+   ],
+   "cell_max_dau": 37.1,
+   "cell_max_dinh": 46.2,
+   "cell_min_dau": 35.9,
+   "T_ngoai": 36.9,
+   "ly_do": "pin_nong"
+  },
+  "bang_chung": {
+   "do_lanh_nuoc_c": 10.18,
+   "nuoc_ra_tru_vao_c": 3.23,
+   "nuoc_vao_cao_hon_ra": false,
+   "bom_tat_khi_can": false,
+   "a": 10.28,
+   "k": 0.081,
+   "b": 0.0025,
+   "R2": 1.0,
+   "nhiet_can_bang_du_kien_c": 44.7,
+   "dan_lanh_tb_c": 2.8,
+   "co_loi": [],
+   "lam_am_truoc": false,
+   "nuoc_am_hon_pin_khi_lam_am": null
+  },
+  "flag": {
+   "quat": false,
+   "may_nen": false,
+   "thieu_nuoc": false,
+   "van": false,
+   "ptc": false
+  },
+  "tang2": {
+   "khau_kem": "binh_thuong",
+   "bo_phan_nghi": [],
+   "suc_khoe_nguon_lanh": 1.0,
+   "suc_khoe_dong_nuoc_k": 1.0
+  }
+ },
+ "chuan_gas_95": {
+  "ten": "chuan_gas_95",
+  "su_that": "gas=95@0min",
+  "tang1": {
+   "cham_do_nhiet": false,
+   "phut_mat": 0.9,
+   "phut_mat_nong": 0.9,
+   "phut_mat_lanh": 0.0,
+   "ty_le_cong_suat_thap_nhat": 0.89,
+   "thoi_gian_sac_phut": 24.7,
+   "soc": [
+    18,
+    80
+   ],
+   "cell_max_dau": 37.1,
+   "cell_max_dinh": 46.2,
+   "cell_min_dau": 35.9,
+   "T_ngoai": 36.9,
+   "ly_do": "pin_nong"
+  },
+  "bang_chung": {
+   "do_lanh_nuoc_c": 10.18,
+   "nuoc_ra_tru_vao_c": 3.23,
+   "nuoc_vao_cao_hon_ra": false,
+   "bom_tat_khi_can": false,
+   "a": 10.28,
+   "k": 0.081,
+   "b": 0.0025,
+   "R2": 1.0,
+   "nhiet_can_bang_du_kien_c": 44.7,
+   "dan_lanh_tb_c": 2.8,
+   "co_loi": [],
+   "lam_am_truoc": false,
+   "nuoc_am_hon_pin_khi_lam_am": null
+  },
+  "flag": {
+   "quat": false,
+   "may_nen": false,
+   "thieu_nuoc": false,
+   "van": false,
+   "ptc": false
+  },
+  "tang2": {
+   "khau_kem": "binh_thuong",
+   "bo_phan_nghi": [],
+   "suc_khoe_nguon_lanh": 1.0,
+   "suc_khoe_dong_nuoc_k": 1.0
+  }
+ },
+ "hcm_bom_pin_40": {
+  "ten": "hcm_bom_pin_40",
+  "su_that": "pump=40@0min",
+  "tang1": {
+   "cham_do_nhiet": true,
+   "phut_mat": 2.0,
+   "phut_mat_nong": 2.0,
+   "phut_mat_lanh": 0.0,
+   "ty_le_cong_suat_thap_nhat": 0.8,
+   "thoi_gian_sac_phut": 25.8,
+   "soc": [
+    18,
+    80
+   ],
+   "cell_max_dau": 36.2,
+   "cell_max_dinh": 47.1,
+   "cell_min_dau": 34.6,
+   "T_ngoai": 36.9,
+   "ly_do": "pin_nong"
+  },
+  "bang_chung": {
+   "do_lanh_nuoc_c": 20.54,
+   "nuoc_ra_tru_vao_c": 7.56,
+   "nuoc_vao_cao_hon_ra": false,
+   "bom_tat_khi_can": false,
+   "a": 10.28,
+   "k": 0.035,
+   "b": 0.0024,
+   "R2": 1.0,
+   "nhiet_can_bang_du_kien_c": 45.3,
+   "dan_lanh_tb_c": 2.8,
+   "co_loi": [],
+   "lam_am_truoc": false,
+   "nuoc_am_hon_pin_khi_lam_am": null
+  },
+  "flag": {
+   "quat": false,
+   "may_nen": false,
+   "thieu_nuoc": false,
+   "van": false,
+   "ptc": false
+  },
+  "tang2": {
+   "khau_kem": "nuoc_chay_kem",
+   "bo_phan_nghi": [
+    {
+     "bo_phan": "bom_pin",
+     "p": 0.7
+    },
+    {
+     "bo_phan": "thieu_nuoc",
+     "p": 0.3
+    }
+   ],
+   "suc_khoe_nguon_lanh": 1.98,
+   "suc_khoe_dong_nuoc_k": 0.43
+  }
+ },
+ "hcm_cam_bien_lech": {
+  "ten": "hcm_cam_bien_lech",
+  "su_that": "offset=6@0min",
+  "tang1": {
+   "cham_do_nhiet": false,
+   "phut_mat": 0.9,
+   "phut_mat_nong": 0.9,
+   "phut_mat_lanh": 0.0,
+   "ty_le_cong_suat_thap_nhat": 0.89,
+   "thoi_gian_sac_phut": 24.7,
+   "soc": [
+    18,
+    80
+   ],
+   "cell_max_dau": 37.1,
+   "cell_max_dinh": 46.2,
+   "cell_min_dau": 35.9,
+   "T_ngoai": 36.9,
+   "ly_do": "pin_nong"
+  },
+  "bang_chung": {
+   "do_lanh_nuoc_c": 4.18,
+   "nuoc_ra_tru_vao_c": -2.77,
+   "nuoc_vao_cao_hon_ra": true,
+   "bom_tat_khi_can": false,
+   "a": 8.51,
+   "k": 0.0389,
+   "b": 0.0496,
+   "R2": 0.994,
+   "nhiet_can_bang_du_kien_c": 44.3,
+   "dan_lanh_tb_c": 2.8,
+   "co_loi": [],
+   "lam_am_truoc": false,
+   "nuoc_am_hon_pin_khi_lam_am": null
+  },
+  "flag": {
+   "quat": false,
+   "may_nen": false,
+   "thieu_nuoc": false,
+   "van": false,
+   "ptc": false
+  },
+  "tang2": {
+   "khau_kem": "cam_bien_nghi_sai",
+   "bo_phan_nghi": [
+    {
+     "bo_phan": "cam_bien_nuoc_vao_pin",
+     "p": 0.8
+    }
+   ],
+   "suc_khoe_nguon_lanh": 0.41,
+   "suc_khoe_dong_nuoc_k": 0.48
+  }
+ },
+ "hcm_chiller_15": {
+  "ten": "hcm_chiller_15",
+  "su_that": "chiller=15@0min",
+  "tang1": {
+   "cham_do_nhiet": true,
+   "phut_mat": 4.0,
+   "phut_mat_nong": 4.0,
+   "phut_mat_lanh": 0.0,
+   "ty_le_cong_suat_thap_nhat": 0.75,
+   "thoi_gian_sac_phut": 27.8,
+   "soc": [
+    18,
+    80
+   ],
+   "cell_max_dau": 37.9,
+   "cell_max_dinh": 47.6,
+   "cell_min_dau": 36.6,
+   "T_ngoai": 36.9,
+   "ly_do": "pin_nong"
+  },
+  "bang_chung": {
+   "do_lanh_nuoc_c": 6.46,
+   "nuoc_ra_tru_vao_c": 1.87,
+   "nuoc_vao_cao_hon_ra": false,
+   "bom_tat_khi_can": false,
+   "a": 10.29,
+   "k": 0.0814,
+   "b": 0.0021,
+   "R2": 0.999,
+   "nhiet_can_bang_du_kien_c": 47.8,
+   "dan_lanh_tb_c": 0.4,
+   "co_loi": [],
+   "lam_am_truoc": false,
+   "nuoc_am_hon_pin_khi_lam_am": null
+  },
+  "flag": {
+   "quat": false,
+   "may_nen": false,
+   "thieu_nuoc": false,
+   "van": false,
+   "ptc": false
+  },
+  "tang2": {
+   "khau_kem": "nuoc_khong_du_lanh",
+   "bo_phan_nghi": [
+    {
+     "bo_phan": "chiller_hoac_van_chiller",
+     "p": 0.6
+    },
+    {
+     "bo_phan": "thieu_gas",
+     "p": 0.2
+    },
+    {
+     "bo_phan": "quat_ket",
+     "p": 0.2
+    }
+   ],
+   "suc_khoe_nguon_lanh": 0.65,
+   "suc_khoe_dong_nuoc_k": 1.0
+  }
+ },
+ "hcm_chiller_50": {
+  "ten": "hcm_chiller_50",
+  "su_that": "chiller=50@0min",
+  "tang1": {
+   "cham_do_nhiet": false,
+   "phut_mat": 0.9,
+   "phut_mat_nong": 0.9,
+   "phut_mat_lanh": 0.0,
+   "ty_le_cong_suat_thap_nhat": 0.89,
+   "thoi_gian_sac_phut": 24.7,
+   "soc": [
+    18,
+    80
+   ],
+   "cell_max_dau": 37.1,
+   "cell_max_dinh": 46.2,
+   "cell_min_dau": 35.9,
+   "T_ngoai": 36.9,
+   "ly_do": "pin_nong"
+  },
+  "bang_chung": {
+   "do_lanh_nuoc_c": 10.18,
+   "nuoc_ra_tru_vao_c": 3.23,
+   "nuoc_vao_cao_hon_ra": false,
+   "bom_tat_khi_can": false,
+   "a": 10.28,
+   "k": 0.081,
+   "b": 0.0025,
+   "R2": 1.0,
+   "nhiet_can_bang_du_kien_c": 44.7,
+   "dan_lanh_tb_c": 2.8,
+   "co_loi": [],
+   "lam_am_truoc": false,
+   "nuoc_am_hon_pin_khi_lam_am": null
+  },
+  "flag": {
+   "quat": false,
+   "may_nen": false,
+   "thieu_nuoc": false,
+   "van": false,
+   "ptc": false
+  },
+  "tang2": {
+   "khau_kem": "binh_thuong",
+   "bo_phan_nghi": [],
+   "suc_khoe_nguon_lanh": 1.0,
+   "suc_khoe_dong_nuoc_k": 1.0
+  }
+ },
+ "hcm_gas_65": {
+  "ten": "hcm_gas_65",
+  "su_that": "gas=65@0min",
+  "tang1": {
+   "cham_do_nhiet": true,
+   "phut_mat": 3.3,
+   "phut_mat_nong": 3.3,
+   "phut_mat_lanh": 0.0,
+   "ty_le_cong_suat_thap_nhat": 0.78,
+   "thoi_gian_sac_phut": 26.8,
+   "soc": [
+    18,
+    80
+   ],
+   "cell_max_dau": 37.6,
+   "cell_max_dinh": 47.4,
+   "cell_min_dau": 36.4,
+   "T_ngoai": 36.9,
+   "ly_do": "pin_nong"
+  },
+  "bang_chung": {
+   "do_lanh_nuoc_c": 6.86,
+   "nuoc_ra_tru_vao_c": 1.99,
+   "nuoc_vao_cao_hon_ra": false,
+   "bom_tat_khi_can": false,
+   "a": 10.29,
+   "k": 0.0817,
+   "b": 0.002,
+   "R2": 0.999,
+   "nhiet_can_bang_du_kien_c": 47.6,
+   "dan_lanh_tb_c": 22.4,
+   "co_loi": [],
+   "lam_am_truoc": false,
+   "nuoc_am_hon_pin_khi_lam_am": null
+  },
+  "flag": {
+   "quat": false,
+   "may_nen": false,
+   "thieu_nuoc": false,
+   "van": false,
+   "ptc": false
+  },
+  "tang2": {
+   "khau_kem": "nuoc_khong_du_lanh",
+   "bo_phan_nghi": [
+    {
+     "bo_phan": "thieu_gas",
+     "p": 0.65
+    },
+    {
+     "bo_phan": "may_nen",
+     "p": 0.2
+    },
+    {
+     "bo_phan": "quat_ket",
+     "p": 0.15
+    }
+   ],
+   "suc_khoe_nguon_lanh": 0.69,
+   "suc_khoe_dong_nuoc_k": 1.0
+  }
+ },
+ "hcm_khoe": {
+  "ten": "hcm_khoe",
+  "su_that": "",
+  "tang1": {
+   "cham_do_nhiet": false,
+   "phut_mat": 0.9,
+   "phut_mat_nong": 0.9,
+   "phut_mat_lanh": 0.0,
+   "ty_le_cong_suat_thap_nhat": 0.89,
+   "thoi_gian_sac_phut": 24.7,
+   "soc": [
+    18,
+    80
+   ],
+   "cell_max_dau": 37.1,
+   "cell_max_dinh": 46.2,
+   "cell_min_dau": 35.9,
+   "T_ngoai": 36.9,
+   "ly_do": "pin_nong"
+  },
+  "bang_chung": {
+   "do_lanh_nuoc_c": 10.18,
+   "nuoc_ra_tru_vao_c": 3.23,
+   "nuoc_vao_cao_hon_ra": false,
+   "bom_tat_khi_can": false,
+   "a": 10.28,
+   "k": 0.081,
+   "b": 0.0025,
+   "R2": 1.0,
+   "nhiet_can_bang_du_kien_c": 44.7,
+   "dan_lanh_tb_c": 2.8,
+   "co_loi": [],
+   "lam_am_truoc": false,
+   "nuoc_am_hon_pin_khi_lam_am": null
+  },
+  "flag": {
+   "quat": false,
+   "may_nen": false,
+   "thieu_nuoc": false,
+   "van": false,
+   "ptc": false
+  },
+  "tang2": {
+   "khau_kem": "binh_thuong",
+   "bo_phan_nghi": [],
+   "suc_khoe_nguon_lanh": 1.0,
+   "suc_khoe_dong_nuoc_k": 1.0
+  }
+ },
+ "hcm_quat_chet": {
+  "ten": "hcm_quat_chet",
+  "su_that": "fan@0min",
+  "tang1": {
+   "cham_do_nhiet": true,
+   "phut_mat": 4.5,
+   "phut_mat_nong": 4.5,
+   "phut_mat_lanh": 0.0,
+   "ty_le_cong_suat_thap_nhat": 0.74,
+   "thoi_gian_sac_phut": 28.3,
+   "soc": [
+    18,
+    80
+   ],
+   "cell_max_dau": 37.3,
+   "cell_max_dinh": 47.7,
+   "cell_min_dau": 36.0,
+   "T_ngoai": 36.9,
+   "ly_do": "pin_nong"
+  },
+  "bang_chung": {
+   "do_lanh_nuoc_c": 5.38,
+   "nuoc_ra_tru_vao_c": 1.43,
+   "nuoc_vao_cao_hon_ra": false,
+   "bom_tat_khi_can": false,
+   "a": 10.31,
+   "k": 0.0825,
+   "b": 0.0019,
+   "R2": 0.999,
+   "nhiet_can_bang_du_kien_c": 48.7,
+   "dan_lanh_tb_c": 24.6,
+   "co_loi": [
+    "quat"
+   ],
+   "lam_am_truoc": false,
+   "nuoc_am_hon_pin_khi_lam_am": null
+  },
+  "flag": {
+   "quat": true,
+   "may_nen": false,
+   "thieu_nuoc": false,
+   "van": false,
+   "ptc": false
+  },
+  "tang2": {
+   "khau_kem": "nuoc_khong_du_lanh",
+   "bo_phan_nghi": [
+    {
+     "bo_phan": "quat_ket",
+     "p": 0.7
+    },
+    {
+     "bo_phan": "thieu_gas",
+     "p": 0.15
+    },
+    {
+     "bo_phan": "chiller_hoac_van_chiller",
+     "p": 0.15
+    }
+   ],
+   "suc_khoe_nguon_lanh": 0.53,
+   "suc_khoe_dong_nuoc_k": 1.01
+  }
+ },
+ "hcm_van_ket": {
+  "ten": "hcm_van_ket",
+  "su_that": "valve@0min",
+  "tang1": {
+   "cham_do_nhiet": true,
+   "phut_mat": 1.8,
+   "phut_mat_nong": 1.8,
+   "phut_mat_lanh": 0.0,
+   "ty_le_cong_suat_thap_nhat": 0.82,
+   "thoi_gian_sac_phut": 25.7,
+   "soc": [
+    18,
+    80
+   ],
+   "cell_max_dau": 38.2,
+   "cell_max_dinh": 46.9,
+   "cell_min_dau": 36.9,
+   "T_ngoai": 36.9,
+   "ly_do": "pin_nong"
+  },
+  "bang_chung": {
+   "do_lanh_nuoc_c": 9.8,
+   "nuoc_ra_tru_vao_c": 3.18,
+   "nuoc_vao_cao_hon_ra": false,
+   "bom_tat_khi_can": false,
+   "a": 10.3,
+   "k": 0.0822,
+   "b": 0.0015,
+   "R2": 1.0,
+   "nhiet_can_bang_du_kien_c": 44.9,
+   "dan_lanh_tb_c": 2.8,
+   "co_loi": [
+    "van"
+   ],
+   "lam_am_truoc": false,
+   "nuoc_am_hon_pin_khi_lam_am": null
+  },
+  "flag": {
+   "quat": false,
+   "may_nen": false,
+   "thieu_nuoc": false,
+   "van": true,
+   "ptc": false
+  },
+  "tang2": {
+   "khau_kem": "binh_thuong",
+   "bo_phan_nghi": [
+    {
+     "bo_phan": "van_4_nga",
+     "p": 0.5
+    }
+   ],
+   "suc_khoe_nguon_lanh": 0.99,
+   "suc_khoe_dong_nuoc_k": 1.01
+  }
+ },
+ "hn_khoe": {
+  "ten": "hn_khoe",
+  "su_that": "",
+  "tang1": {
+   "cham_do_nhiet": false,
+   "phut_mat": 0.1,
+   "phut_mat_nong": 0.0,
+   "phut_mat_lanh": 0.1,
+   "ty_le_cong_suat_thap_nhat": 0.92,
+   "thoi_gian_sac_phut": 21.3,
+   "soc": [
+    27,
+    80
+   ],
+   "cell_max_dau": 20.3,
+   "cell_max_dinh": 32.7,
+   "cell_min_dau": 18.0,
+   "T_ngoai": 11.0,
+   "ly_do": "pin_lanh"
+  },
+  "bang_chung": {
+   "do_lanh_nuoc_c": 5.71,
+   "nuoc_ra_tru_vao_c": 1.62,
+   "nuoc_vao_cao_hon_ra": false,
+   "bom_tat_khi_can": false,
+   "a": 10.29,
+   "k": 0.082,
+   "b": 0.002,
+   "R2": 1.0,
+   "nhiet_can_bang_du_kien_c": 34.5,
+   "dan_lanh_tb_c": null,
+   "co_loi": [],
+   "lam_am_truoc": true,
+   "nuoc_am_hon_pin_khi_lam_am": true
+  },
+  "flag": {
+   "quat": false,
+   "may_nen": false,
+   "thieu_nuoc": false,
+   "van": false,
+   "ptc": false
+  },
+  "tang2": {
+   "khau_kem": "binh_thuong",
+   "bo_phan_nghi": [],
+   "suc_khoe_nguon_lanh": 0.53,
+   "suc_khoe_dong_nuoc_k": 1.01
+  }
+ },
+ "hn_ptc_hong": {
+  "ten": "hn_ptc_hong",
+  "su_that": "ptc@0min",
+  "tang1": {
+   "cham_do_nhiet": true,
+   "phut_mat": 7.4,
+   "phut_mat_nong": 0.0,
+   "phut_mat_lanh": 7.4,
+   "ty_le_cong_suat_thap_nhat": 0.56,
+   "thoi_gian_sac_phut": 27.0,
+   "soc": [
+    31,
+    80
+   ],
+   "cell_max_dau": 10.8,
+   "cell_max_dinh": 18.8,
+   "cell_min_dau": 9.7,
+   "T_ngoai": 11.1,
+   "ly_do": "pin_lanh"
+  },
+  "bang_chung": {
+   "bom_tat_khi_can": false,
+   "a": 10.37,
+   "k": 0.0861,
+   "b": 0.0019,
+   "R2": 0.994,
+   "nhiet_can_bang_du_kien_c": 17.8,
+   "dan_lanh_tb_c": null,
+   "co_loi": [
+    "ptc"
+   ],
+   "lam_am_truoc": true,
+   "nuoc_am_hon_pin_khi_lam_am": false
+  },
+  "flag": {
+   "quat": false,
+   "may_nen": false,
+   "thieu_nuoc": false,
+   "van": false,
+   "ptc": true
+  },
+  "tang2": {
+   "khau_kem": "lam_am_kem",
+   "bo_phan_nghi": [
+    {
+     "bo_phan": "ptc_nuoc",
+     "p": 0.8
+    }
+   ],
+   "suc_khoe_nguon_lanh": null,
+   "suc_khoe_dong_nuoc_k": 1.06
+  }
+ },
+ "khoe_01": {
+  "ten": "khoe_01",
+  "su_that": "",
+  "tang1": {
+   "cham_do_nhiet": false,
+   "phut_mat": 1.2,
+   "phut_mat_nong": 1.2,
+   "phut_mat_lanh": 0.0,
+   "ty_le_cong_suat_thap_nhat": 0.87,
+   "thoi_gian_sac_phut": 25.2,
+   "soc": [
+    17,
+    80
+   ],
+   "cell_max_dau": 36.7,
+   "cell_max_dinh": 46.4,
+   "cell_min_dau": 35.4,
+   "T_ngoai": 30.9,
+   "ly_do": "pin_nong"
+  },
+  "bang_chung": {
+   "do_lanh_nuoc_c": 8.99,
+   "nuoc_ra_tru_vao_c": 2.75,
+   "nuoc_vao_cao_hon_ra": false,
+   "bom_tat_khi_can": false,
+   "a": 10.28,
+   "k": 0.081,
+   "b": 0.0022,
+   "R2": 0.999,
+   "nhiet_can_bang_du_kien_c": 45.9,
+   "dan_lanh_tb_c": -1.7,
+   "co_loi": [],
+   "lam_am_truoc": false,
+   "nuoc_am_hon_pin_khi_lam_am": null
+  },
+  "flag": {
+   "quat": false,
+   "may_nen": false,
+   "thieu_nuoc": false,
+   "van": false,
+   "ptc": false
+  },
+  "tang2": {
+   "khau_kem": "binh_thuong",
+   "bo_phan_nghi": [],
+   "suc_khoe_nguon_lanh": 0.95,
+   "suc_khoe_dong_nuoc_k": 1.0
+  }
+ },
+ "khoe_02": {
+  "ten": "khoe_02",
+  "su_that": "",
+  "tang1": {
+   "cham_do_nhiet": false,
+   "phut_mat": 0.7,
+   "phut_mat_nong": 0.7,
+   "phut_mat_lanh": 0.0,
+   "ty_le_cong_suat_thap_nhat": 0.91,
+   "thoi_gian_sac_phut": 23.7,
+   "soc": [
+    21,
+    80
+   ],
+   "cell_max_dau": 36.9,
+   "cell_max_dinh": 46.0,
+   "cell_min_dau": 35.7,
+   "T_ngoai": 32.8,
+   "ly_do": "pin_nong"
+  },
+  "bang_chung": {
+   "do_lanh_nuoc_c": 9.38,
+   "nuoc_ra_tru_vao_c": 2.91,
+   "nuoc_vao_cao_hon_ra": false,
+   "bom_tat_khi_can": false,
+   "a": 10.33,
+   "k": 0.0834,
+   "b": 0.0012,
+   "R2": 1.0,
+   "nhiet_can_bang_du_kien_c": 45.2,
+   "dan_lanh_tb_c": 0.5,
+   "co_loi": [],
+   "lam_am_truoc": false,
+   "nuoc_am_hon_pin_khi_lam_am": null
+  },
+  "flag": {
+   "quat": false,
+   "may_nen": false,
+   "thieu_nuoc": false,
+   "van": false,
+   "ptc": false
+  },
+  "tang2": {
+   "khau_kem": "binh_thuong",
+   "bo_phan_nghi": [],
+   "suc_khoe_nguon_lanh": 0.97,
+   "suc_khoe_dong_nuoc_k": 1.02
+  }
+ },
+ "khoe_03": {
+  "ten": "khoe_03",
+  "su_that": "",
+  "tang1": {
+   "cham_do_nhiet": false,
+   "phut_mat": 0.2,
+   "phut_mat_nong": 0.2,
+   "phut_mat_lanh": 0.0,
+   "ty_le_cong_suat_thap_nhat": 0.95,
+   "thoi_gian_sac_phut": 22.2,
+   "soc": [
+    24,
+    80
+   ],
+   "cell_max_dau": 37.0,
+   "cell_max_dinh": 45.5,
+   "cell_min_dau": 35.8,
+   "T_ngoai": 33.9,
+   "ly_do": "pin_nong"
+  },
+  "bang_chung": {
+   "do_lanh_nuoc_c": 9.81,
+   "nuoc_ra_tru_vao_c": 3.09,
+   "nuoc_vao_cao_hon_ra": false,
+   "bom_tat_khi_can": false,
+   "a": 10.3,
+   "k": 0.0818,
+   "b": 0.0019,
+   "R2": 1.0,
+   "nhiet_can_bang_du_kien_c": 44.5,
+   "dan_lanh_tb_c": 1.4,
+   "co_loi": [],
+   "lam_am_truoc": false,
+   "nuoc_am_hon_pin_khi_lam_am": null
+  },
+  "flag": {
+   "quat": false,
+   "may_nen": false,
+   "thieu_nuoc": false,
+   "van": false,
+   "ptc": false
+  },
+  "tang2": {
+   "khau_kem": "binh_thuong",
+   "bo_phan_nghi": [],
+   "suc_khoe_nguon_lanh": 1.01,
+   "suc_khoe_dong_nuoc_k": 1.0
+  }
+ },
+ "khoe_04": {
+  "ten": "khoe_04",
+  "su_that": "",
+  "tang1": {
+   "cham_do_nhiet": false,
+   "phut_mat": 0.3,
+   "phut_mat_nong": 0.3,
+   "phut_mat_lanh": 0.0,
+   "ty_le_cong_suat_thap_nhat": 0.94,
+   "thoi_gian_sac_phut": 22.8,
+   "soc": [
+    22,
+    80
+   ],
+   "cell_max_dau": 37.2,
+   "cell_max_dinh": 45.7,
+   "cell_min_dau": 36.0,
+   "T_ngoai": 35.8,
+   "ly_do": "pin_nong"
+  },
+  "bang_chung": {
+   "do_lanh_nuoc_c": 10.51,
+   "nuoc_ra_tru_vao_c": 3.37,
+   "nuoc_vao_cao_hon_ra": false,
+   "bom_tat_khi_can": false,
+   "a": 10.29,
+   "k": 0.0813,
+   "b": 0.0023,
+   "R2": 1.0,
+   "nhiet_can_bang_du_kien_c": 44.0,
+   "dan_lanh_tb_c": 3.7,
+   "co_loi": [],
+   "lam_am_truoc": false,
+   "nuoc_am_hon_pin_khi_lam_am": null
+  },
+  "flag": {
+   "quat": false,
+   "may_nen": false,
+   "thieu_nuoc": false,
+   "van": false,
+   "ptc": false
+  },
+  "tang2": {
+   "khau_kem": "binh_thuong",
+   "bo_phan_nghi": [],
+   "suc_khoe_nguon_lanh": 1.06,
+   "suc_khoe_dong_nuoc_k": 1.0
+  }
+ },
+ "khoe_05": {
+  "ten": "khoe_05",
+  "su_that": "",
+  "tang1": {
+   "cham_do_nhiet": true,
+   "phut_mat": 1.5,
+   "phut_mat_nong": 1.5,
+   "phut_mat_lanh": 0.0,
+   "ty_le_cong_suat_thap_nhat": 0.85,
+   "thoi_gian_sac_phut": 25.2,
+   "soc": [
+    19,
+    80
+   ],
+   "cell_max_dau": 38.1,
+   "cell_max_dinh": 46.6,
+   "cell_min_dau": 36.9,
+   "T_ngoai": 38.3,
+   "ly_do": "pin_nong"
+  },
+  "bang_chung": {
+   "do_lanh_nuoc_c": 9.83,
+   "nuoc_ra_tru_vao_c": 3.14,
+   "nuoc_vao_cao_hon_ra": false,
+   "bom_tat_khi_can": false,
+   "a": 10.26,
+   "k": 0.0805,
+   "b": 0.003,
+   "R2": 0.999,
+   "nhiet_can_bang_du_kien_c": 45.0,
+   "dan_lanh_tb_c": 9.4,
+   "co_loi": [],
+   "lam_am_truoc": false,
+   "nuoc_am_hon_pin_khi_lam_am": null
+  },
+  "flag": {
+   "quat": false,
+   "may_nen": false,
+   "thieu_nuoc": false,
+   "van": false,
+   "ptc": false
+  },
+  "tang2": {
+   "khau_kem": "binh_thuong",
+   "bo_phan_nghi": [],
+   "suc_khoe_nguon_lanh": 0.98,
+   "suc_khoe_dong_nuoc_k": 0.99
+  }
+ },
+ "khoe_06": {
+  "ten": "khoe_06",
+  "su_that": "",
+  "tang1": {
+   "cham_do_nhiet": true,
+   "phut_mat": 1.5,
+   "phut_mat_nong": 1.5,
+   "phut_mat_lanh": 0.0,
+   "ty_le_cong_suat_thap_nhat": 0.84,
+   "thoi_gian_sac_phut": 26.7,
+   "soc": [
+    14,
+    80
+   ],
+   "cell_max_dau": 37.3,
+   "cell_max_dinh": 46.7,
+   "cell_min_dau": 36.1,
+   "T_ngoai": 37.3,
+   "ly_do": "pin_nong"
+  },
+  "bang_chung": {
+   "do_lanh_nuoc_c": 10.16,
+   "nuoc_ra_tru_vao_c": 3.23,
+   "nuoc_vao_cao_hon_ra": false,
+   "bom_tat_khi_can": false,
+   "a": 10.31,
+   "k": 0.0821,
+   "b": 0.0017,
+   "R2": 0.999,
+   "nhiet_can_bang_du_kien_c": 45.0,
+   "dan_lanh_tb_c": 3.2,
+   "co_loi": [],
+   "lam_am_truoc": false,
+   "nuoc_am_hon_pin_khi_lam_am": null
+  },
+  "flag": {
+   "quat": false,
+   "may_nen": false,
+   "thieu_nuoc": false,
+   "van": false,
+   "ptc": false
+  },
+  "tang2": {
+   "khau_kem": "binh_thuong",
+   "bo_phan_nghi": [],
+   "suc_khoe_nguon_lanh": 1.0,
+   "suc_khoe_dong_nuoc_k": 1.01
+  }
+ },
+ "khoe_07": {
+  "ten": "khoe_07",
+  "su_that": "",
+  "tang1": {
+   "cham_do_nhiet": false,
+   "phut_mat": 0.2,
+   "phut_mat_nong": 0.2,
+   "phut_mat_lanh": 0.0,
+   "ty_le_cong_suat_thap_nhat": 0.96,
+   "thoi_gian_sac_phut": 21.5,
+   "soc": [
+    26,
+    80
+   ],
+   "cell_max_dau": 37.4,
+   "cell_max_dinh": 45.4,
+   "cell_min_dau": 36.2,
+   "T_ngoai": 37.1,
+   "ly_do": "pin_nong"
+  },
+  "bang_chung": {
+   "do_lanh_nuoc_c": 10.09,
+   "nuoc_ra_tru_vao_c": 3.23,
+   "nuoc_vao_cao_hon_ra": false,
+   "bom_tat_khi_can": false,
+   "a": 10.32,
+   "k": 0.0824,
+   "b": 0.0015,
+   "R2": 0.999,
+   "nhiet_can_bang_du_kien_c": 44.0,
+   "dan_lanh_tb_c": 2.9,
+   "co_loi": [],
+   "lam_am_truoc": false,
+   "nuoc_am_hon_pin_khi_lam_am": null
+  },
+  "flag": {
+   "quat": false,
+   "may_nen": false,
+   "thieu_nuoc": false,
+   "van": false,
+   "ptc": false
+  },
+  "tang2": {
+   "khau_kem": "binh_thuong",
+   "bo_phan_nghi": [],
+   "suc_khoe_nguon_lanh": 1.0,
+   "suc_khoe_dong_nuoc_k": 1.01
+  }
+ },
+ "khoe_08": {
+  "ten": "khoe_08",
+  "su_that": "",
+  "tang1": {
+   "cham_do_nhiet": false,
+   "phut_mat": 1.1,
+   "phut_mat_nong": 1.1,
+   "phut_mat_lanh": 0.0,
+   "ty_le_cong_suat_thap_nhat": 0.87,
+   "thoi_gian_sac_phut": 24.2,
+   "soc": [
+    21,
+    80
+   ],
+   "cell_max_dau": 37.8,
+   "cell_max_dinh": 46.4,
+   "cell_min_dau": 36.6,
+   "T_ngoai": 38.2,
+   "ly_do": "pin_nong"
+  },
+  "bang_chung": {
+   "do_lanh_nuoc_c": 9.89,
+   "nuoc_ra_tru_vao_c": 3.16,
+   "nuoc_vao_cao_hon_ra": false,
+   "bom_tat_khi_can": false,
+   "a": 10.28,
+   "k": 0.0811,
+   "b": 0.0025,
+   "R2": 0.999,
+   "nhiet_can_bang_du_kien_c": 44.8,
+   "dan_lanh_tb_c": 9.3,
+   "co_loi": [],
+   "lam_am_truoc": false,
+   "nuoc_am_hon_pin_khi_lam_am": null
+  },
+  "flag": {
+   "quat": false,
+   "may_nen": false,
+   "thieu_nuoc": false,
+   "van": false,
+   "ptc": false
+  },
+  "tang2": {
+   "khau_kem": "binh_thuong",
+   "bo_phan_nghi": [],
+   "suc_khoe_nguon_lanh": 0.98,
+   "suc_khoe_dong_nuoc_k": 1.0
+  }
+ },
+ "khoe_09": {
+  "ten": "khoe_09",
+  "su_that": "",
+  "tang1": {
+   "cham_do_nhiet": false,
+   "phut_mat": 0.7,
+   "phut_mat_nong": 0.7,
+   "phut_mat_lanh": 0.0,
+   "ty_le_cong_suat_thap_nhat": 0.9,
+   "thoi_gian_sac_phut": 23.3,
+   "soc": [
+    22,
+    80
+   ],
+   "cell_max_dau": 37.5,
+   "cell_max_dinh": 46.1,
+   "cell_min_dau": 36.2,
+   "T_ngoai": 39.2,
+   "ly_do": "pin_nong"
+  },
+  "bang_chung": {
+   "do_lanh_nuoc_c": 9.8,
+   "nuoc_ra_tru_vao_c": 3.11,
+   "nuoc_vao_cao_hon_ra": false,
+   "bom_tat_khi_can": false,
+   "a": 10.29,
+   "k": 0.0813,
+   "b": 0.0025,
+   "R2": 0.999,
+   "nhiet_can_bang_du_kien_c": 44.8,
+   "dan_lanh_tb_c": 10.3,
+   "co_loi": [],
+   "lam_am_truoc": false,
+   "nuoc_am_hon_pin_khi_lam_am": null
+  },
+  "flag": {
+   "quat": false,
+   "may_nen": false,
+   "thieu_nuoc": false,
+   "van": false,
+   "ptc": false
+  },
+  "tang2": {
+   "khau_kem": "binh_thuong",
+   "bo_phan_nghi": [],
+   "suc_khoe_nguon_lanh": 0.95,
+   "suc_khoe_dong_nuoc_k": 1.0
+  }
+ },
+ "khoe_10": {
+  "ten": "khoe_10",
+  "su_that": "",
+  "tang1": {
+   "cham_do_nhiet": false,
+   "phut_mat": 0.0,
+   "phut_mat_nong": 0.0,
+   "phut_mat_lanh": 0.0,
+   "ty_le_cong_suat_thap_nhat": 0.99,
+   "thoi_gian_sac_phut": 21.5,
+   "soc": [
+    26,
+    80
+   ],
+   "cell_max_dau": 37.0,
+   "cell_max_dinh": 45.1,
+   "cell_min_dau": 35.8,
+   "T_ngoai": 36.1,
+   "ly_do": "khong_bi_han"
+  },
+  "bang_chung": {
+   "do_lanh_nuoc_c": 10.43,
+   "nuoc_ra_tru_vao_c": 3.36,
+   "nuoc_vao_cao_hon_ra": false,
+   "bom_tat_khi_can": false,
+   "a": 10.29,
+   "k": 0.0812,
+   "b": 0.0024,
+   "R2": 0.999,
+   "nhiet_can_bang_du_kien_c": 43.5,
+   "dan_lanh_tb_c": 4.3,
+   "co_loi": [],
+   "lam_am_truoc": false,
+   "nuoc_am_hon_pin_khi_lam_am": null
+  },
+  "flag": {
+   "quat": false,
+   "may_nen": false,
+   "thieu_nuoc": false,
+   "van": false,
+   "ptc": false
+  },
+  "tang2": {
+   "khau_kem": "binh_thuong",
+   "bo_phan_nghi": [],
+   "suc_khoe_nguon_lanh": 1.04,
+   "suc_khoe_dong_nuoc_k": 1.0
+  }
+ },
+ "khoe_11": {
+  "ten": "khoe_11",
+  "su_that": "",
+  "tang1": {
+   "cham_do_nhiet": false,
+   "phut_mat": 0.2,
+   "phut_mat_nong": 0.2,
+   "phut_mat_lanh": 0.0,
+   "ty_le_cong_suat_thap_nhat": 0.95,
+   "thoi_gian_sac_phut": 21.8,
+   "soc": [
+    25,
+    80
+   ],
+   "cell_max_dau": 37.3,
+   "cell_max_dinh": 45.6,
+   "cell_min_dau": 36.1,
+   "T_ngoai": 34.3,
+   "ly_do": "pin_nong"
+  },
+  "bang_chung": {
+   "do_lanh_nuoc_c": 9.85,
+   "nuoc_ra_tru_vao_c": 3.13,
+   "nuoc_vao_cao_hon_ra": false,
+   "bom_tat_khi_can": false,
+   "a": 10.33,
+   "k": 0.083,
+   "b": 0.0012,
+   "R2": 0.999,
+   "nhiet_can_bang_du_kien_c": 44.3,
+   "dan_lanh_tb_c": 1.8,
+   "co_loi": [],
+   "lam_am_truoc": false,
+   "nuoc_am_hon_pin_khi_lam_am": null
+  },
+  "flag": {
+   "quat": false,
+   "may_nen": false,
+   "thieu_nuoc": false,
+   "van": false,
+   "ptc": false
+  },
+  "tang2": {
+   "khau_kem": "binh_thuong",
+   "bo_phan_nghi": [],
+   "suc_khoe_nguon_lanh": 1.01,
+   "suc_khoe_dong_nuoc_k": 1.02
+  }
+ },
+ "khoe_12": {
+  "ten": "khoe_12",
+  "su_that": "",
+  "tang1": {
+   "cham_do_nhiet": false,
+   "phut_mat": 1.4,
+   "phut_mat_nong": 1.4,
+   "phut_mat_lanh": 0.0,
+   "ty_le_cong_suat_thap_nhat": 0.85,
+   "thoi_gian_sac_phut": 25.3,
+   "soc": [
+    18,
+    80
+   ],
+   "cell_max_dau": 37.6,
+   "cell_max_dinh": 46.6,
+   "cell_min_dau": 36.4,
+   "T_ngoai": 33.9,
+   "ly_do": "pin_nong"
+  },
+  "bang_chung": {
+   "do_lanh_nuoc_c": 9.64,
+   "nuoc_ra_tru_vao_c": 3.04,
+   "nuoc_vao_cao_hon_ra": false,
+   "bom_tat_khi_can": false,
+   "a": 10.33,
+   "k": 0.083,
+   "b": 0.0013,
+   "R2": 0.999,
+   "nhiet_can_bang_du_kien_c": 45.1,
+   "dan_lanh_tb_c": 1.4,
+   "co_loi": [],
+   "lam_am_truoc": false,
+   "nuoc_am_hon_pin_khi_lam_am": null
+  },
+  "flag": {
+   "quat": false,
+   "may_nen": false,
+   "thieu_nuoc": false,
+   "van": false,
+   "ptc": false
+  },
+  "tang2": {
+   "khau_kem": "binh_thuong",
+   "bo_phan_nghi": [],
+   "suc_khoe_nguon_lanh": 1.0,
+   "suc_khoe_dong_nuoc_k": 1.02
+  }
+ },
+ "khoe_13": {
+  "ten": "khoe_13",
+  "su_that": "",
+  "tang1": {
+   "cham_do_nhiet": false,
+   "phut_mat": 0.2,
+   "phut_mat_nong": 0.2,
+   "phut_mat_lanh": 0.0,
+   "ty_le_cong_suat_thap_nhat": 0.96,
+   "thoi_gian_sac_phut": 21.3,
+   "soc": [
+    27,
+    80
+   ],
+   "cell_max_dau": 37.5,
+   "cell_max_dinh": 45.4,
+   "cell_min_dau": 36.3,
+   "T_ngoai": 34.8,
+   "ly_do": "pin_nong"
+  },
+  "bang_chung": {
+   "do_lanh_nuoc_c": 9.99,
+   "nuoc_ra_tru_vao_c": 3.2,
+   "nuoc_vao_cao_hon_ra": false,
+   "bom_tat_khi_can": false,
+   "a": 10.3,
+   "k": 0.0815,
+   "b": 0.0022,
+   "R2": 0.999,
+   "nhiet_can_bang_du_kien_c": 44.0,
+   "dan_lanh_tb_c": 2.2,
+   "co_loi": [],
+   "lam_am_truoc": false,
+   "nuoc_am_hon_pin_khi_lam_am": null
+  },
+  "flag": {
+   "quat": false,
+   "may_nen": false,
+   "thieu_nuoc": false,
+   "van": false,
+   "ptc": false
+  },
+  "tang2": {
+   "khau_kem": "binh_thuong",
+   "bo_phan_nghi": [],
+   "suc_khoe_nguon_lanh": 1.02,
+   "suc_khoe_dong_nuoc_k": 1.0
+  }
+ },
+ "khoe_14": {
+  "ten": "khoe_14",
+  "su_that": "",
+  "tang1": {
+   "cham_do_nhiet": false,
+   "phut_mat": 0.1,
+   "phut_mat_nong": 0.1,
+   "phut_mat_lanh": 0.0,
+   "ty_le_cong_suat_thap_nhat": 0.98,
+   "thoi_gian_sac_phut": 21.7,
+   "soc": [
+    26,
+    80
+   ],
+   "cell_max_dau": 37.1,
+   "cell_max_dinh": 45.2,
+   "cell_min_dau": 35.9,
+   "T_ngoai": 35.9,
+   "ly_do": "pin_nong"
+  },
+  "bang_chung": {
+   "do_lanh_nuoc_c": 10.45,
+   "nuoc_ra_tru_vao_c": 3.36,
+   "nuoc_vao_cao_hon_ra": false,
+   "bom_tat_khi_can": false,
+   "a": 10.33,
+   "k": 0.083,
+   "b": 0.001,
+   "R2": 0.999,
+   "nhiet_can_bang_du_kien_c": 43.6,
+   "dan_lanh_tb_c": 3.9,
+   "co_loi": [],
+   "lam_am_truoc": false,
+   "nuoc_am_hon_pin_khi_lam_am": null
+  },
+  "flag": {
+   "quat": false,
+   "may_nen": false,
+   "thieu_nuoc": false,
+   "van": false,
+   "ptc": false
+  },
+  "tang2": {
+   "khau_kem": "binh_thuong",
+   "bo_phan_nghi": [],
+   "suc_khoe_nguon_lanh": 1.04,
+   "suc_khoe_dong_nuoc_k": 1.02
+  }
+ },
+ "khoe_15": {
+  "ten": "khoe_15",
+  "su_that": "",
+  "tang1": {
+   "cham_do_nhiet": false,
+   "phut_mat": 1.0,
+   "phut_mat_nong": 1.0,
+   "phut_mat_lanh": 0.0,
+   "ty_le_cong_suat_thap_nhat": 0.88,
+   "thoi_gian_sac_phut": 23.7,
+   "soc": [
+    22,
+    80
+   ],
+   "cell_max_dau": 37.2,
+   "cell_max_dinh": 46.3,
+   "cell_min_dau": 36.1,
+   "T_ngoai": 31.5,
+   "ly_do": "pin_nong"
+  },
+  "bang_chung": {
+   "do_lanh_nuoc_c": 8.78,
+   "nuoc_ra_tru_vao_c": 2.7,
+   "nuoc_vao_cao_hon_ra": false,
+   "bom_tat_khi_can": false,
+   "a": 10.29,
+   "k": 0.0813,
+   "b": 0.0022,
+   "R2": 1.0,
+   "nhiet_can_bang_du_kien_c": 45.7,
+   "dan_lanh_tb_c": -1.1,
+   "co_loi": [],
+   "lam_am_truoc": false,
+   "nuoc_am_hon_pin_khi_lam_am": null
+  },
+  "flag": {
+   "quat": false,
+   "may_nen": false,
+   "thieu_nuoc": false,
+   "van": false,
+   "ptc": false
+  },
+  "tang2": {
+   "khau_kem": "binh_thuong",
+   "bo_phan_nghi": [],
+   "suc_khoe_nguon_lanh": 0.94,
+   "suc_khoe_dong_nuoc_k": 1.0
+  }
+ },
+ "khoe_16": {
+  "ten": "khoe_16",
+  "su_that": "",
+  "tang1": {
+   "cham_do_nhiet": false,
+   "phut_mat": 1.1,
+   "phut_mat_nong": 1.1,
+   "phut_mat_lanh": 0.0,
+   "ty_le_cong_suat_thap_nhat": 0.87,
+   "thoi_gian_sac_phut": 25.5,
+   "soc": [
+    16,
+    80
+   ],
+   "cell_max_dau": 37.4,
+   "cell_max_dinh": 46.4,
+   "cell_min_dau": 36.2,
+   "T_ngoai": 35.5,
+   "ly_do": "pin_nong"
+  },
+  "bang_chung": {
+   "do_lanh_nuoc_c": 10.38,
+   "nuoc_ra_tru_vao_c": 3.31,
+   "nuoc_vao_cao_hon_ra": false,
+   "bom_tat_khi_can": false,
+   "a": 10.28,
+   "k": 0.0811,
+   "b": 0.0024,
+   "R2": 0.999,
+   "nhiet_can_bang_du_kien_c": 44.7,
+   "dan_lanh_tb_c": 3.3,
+   "co_loi": [],
+   "lam_am_truoc": false,
+   "nuoc_am_hon_pin_khi_lam_am": null
+  },
+  "flag": {
+   "quat": false,
+   "may_nen": false,
+   "thieu_nuoc": false,
+   "van": false,
+   "ptc": false
+  },
+  "tang2": {
+   "khau_kem": "binh_thuong",
+   "bo_phan_nghi": [],
+   "suc_khoe_nguon_lanh": 1.05,
+   "suc_khoe_dong_nuoc_k": 1.0
+  }
+ },
+ "khoe_17": {
+  "ten": "khoe_17",
+  "su_that": "",
+  "tang1": {
+   "cham_do_nhiet": false,
+   "phut_mat": 1.2,
+   "phut_mat_nong": 1.2,
+   "phut_mat_lanh": 0.0,
+   "ty_le_cong_suat_thap_nhat": 0.86,
+   "thoi_gian_sac_phut": 24.8,
+   "soc": [
+    19,
+    80
+   ],
+   "cell_max_dau": 37.5,
+   "cell_max_dinh": 46.5,
+   "cell_min_dau": 36.3,
+   "T_ngoai": 39.1,
+   "ly_do": "pin_nong"
+  },
+  "bang_chung": {
+   "do_lanh_nuoc_c": 9.83,
+   "nuoc_ra_tru_vao_c": 3.12,
+   "nuoc_vao_cao_hon_ra": false,
+   "bom_tat_khi_can": false,
+   "a": 10.3,
+   "k": 0.0815,
+   "b": 0.0022,
+   "R2": 0.999,
+   "nhiet_can_bang_du_kien_c": 45.1,
+   "dan_lanh_tb_c": 10.1,
+   "co_loi": [],
+   "lam_am_truoc": false,
+   "nuoc_am_hon_pin_khi_lam_am": null
+  },
+  "flag": {
+   "quat": false,
+   "may_nen": false,
+   "thieu_nuoc": false,
+   "van": false,
+   "ptc": false
+  },
+  "tang2": {
+   "khau_kem": "binh_thuong",
+   "bo_phan_nghi": [],
+   "suc_khoe_nguon_lanh": 0.95,
+   "suc_khoe_dong_nuoc_k": 1.0
+  }
+ },
+ "khoe_18": {
+  "ten": "khoe_18",
+  "su_that": "",
+  "tang1": {
+   "cham_do_nhiet": false,
+   "phut_mat": 0.1,
+   "phut_mat_nong": 0.1,
+   "phut_mat_lanh": 0.0,
+   "ty_le_cong_suat_thap_nhat": 0.98,
+   "thoi_gian_sac_phut": 21.3,
+   "soc": [
+    26,
+    80
+   ],
+   "cell_max_dau": 37.0,
+   "cell_max_dinh": 45.2,
+   "cell_min_dau": 35.8,
+   "T_ngoai": 34.0,
+   "ly_do": "pin_nong"
+  },
+  "bang_chung": {
+   "do_lanh_nuoc_c": 9.82,
+   "nuoc_ra_tru_vao_c": 3.11,
+   "nuoc_vao_cao_hon_ra": false,
+   "bom_tat_khi_can": false,
+   "a": 10.28,
+   "k": 0.081,
+   "b": 0.0024,
+   "R2": 0.999,
+   "nhiet_can_bang_du_kien_c": 44.2,
+   "dan_lanh_tb_c": 1.5,
+   "co_loi": [],
+   "lam_am_truoc": false,
+   "nuoc_am_hon_pin_khi_lam_am": null
+  },
+  "flag": {
+   "quat": false,
+   "may_nen": false,
+   "thieu_nuoc": false,
+   "van": false,
+   "ptc": false
+  },
+  "tang2": {
+   "khau_kem": "binh_thuong",
+   "bo_phan_nghi": [],
+   "suc_khoe_nguon_lanh": 1.01,
+   "suc_khoe_dong_nuoc_k": 1.0
+  }
+ },
+ "khoe_19": {
+  "ten": "khoe_19",
+  "su_that": "",
+  "tang1": {
+   "cham_do_nhiet": false,
+   "phut_mat": 1.0,
+   "phut_mat_nong": 1.0,
+   "phut_mat_lanh": 0.0,
+   "ty_le_cong_suat_thap_nhat": 0.87,
+   "thoi_gian_sac_phut": 24.5,
+   "soc": [
+    19,
+    80
+   ],
+   "cell_max_dau": 37.9,
+   "cell_max_dinh": 46.4,
+   "cell_min_dau": 36.7,
+   "T_ngoai": 35.6,
+   "ly_do": "pin_nong"
+  },
+  "bang_chung": {
+   "do_lanh_nuoc_c": 10.26,
+   "nuoc_ra_tru_vao_c": 3.29,
+   "nuoc_vao_cao_hon_ra": false,
+   "bom_tat_khi_can": false,
+   "a": 10.33,
+   "k": 0.0832,
+   "b": 0.001,
+   "R2": 0.999,
+   "nhiet_can_bang_du_kien_c": 44.5,
+   "dan_lanh_tb_c": 3.4,
+   "co_loi": [],
+   "lam_am_truoc": false,
+   "nuoc_am_hon_pin_khi_lam_am": null
+  },
+  "flag": {
+   "quat": false,
+   "may_nen": false,
+   "thieu_nuoc": false,
+   "van": false,
+   "ptc": false
+  },
+  "tang2": {
+   "khau_kem": "binh_thuong",
+   "bo_phan_nghi": [],
+   "suc_khoe_nguon_lanh": 1.05,
+   "suc_khoe_dong_nuoc_k": 1.02
+  }
+ },
+ "khoe_20": {
+  "ten": "khoe_20",
+  "su_that": "",
+  "tang1": {
+   "cham_do_nhiet": false,
+   "phut_mat": 0.9,
+   "phut_mat_nong": 0.9,
+   "phut_mat_lanh": 0.0,
+   "ty_le_cong_suat_thap_nhat": 0.88,
+   "thoi_gian_sac_phut": 24.3,
+   "soc": [
+    20,
+    80
+   ],
+   "cell_max_dau": 37.2,
+   "cell_max_dinh": 46.2,
+   "cell_min_dau": 36.0,
+   "T_ngoai": 33.5,
+   "ly_do": "pin_nong"
+  },
+  "bang_chung": {
+   "do_lanh_nuoc_c": 9.57,
+   "nuoc_ra_tru_vao_c": 2.99,
+   "nuoc_vao_cao_hon_ra": false,
+   "bom_tat_khi_can": false,
+   "a": 10.27,
+   "k": 0.0806,
+   "b": 0.0025,
+   "R2": 1.0,
+   "nhiet_can_bang_du_kien_c": 45.1,
+   "dan_lanh_tb_c": 1.1,
+   "co_loi": [],
+   "lam_am_truoc": false,
+   "nuoc_am_hon_pin_khi_lam_am": null
+  },
+  "flag": {
+   "quat": false,
+   "may_nen": false,
+   "thieu_nuoc": false,
+   "van": false,
+   "ptc": false
+  },
+  "tang2": {
+   "khau_kem": "binh_thuong",
+   "bo_phan_nghi": [],
+   "suc_khoe_nguon_lanh": 0.99,
+   "suc_khoe_dong_nuoc_k": 0.99
+  }
+ },
+ "tuan_01": {
+  "ten": "tuan_01",
+  "su_that": "",
+  "tang1": {
+   "cham_do_nhiet": false,
+   "phut_mat": 0.6,
+   "phut_mat_nong": 0.6,
+   "phut_mat_lanh": 0.0,
+   "ty_le_cong_suat_thap_nhat": 0.91,
+   "thoi_gian_sac_phut": 23.8,
+   "soc": [
+    21,
+    80
+   ],
+   "cell_max_dau": 37.1,
+   "cell_max_dinh": 45.9,
+   "cell_min_dau": 35.9,
+   "T_ngoai": 34.9,
+   "ly_do": "pin_nong"
+  },
+  "bang_chung": {
+   "do_lanh_nuoc_c": 10.15,
+   "nuoc_ra_tru_vao_c": 3.23,
+   "nuoc_vao_cao_hon_ra": false,
+   "bom_tat_khi_can": false,
+   "a": 10.29,
+   "k": 0.0815,
+   "b": 0.0021,
+   "R2": 1.0,
+   "nhiet_can_bang_du_kien_c": 44.4,
+   "dan_lanh_tb_c": 2.4,
+   "co_loi": [],
+   "lam_am_truoc": false,
+   "nuoc_am_hon_pin_khi_lam_am": null
+  },
+  "flag": {
+   "quat": false,
+   "may_nen": false,
+   "thieu_nuoc": false,
+   "van": false,
+   "ptc": false
+  },
+  "tang2": {
+   "khau_kem": "binh_thuong",
+   "bo_phan_nghi": [],
+   "suc_khoe_nguon_lanh": 1.03,
+   "suc_khoe_dong_nuoc_k": 1.0
+  }
+ },
+ "tuan_02": {
+  "ten": "tuan_02",
+  "su_that": "gas=96@0min",
+  "tang1": {
+   "cham_do_nhiet": false,
+   "phut_mat": 0.7,
+   "phut_mat_nong": 0.7,
+   "phut_mat_lanh": 0.0,
+   "ty_le_cong_suat_thap_nhat": 0.9,
+   "thoi_gian_sac_phut": 24.3,
+   "soc": [
+    19,
+    80
+   ],
+   "cell_max_dau": 36.9,
+   "cell_max_dinh": 46.1,
+   "cell_min_dau": 35.7,
+   "T_ngoai": 34.3,
+   "ly_do": "pin_nong"
+  },
+  "bang_chung": {
+   "do_lanh_nuoc_c": 10.0,
+   "nuoc_ra_tru_vao_c": 3.15,
+   "nuoc_vao_cao_hon_ra": false,
+   "bom_tat_khi_can": false,
+   "a": 10.31,
+   "k": 0.0822,
+   "b": 0.0017,
+   "R2": 0.999,
+   "nhiet_can_bang_du_kien_c": 44.8,
+   "dan_lanh_tb_c": 1.8,
+   "co_loi": [],
+   "lam_am_truoc": false,
+   "nuoc_am_hon_pin_khi_lam_am": null
+  },
+  "flag": {
+   "quat": false,
+   "may_nen": false,
+   "thieu_nuoc": false,
+   "van": false,
+   "ptc": false
+  },
+  "tang2": {
+   "khau_kem": "binh_thuong",
+   "bo_phan_nghi": [],
+   "suc_khoe_nguon_lanh": 1.02,
+   "suc_khoe_dong_nuoc_k": 1.01
+  }
+ },
+ "tuan_03": {
+  "ten": "tuan_03",
+  "su_that": "gas=92@0min",
+  "tang1": {
+   "cham_do_nhiet": false,
+   "phut_mat": 0.8,
+   "phut_mat_nong": 0.8,
+   "phut_mat_lanh": 0.0,
+   "ty_le_cong_suat_thap_nhat": 0.89,
+   "thoi_gian_sac_phut": 23.8,
+   "soc": [
+    21,
+    80
+   ],
+   "cell_max_dau": 37.4,
+   "cell_max_dinh": 46.1,
+   "cell_min_dau": 36.2,
+   "T_ngoai": 38.1,
+   "ly_do": "pin_nong"
+  },
+  "bang_chung": {
+   "do_lanh_nuoc_c": 10.03,
+   "nuoc_ra_tru_vao_c": 3.19,
+   "nuoc_vao_cao_hon_ra": false,
+   "bom_tat_khi_can": false,
+   "a": 10.3,
+   "k": 0.0816,
+   "b": 0.0021,
+   "R2": 0.999,
+   "nhiet_can_bang_du_kien_c": 44.7,
+   "dan_lanh_tb_c": 9.3,
+   "co_loi": [],
+   "lam_am_truoc": false,
+   "nuoc_am_hon_pin_khi_lam_am": null
+  },
+  "flag": {
+   "quat": false,
+   "may_nen": false,
+   "thieu_nuoc": false,
+   "van": false,
+   "ptc": false
+  },
+  "tang2": {
+   "khau_kem": "binh_thuong",
+   "bo_phan_nghi": [],
+   "suc_khoe_nguon_lanh": 0.98,
+   "suc_khoe_dong_nuoc_k": 1.0
+  }
+ },
+ "tuan_04": {
+  "ten": "tuan_04",
+  "su_that": "gas=88@0min",
+  "tang1": {
+   "cham_do_nhiet": false,
+   "phut_mat": 0.6,
+   "phut_mat_nong": 0.6,
+   "phut_mat_lanh": 0.0,
+   "ty_le_cong_suat_thap_nhat": 0.91,
+   "thoi_gian_sac_phut": 23.5,
+   "soc": [
+    21,
+    80
+   ],
+   "cell_max_dau": 37.3,
+   "cell_max_dinh": 46.0,
+   "cell_min_dau": 36.1,
+   "T_ngoai": 36.0,
+   "ly_do": "pin_nong"
+  },
+  "bang_chung": {
+   "do_lanh_nuoc_c": 10.18,
+   "nuoc_ra_tru_vao_c": 3.25,
+   "nuoc_vao_cao_hon_ra": false,
+   "bom_tat_khi_can": false,
+   "a": 10.27,
+   "k": 0.0805,
+   "b": 0.0028,
+   "R2": 0.999,
+   "nhiet_can_bang_du_kien_c": 44.4,
+   "dan_lanh_tb_c": 5.2,
+   "co_loi": [],
+   "lam_am_truoc": false,
+   "nuoc_am_hon_pin_khi_lam_am": null
+  },
+  "flag": {
+   "quat": false,
+   "may_nen": false,
+   "thieu_nuoc": false,
+   "van": false,
+   "ptc": false
+  },
+  "tang2": {
+   "khau_kem": "binh_thuong",
+   "bo_phan_nghi": [],
+   "suc_khoe_nguon_lanh": 1.02,
+   "suc_khoe_dong_nuoc_k": 0.99
+  }
+ },
+ "tuan_05": {
+  "ten": "tuan_05",
+  "su_that": "gas=84@0min",
+  "tang1": {
+   "cham_do_nhiet": false,
+   "phut_mat": 1.2,
+   "phut_mat_nong": 1.2,
+   "phut_mat_lanh": 0.0,
+   "ty_le_cong_suat_thap_nhat": 0.87,
+   "thoi_gian_sac_phut": 24.0,
+   "soc": [
+    22,
+    80
+   ],
+   "cell_max_dau": 37.6,
+   "cell_max_dinh": 46.4,
+   "cell_min_dau": 36.4,
+   "T_ngoai": 38.6,
+   "ly_do": "pin_nong"
+  },
+  "bang_chung": {
+   "do_lanh_nuoc_c": 9.19,
+   "nuoc_ra_tru_vao_c": 2.89,
+   "nuoc_vao_cao_hon_ra": false,
+   "bom_tat_khi_can": false,
+   "a": 10.28,
+   "k": 0.0812,
+   "b": 0.0024,
+   "R2": 1.0,
+   "nhiet_can_bang_du_kien_c": 45.4,
+   "dan_lanh_tb_c": 11.7,
+   "co_loi": [],
+   "lam_am_truoc": false,
+   "nuoc_am_hon_pin_khi_lam_am": null
+  },
+  "flag": {
+   "quat": false,
+   "may_nen": false,
+   "thieu_nuoc": false,
+   "van": false,
+   "ptc": false
+  },
+  "tang2": {
+   "khau_kem": "binh_thuong",
+   "bo_phan_nghi": [],
+   "suc_khoe_nguon_lanh": 0.9,
+   "suc_khoe_dong_nuoc_k": 1.0
+  }
+ },
+ "tuan_06": {
+  "ten": "tuan_06",
+  "su_that": "gas=80@0min",
+  "tang1": {
+   "cham_do_nhiet": false,
+   "phut_mat": 1.3,
+   "phut_mat_nong": 1.3,
+   "phut_mat_lanh": 0.0,
+   "ty_le_cong_suat_thap_nhat": 0.86,
+   "thoi_gian_sac_phut": 25.2,
+   "soc": [
+    18,
+    80
+   ],
+   "cell_max_dau": 37.2,
+   "cell_max_dinh": 46.5,
+   "cell_min_dau": 36.0,
+   "T_ngoai": 34.4,
+   "ly_do": "pin_nong"
+  },
+  "bang_chung": {
+   "do_lanh_nuoc_c": 9.45,
+   "nuoc_ra_tru_vao_c": 2.96,
+   "nuoc_vao_cao_hon_ra": false,
+   "bom_tat_khi_can": false,
+   "a": 10.31,
+   "k": 0.0823,
+   "b": 0.0017,
+   "R2": 1.0,
+   "nhiet_can_bang_du_kien_c": 45.4,
+   "dan_lanh_tb_c": 6.8,
+   "co_loi": [],
+   "lam_am_truoc": false,
+   "nuoc_am_hon_pin_khi_lam_am": null
+  },
+  "flag": {
+   "quat": false,
+   "may_nen": false,
+   "thieu_nuoc": false,
+   "van": false,
+   "ptc": false
+  },
+  "tang2": {
+   "khau_kem": "binh_thuong",
+   "bo_phan_nghi": [],
+   "suc_khoe_nguon_lanh": 0.97,
+   "suc_khoe_dong_nuoc_k": 1.01
+  }
+ },
+ "tuan_07": {
+  "ten": "tuan_07",
+  "su_that": "gas=76@0min",
+  "tang1": {
+   "cham_do_nhiet": false,
+   "phut_mat": 1.1,
+   "phut_mat_nong": 1.1,
+   "phut_mat_lanh": 0.0,
+   "ty_le_cong_suat_thap_nhat": 0.88,
+   "thoi_gian_sac_phut": 23.5,
+   "soc": [
+    22,
+    80
+   ],
+   "cell_max_dau": 37.4,
+   "cell_max_dinh": 46.3,
+   "cell_min_dau": 36.2,
+   "T_ngoai": 34.9,
+   "ly_do": "pin_nong"
+  },
+  "bang_chung": {
+   "do_lanh_nuoc_c": 8.8,
+   "nuoc_ra_tru_vao_c": 2.72,
+   "nuoc_vao_cao_hon_ra": false,
+   "bom_tat_khi_can": false,
+   "a": 10.3,
+   "k": 0.0818,
+   "b": 0.0019,
+   "R2": 0.999,
+   "nhiet_can_bang_du_kien_c": 45.7,
+   "dan_lanh_tb_c": 7.2,
+   "co_loi": [],
+   "lam_am_truoc": false,
+   "nuoc_am_hon_pin_khi_lam_am": null
+  },
+  "flag": {
+   "quat": false,
+   "may_nen": false,
+   "thieu_nuoc": false,
+   "van": false,
+   "ptc": false
+  },
+  "tang2": {
+   "khau_kem": "binh_thuong",
+   "bo_phan_nghi": [],
+   "suc_khoe_nguon_lanh": 0.9,
+   "suc_khoe_dong_nuoc_k": 1.0
+  }
+ },
+ "tuan_08": {
+  "ten": "tuan_08",
+  "su_that": "gas=72@0min",
+  "tang1": {
+   "cham_do_nhiet": true,
+   "phut_mat": 2.3,
+   "phut_mat_nong": 2.3,
+   "phut_mat_lanh": 0.0,
+   "ty_le_cong_suat_thap_nhat": 0.82,
+   "thoi_gian_sac_phut": 24.5,
+   "soc": [
+    23,
+    80
+   ],
+   "cell_max_dau": 38.2,
+   "cell_max_dinh": 47.0,
+   "cell_min_dau": 37.0,
+   "T_ngoai": 38.2,
+   "ly_do": "pin_nong"
+  },
+  "bang_chung": {
+   "do_lanh_nuoc_c": 7.62,
+   "nuoc_ra_tru_vao_c": 2.31,
+   "nuoc_vao_cao_hon_ra": false,
+   "bom_tat_khi_can": false,
+   "a": 10.29,
+   "k": 0.0815,
+   "b": 0.0021,
+   "R2": 0.999,
+   "nhiet_can_bang_du_kien_c": 46.7,
+   "dan_lanh_tb_c": 15.8,
+   "co_loi": [],
+   "lam_am_truoc": false,
+   "nuoc_am_hon_pin_khi_lam_am": null
+  },
+  "flag": {
+   "quat": false,
+   "may_nen": false,
+   "thieu_nuoc": false,
+   "van": false,
+   "ptc": false
+  },
+  "tang2": {
+   "khau_kem": "nuoc_khong_du_lanh",
+   "bo_phan_nghi": [
+    {
+     "bo_phan": "thieu_gas",
+     "p": 0.65
+    },
+    {
+     "bo_phan": "may_nen",
+     "p": 0.2
+    },
+    {
+     "bo_phan": "quat_ket",
+     "p": 0.15
+    }
+   ],
+   "suc_khoe_nguon_lanh": 0.76,
+   "suc_khoe_dong_nuoc_k": 1.0
+  }
+ },
+ "tuan_09": {
+  "ten": "tuan_09",
+  "su_that": "gas=68@0min",
+  "tang1": {
+   "cham_do_nhiet": true,
+   "phut_mat": 2.8,
+   "phut_mat_nong": 2.8,
+   "phut_mat_lanh": 0.0,
+   "ty_le_cong_suat_thap_nhat": 0.79,
+   "thoi_gian_sac_phut": 27.2,
+   "soc": [
+    16,
+    80
+   ],
+   "cell_max_dau": 37.4,
+   "cell_max_dinh": 47.2,
+   "cell_min_dau": 36.2,
+   "T_ngoai": 33.4,
+   "ly_do": "pin_nong"
+  },
+  "bang_chung": {
+   "do_lanh_nuoc_c": 7.77,
+   "nuoc_ra_tru_vao_c": 2.33,
+   "nuoc_vao_cao_hon_ra": false,
+   "bom_tat_khi_can": false,
+   "a": 10.28,
+   "k": 0.0815,
+   "b": 0.0021,
+   "R2": 0.999,
+   "nhiet_can_bang_du_kien_c": 46.9,
+   "dan_lanh_tb_c": 11.3,
+   "co_loi": [],
+   "lam_am_truoc": false,
+   "nuoc_am_hon_pin_khi_lam_am": null
+  },
+  "flag": {
+   "quat": false,
+   "may_nen": false,
+   "thieu_nuoc": false,
+   "van": false,
+   "ptc": false
+  },
+  "tang2": {
+   "khau_kem": "binh_thuong",
+   "bo_phan_nghi": [],
+   "suc_khoe_nguon_lanh": 0.81,
+   "suc_khoe_dong_nuoc_k": 1.0
+  }
+ },
+ "tuan_10": {
+  "ten": "tuan_10",
+  "su_that": "gas=64@0min",
+  "tang1": {
+   "cham_do_nhiet": true,
+   "phut_mat": 3.2,
+   "phut_mat_nong": 3.2,
+   "phut_mat_lanh": 0.0,
+   "ty_le_cong_suat_thap_nhat": 0.78,
+   "thoi_gian_sac_phut": 27.3,
+   "soc": [
+    17,
+    80
+   ],
+   "cell_max_dau": 37.5,
+   "cell_max_dinh": 47.4,
+   "cell_min_dau": 36.2,
+   "T_ngoai": 33.4,
+   "ly_do": "pin_nong"
+  },
+  "bang_chung": {
+   "do_lanh_nuoc_c": 7.13,
+   "nuoc_ra_tru_vao_c": 2.09,
+   "nuoc_vao_cao_hon_ra": false,
+   "bom_tat_khi_can": false,
+   "a": 10.32,
+   "k": 0.0829,
+   "b": 0.0017,
+   "R2": 0.999,
+   "nhiet_can_bang_du_kien_c": 47.4,
+   "dan_lanh_tb_c": 17.2,
+   "co_loi": [],
+   "lam_am_truoc": false,
+   "nuoc_am_hon_pin_khi_lam_am": null
+  },
+  "flag": {
+   "quat": false,
+   "may_nen": false,
+   "thieu_nuoc": false,
+   "van": false,
+   "ptc": false
+  },
+  "tang2": {
+   "khau_kem": "nuoc_khong_du_lanh",
+   "bo_phan_nghi": [
+    {
+     "bo_phan": "thieu_gas",
+     "p": 0.65
+    },
+    {
+     "bo_phan": "may_nen",
+     "p": 0.2
+    },
+    {
+     "bo_phan": "quat_ket",
+     "p": 0.15
+    }
+   ],
+   "suc_khoe_nguon_lanh": 0.75,
+   "suc_khoe_dong_nuoc_k": 1.02
+  }
+ },
+ "tuan_11": {
+  "ten": "tuan_11",
+  "su_that": "gas=60@0min",
+  "tang1": {
+   "cham_do_nhiet": true,
+   "phut_mat": 4.3,
+   "phut_mat_nong": 4.3,
+   "phut_mat_lanh": 0.0,
+   "ty_le_cong_suat_thap_nhat": 0.74,
+   "thoi_gian_sac_phut": 27.7,
+   "soc": [
+    19,
+    80
+   ],
+   "cell_max_dau": 38.0,
+   "cell_max_dinh": 47.7,
+   "cell_min_dau": 36.8,
+   "T_ngoai": 36.7,
+   "ly_do": "pin_nong"
+  },
+  "bang_chung": {
+   "do_lanh_nuoc_c": 5.96,
+   "nuoc_ra_tru_vao_c": 1.68,
+   "nuoc_vao_cao_hon_ra": false,
+   "bom_tat_khi_can": false,
+   "a": 10.31,
+   "k": 0.0824,
+   "b": 0.0018,
+   "R2": 0.999,
+   "nhiet_can_bang_du_kien_c": 48.2,
+   "dan_lanh_tb_c": 22.1,
+   "co_loi": [],
+   "lam_am_truoc": false,
+   "nuoc_am_hon_pin_khi_lam_am": null
+  },
+  "flag": {
+   "quat": false,
+   "may_nen": false,
+   "thieu_nuoc": false,
+   "van": false,
+   "ptc": false
+  },
+  "tang2": {
+   "khau_kem": "nuoc_khong_du_lanh",
+   "bo_phan_nghi": [
+    {
+     "bo_phan": "thieu_gas",
+     "p": 0.65
+    },
+    {
+     "bo_phan": "may_nen",
+     "p": 0.2
+    },
+    {
+     "bo_phan": "quat_ket",
+     "p": 0.15
+    }
+   ],
+   "suc_khoe_nguon_lanh": 0.6,
+   "suc_khoe_dong_nuoc_k": 1.01
+  }
+ },
+ "tuan_12": {
+  "ten": "tuan_12",
+  "su_that": "gas=56@0min",
+  "tang1": {
+   "cham_do_nhiet": true,
+   "phut_mat": 3.7,
+   "phut_mat_nong": 3.7,
+   "phut_mat_lanh": 0.0,
+   "ty_le_cong_suat_thap_nhat": 0.77,
+   "thoi_gian_sac_phut": 25.5,
+   "soc": [
+    24,
+    80
+   ],
+   "cell_max_dau": 38.1,
+   "cell_max_dinh": 47.5,
+   "cell_min_dau": 36.9,
+   "T_ngoai": 36.5,
+   "ly_do": "pin_nong"
+  },
+  "bang_chung": {
+   "do_lanh_nuoc_c": 5.35,
+   "nuoc_ra_tru_vao_c": 1.44,
+   "nuoc_vao_cao_hon_ra": false,
+   "bom_tat_khi_can": false,
+   "a": 10.28,
+   "k": 0.0811,
+   "b": 0.0021,
+   "R2": 0.999,
+   "nhiet_can_bang_du_kien_c": 48.5,
+   "dan_lanh_tb_c": 24.9,
+   "co_loi": [],
+   "lam_am_truoc": false,
+   "nuoc_am_hon_pin_khi_lam_am": null
+  },
+  "flag": {
+   "quat": false,
+   "may_nen": false,
+   "thieu_nuoc": false,
+   "van": false,
+   "ptc": false
+  },
+  "tang2": {
+   "khau_kem": "nuoc_khong_du_lanh",
+   "bo_phan_nghi": [
+    {
+     "bo_phan": "thieu_gas",
+     "p": 0.65
+    },
+    {
+     "bo_phan": "may_nen",
+     "p": 0.2
+    },
+    {
+     "bo_phan": "quat_ket",
+     "p": 0.15
+    }
+   ],
+   "suc_khoe_nguon_lanh": 0.54,
+   "suc_khoe_dong_nuoc_k": 1.0
+  }
+ },
+ "_xe_khoe": {
+  "do_lanh_nuoc": {
+   "he_so [c0, c·T_ngoai, c·cell_dau]": [
+    14.303,
+    0.137,
+    -0.248
+   ],
+   "sai_so_chuan_c": 0.39
+  },
+  "nuoc_ra_tru_vao_c": {
+   "trung_vi": 3.13,
+   "lon_nhat": 3.37
+  },
+  "k": {
+   "trung_vi": 0.0814,
+   "nho_nhat": 0.0805
+  },
+  "so_phien": 20
+ },
+ "_tang3": {
+  "nguong_phut": 5.0,
+  "suc_khoe_nguy_hiem": 0.535,
+  "gas_nguy_hiem_that": 56.4,
+  "phien_chuan": [
+   {
+    "gas_that": 100,
+    "suc_khoe": 1.0,
+    "phut_mat": 0.9
+   },
+   {
+    "gas_that": 95,
+    "suc_khoe": 1.0,
+    "phut_mat": 0.9
+   },
+   {
+    "gas_that": 90,
+    "suc_khoe": 1.0,
+    "phut_mat": 0.9
+   },
+   {
+    "gas_that": 85,
+    "suc_khoe": 0.96,
+    "phut_mat": 1.1
+   },
+   {
+    "gas_that": 80,
+    "suc_khoe": 0.9,
+    "phut_mat": 1.5
+   },
+   {
+    "gas_that": 75,
+    "suc_khoe": 0.83,
+    "phut_mat": 2.0
+   },
+   {
+    "gas_that": 70,
+    "suc_khoe": 0.76,
+    "phut_mat": 2.6
+   },
+   {
+    "gas_that": 65,
+    "suc_khoe": 0.69,
+    "phut_mat": 3.3
+   },
+   {
+    "gas_that": 60,
+    "suc_khoe": 0.6,
+    "phut_mat": 4.2
+   },
+   {
+    "gas_that": 55,
+    "suc_khoe": 0.51,
+    "phut_mat": 5.3
+   },
+   {
+    "gas_that": 50,
+    "suc_khoe": 0.42,
+    "phut_mat": 8.1
+   }
+  ],
+  "tuan": [
+   {
+    "tuan": 1,
+    "gas_that": 100,
+    "T_ngoai": 34.9,
+    "cell_dau": 37.1,
+    "do_lanh_nuoc_c": 10.15,
+    "du_kien_c": 9.86,
+    "suc_khoe": 1.03,
+    "phut_mat": 0.6,
+    "khau_kem": "binh_thuong",
+    "bo_phan_1": "—"
+   },
+   {
+    "tuan": 2,
+    "gas_that": 96,
+    "T_ngoai": 34.3,
+    "cell_dau": 36.9,
+    "do_lanh_nuoc_c": 10.0,
+    "du_kien_c": 9.83,
+    "suc_khoe": 1.02,
+    "phut_mat": 0.7,
+    "khau_kem": "binh_thuong",
+    "bo_phan_1": "—"
+   },
+   {
+    "tuan": 3,
+    "gas_that": 92,
+    "T_ngoai": 38.1,
+    "cell_dau": 37.4,
+    "do_lanh_nuoc_c": 10.03,
+    "du_kien_c": 10.23,
+    "suc_khoe": 0.98,
+    "phut_mat": 0.8,
+    "khau_kem": "binh_thuong",
+    "bo_phan_1": "—"
+   },
+   {
+    "tuan": 4,
+    "gas_that": 88,
+    "T_ngoai": 36.0,
+    "cell_dau": 37.3,
+    "do_lanh_nuoc_c": 10.18,
+    "du_kien_c": 9.96,
+    "suc_khoe": 1.02,
+    "phut_mat": 0.6,
+    "khau_kem": "binh_thuong",
+    "bo_phan_1": "—"
+   },
+   {
+    "tuan": 5,
+    "gas_that": 84,
+    "T_ngoai": 38.6,
+    "cell_dau": 37.6,
+    "do_lanh_nuoc_c": 9.19,
+    "du_kien_c": 10.25,
+    "suc_khoe": 0.9,
+    "phut_mat": 1.2,
+    "khau_kem": "binh_thuong",
+    "bo_phan_1": "—"
+   },
+   {
+    "tuan": 6,
+    "gas_that": 80,
+    "T_ngoai": 34.4,
+    "cell_dau": 37.2,
+    "do_lanh_nuoc_c": 9.45,
+    "du_kien_c": 9.77,
+    "suc_khoe": 0.97,
+    "phut_mat": 1.3,
+    "khau_kem": "binh_thuong",
+    "bo_phan_1": "—"
+   },
+   {
+    "tuan": 7,
+    "gas_that": 76,
+    "T_ngoai": 34.9,
+    "cell_dau": 37.4,
+    "do_lanh_nuoc_c": 8.8,
+    "du_kien_c": 9.79,
+    "suc_khoe": 0.9,
+    "phut_mat": 1.1,
+    "khau_kem": "binh_thuong",
+    "bo_phan_1": "—"
+   },
+   {
+    "tuan": 8,
+    "gas_that": 72,
+    "T_ngoai": 38.2,
+    "cell_dau": 38.2,
+    "do_lanh_nuoc_c": 7.62,
+    "du_kien_c": 10.04,
+    "suc_khoe": 0.76,
+    "phut_mat": 2.3,
+    "khau_kem": "nuoc_khong_du_lanh",
+    "bo_phan_1": "thieu_gas"
+   },
+   {
+    "tuan": 9,
+    "gas_that": 68,
+    "T_ngoai": 33.4,
+    "cell_dau": 37.4,
+    "do_lanh_nuoc_c": 7.77,
+    "du_kien_c": 9.58,
+    "suc_khoe": 0.81,
+    "phut_mat": 2.8,
+    "khau_kem": "binh_thuong",
+    "bo_phan_1": "—"
+   },
+   {
+    "tuan": 10,
+    "gas_that": 64,
+    "T_ngoai": 33.4,
+    "cell_dau": 37.5,
+    "do_lanh_nuoc_c": 7.13,
+    "du_kien_c": 9.56,
+    "suc_khoe": 0.75,
+    "phut_mat": 3.2,
+    "khau_kem": "nuoc_khong_du_lanh",
+    "bo_phan_1": "thieu_gas"
+   },
+   {
+    "tuan": 11,
+    "gas_that": 60,
+    "T_ngoai": 36.7,
+    "cell_dau": 38.0,
+    "do_lanh_nuoc_c": 5.96,
+    "du_kien_c": 9.89,
+    "suc_khoe": 0.6,
+    "phut_mat": 4.3,
+    "khau_kem": "nuoc_khong_du_lanh",
+    "bo_phan_1": "thieu_gas"
+   },
+   {
+    "tuan": 12,
+    "gas_that": 56,
+    "T_ngoai": 36.5,
+    "cell_dau": 38.1,
+    "do_lanh_nuoc_c": 5.35,
+    "du_kien_c": 9.83,
+    "suc_khoe": 0.54,
+    "phut_mat": 3.7,
+    "khau_kem": "nuoc_khong_du_lanh",
+    "bo_phan_1": "thieu_gas"
+   }
+  ],
+  "tuan_that_su_cham_nguong": 11.9,
+  "du_bao": [
+   {
+    "dung_o_tuan": 4,
+    "suc_khoe_hien_tai": 1.008,
+    "giam_moi_tuan": 0.0067,
+    "gan_day_giam_moi_tuan": 0.0067,
+    "gan_day_du_bao_cham_nguong_o_tuan": 75.1,
+    "con_khoang_tuan": 71.1,
+    "du_bao_cham_nguong_o_tuan": 75.1,
+    "khoang_10_90_tuan": [
+     20.8,
+     149.6
+    ]
+   },
+   {
+    "dung_o_tuan": 5,
+    "suc_khoe_hien_tai": 0.922,
+    "giam_moi_tuan": 0.0288,
+    "gan_day_giam_moi_tuan": 0.0288,
+    "gan_day_du_bao_cham_nguong_o_tuan": 18.5,
+    "con_khoang_tuan": 13.5,
+    "du_bao_cham_nguong_o_tuan": 18.5,
+    "khoang_10_90_tuan": [
+     14.1,
+     50.5
+    ]
+   },
+   {
+    "dung_o_tuan": 6,
+    "suc_khoe_hien_tai": 0.969,
+    "giam_moi_tuan": 0.0125,
+    "gan_day_giam_moi_tuan": 0.0188,
+    "gan_day_du_bao_cham_nguong_o_tuan": 27.9,
+    "con_khoang_tuan": 34.7,
+    "du_bao_cham_nguong_o_tuan": 40.7,
+    "khoang_10_90_tuan": [
+     15.1,
+     136.6
+    ]
+   },
+   {
+    "dung_o_tuan": 7,
+    "suc_khoe_hien_tai": 0.9,
+    "giam_moi_tuan": 0.0217,
+    "gan_day_giam_moi_tuan": 0.0225,
+    "gan_day_du_bao_cham_nguong_o_tuan": 23.2,
+    "con_khoang_tuan": 16.9,
+    "du_bao_cham_nguong_o_tuan": 23.9,
+    "khoang_10_90_tuan": [
+     16.2,
+     42.3
+    ]
+   },
+   {
+    "dung_o_tuan": 8,
+    "suc_khoe_hien_tai": 0.842,
+    "giam_moi_tuan": 0.0288,
+    "gan_day_giam_moi_tuan": 0.0558,
+    "gan_day_du_bao_cham_nguong_o_tuan": 12.7,
+    "con_khoang_tuan": 10.7,
+    "du_bao_cham_nguong_o_tuan": 18.7,
+    "khoang_10_90_tuan": [
+     13.4,
+     27.7
+    ]
+   },
+   {
+    "dung_o_tuan": 9,
+    "suc_khoe_hien_tai": 0.81,
+    "giam_moi_tuan": 0.0292,
+    "gan_day_giam_moi_tuan": 0.0458,
+    "gan_day_du_bao_cham_nguong_o_tuan": 15.0,
+    "con_khoang_tuan": 9.4,
+    "du_bao_cham_nguong_o_tuan": 18.4,
+    "khoang_10_90_tuan": [
+     14.1,
+     23.3
+    ]
+   },
+   {
+    "dung_o_tuan": 10,
+    "suc_khoe_hien_tai": 0.756,
+    "giam_moi_tuan": 0.0325,
+    "gan_day_giam_moi_tuan": 0.0542,
+    "gan_day_du_bao_cham_nguong_o_tuan": 14.0,
+    "con_khoang_tuan": 6.8,
+    "du_bao_cham_nguong_o_tuan": 16.8,
+    "khoang_10_90_tuan": [
+     14.1,
+     21.1
+    ]
+   },
+   {
+    "dung_o_tuan": 11,
+    "suc_khoe_hien_tai": 0.66,
+    "giam_moi_tuan": 0.04,
+    "gan_day_giam_moi_tuan": 0.0567,
+    "gan_day_du_bao_cham_nguong_o_tuan": 13.4,
+    "con_khoang_tuan": 3.1,
+    "du_bao_cham_nguong_o_tuan": 14.1,
+    "khoang_10_90_tuan": [
+     12.8,
+     18.7
+    ]
+   },
+   {
+    "dung_o_tuan": 12,
+    "suc_khoe_hien_tai": 0.591,
+    "giam_moi_tuan": 0.0437,
+    "gan_day_giam_moi_tuan": 0.06,
+    "gan_day_du_bao_cham_nguong_o_tuan": 12.1,
+    "con_khoang_tuan": 1.3,
+    "du_bao_cham_nguong_o_tuan": 13.3,
+    "khoang_10_90_tuan": [
+     12.3,
+     16.9
+    ]
+   }
+  ]
+ }
+}

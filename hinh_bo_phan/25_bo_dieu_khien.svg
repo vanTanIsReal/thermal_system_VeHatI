@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="640" viewBox="0 0 960 640" font-family="Segoe UI, Arial, sans-serif">
+<defs><marker id="ar_E2552F" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E2552F"/></marker><marker id="ar_F0912A" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#F0912A"/></marker><marker id="ar_2F86E0" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2F86E0"/></marker><marker id="ar_14A892" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#14A892"/></marker><marker id="ar_D49A12" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#D49A12"/></marker><marker id="ar_9A78E0" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#9A78E0"/></marker><marker id="ar_F07A1A" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#F07A1A"/></marker><marker id="ar_C2418A" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#C2418A"/></marker><marker id="ar_15212C" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#15212C"/></marker><marker id="ar_5A6775" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#5A6775"/></marker><marker id="ar_D0D8DF" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#D0D8DF"/></marker><marker id="ar_F6F8FA" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#F6F8FA"/></marker><marker id="ar_FFFFFF" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#FFFFFF"/></marker><marker id="ar_D5DCE2" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#D5DCE2"/></marker><marker id="ar_AEB8C2" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#AEB8C2"/></marker><marker id="ar_7E8A96" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7E8A96"/></marker><marker id="ar_2E363F" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2E363F"/></marker><marker id="ar_444E59" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#444E59"/></marker><marker id="ar_7FB3E6" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7FB3E6"/></marker></defs>
+<rect width="960" height="640" fill="#F6F8FA"/>
+<text x="32" y="46" font-size="26" font-weight="700" fill="#15212C">Bộ điều khiển &amp; đường dữ liệu</text>
+<text x="32" y="70" font-size="14" fill="#5A6775">ECUs &amp; data path · cabin, trong pin, trên motor · điều khiển</text>
+<line x1="32" y1="84" x2="928" y2="84" stroke="#D0D8DF"/>
+<text x="928" y="46" font-size="13" fill="#5A6775" text-anchor="end">#25</text>
+<g transform="translate(14,34) scale(0.86)">
+<rect x="60" y="150" width="130" height="64" rx="8" fill="#262B33" stroke="#1a1e23" stroke-width="1.2" opacity="1"/>
+<rect x="66" y="156" width="118" height="6" rx="3" fill="#C2418A" stroke="#872d60" stroke-width="1.2" opacity="1"/>
+<text x="125" y="186" font-size="14" fill="#FFFFFF" font-weight="700" text-anchor="middle">BMS</text>
+<text x="125" y="203" font-size="10" fill="#C9D3DC" font-weight="400" text-anchor="middle">quản lý pin</text>
+<rect x="60" y="260" width="130" height="64" rx="8" fill="#262B33" stroke="#1a1e23" stroke-width="1.2" opacity="1"/>
+<rect x="66" y="266" width="118" height="6" rx="3" fill="#C2418A" stroke="#872d60" stroke-width="1.2" opacity="1"/>
+<text x="125" y="296" font-size="14" fill="#FFFFFF" font-weight="700" text-anchor="middle">EDS / MCU</text>
+<text x="125" y="313" font-size="10" fill="#C9D3DC" font-weight="400" text-anchor="middle">trong inverter</text>
+<rect x="60" y="370" width="130" height="64" rx="8" fill="#262B33" stroke="#1a1e23" stroke-width="1.2" opacity="1"/>
+<rect x="66" y="376" width="118" height="6" rx="3" fill="#C2418A" stroke="#872d60" stroke-width="1.2" opacity="1"/>
+<text x="125" y="406" font-size="14" fill="#FFFFFF" font-weight="700" text-anchor="middle">CCU</text>
+<text x="125" y="423" font-size="10" fill="#C9D3DC" font-weight="400" text-anchor="middle">điều hòa</text>
+<rect x="260" y="260" width="130" height="64" rx="8" fill="#262B33" stroke="#1a1e23" stroke-width="1.2" opacity="1"/>
+<rect x="266" y="266" width="118" height="6" rx="3" fill="#C2418A" stroke="#872d60" stroke-width="1.2" opacity="1"/>
+<text x="325" y="296" font-size="14" fill="#FFFFFF" font-weight="700" text-anchor="middle">VCU</text>
+<text x="325" y="313" font-size="10" fill="#C9D3DC" font-weight="400" text-anchor="middle">điều khiển xe</text>
+<rect x="460" y="260" width="130" height="64" rx="8" fill="#262B33" stroke="#1a1e23" stroke-width="1.2" opacity="1"/>
+<rect x="466" y="266" width="118" height="6" rx="3" fill="#C2418A" stroke="#872d60" stroke-width="1.2" opacity="1"/>
+<text x="525" y="296" font-size="14" fill="#FFFFFF" font-weight="700" text-anchor="middle">XGW</text>
+<text x="525" y="313" font-size="10" fill="#C9D3DC" font-weight="400" text-anchor="middle">gateway</text>
+<rect x="460" y="400" width="130" height="64" rx="8" fill="#262B33" stroke="#1a1e23" stroke-width="1.2" opacity="1"/>
+<rect x="466" y="406" width="118" height="6" rx="3" fill="#C2418A" stroke="#872d60" stroke-width="1.2" opacity="1"/>
+<text x="525" y="436" font-size="14" fill="#FFFFFF" font-weight="700" text-anchor="middle">T-Box</text>
+<text x="525" y="453" font-size="10" fill="#C9D3DC" font-weight="400" text-anchor="middle">gửi lên server</text>
+<path d="M 190 182 L 225 182 L 225 292 L 258 292" fill="none" stroke="#C2418A" stroke-width="2.5" opacity="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 190 292 L 225 292 L 225 292 L 258 292" fill="none" stroke="#C2418A" stroke-width="2.5" opacity="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 190 402 L 225 402 L 225 292 L 258 292" fill="none" stroke="#C2418A" stroke-width="2.5" opacity="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="390.0" y1="292.0" x2="456.0" y2="292.0" stroke="#C2418A" stroke-width="2.5" stroke-linecap="round" marker-end="url(#ar_C2418A)"/>
+<line x1="525.0" y1="324.0" x2="525.0" y2="396.0" stroke="#C2418A" stroke-width="2.5" stroke-linecap="round" marker-end="url(#ar_C2418A)"/>
+<path d="M 125 150 L 125 120 L 525 120 L 525 256" fill="none" stroke="#C2418A" stroke-width="1.5" opacity="1" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4 4"/>
+<text x="330" y="112" font-size="11" fill="#C2418A" font-weight="600" text-anchor="middle">mạng CAN</text>
+<line x1="325.0" y1="324.0" x2="330.0" y2="470.0" stroke="#15212C" stroke-width="1" opacity=".55"/>
+<circle cx="325.0" cy="324.0" r="3.2" fill="#15212C"/>
+<text x="335.0" y="474.0" font-size="13" font-weight="600" fill="#15212C" text-anchor="start">VCU ra lệnh bơm, quạt, van, PTC,</text>
+<text x="335.0" y="489.0" font-size="13" font-weight="400" fill="#5A6775" text-anchor="start">máy nén; tự đánh giá &quot;error level&quot;</text>
+</g>
+<rect x="652" y="104" width="276" height="478" rx="10" fill="#FFFFFF" stroke="#D0D8DF"/>
+<text x="668" y="132" font-size="11" font-weight="700" letter-spacing="1.2" fill="#5A6775">CHỨC NĂNG</text>
+<text x="668" y="150" font-size="12.5" fill="#15212C">Cảm biến → ECU đọc, lọc, tạo cờ → mạng</text>
+<text x="668" y="166" font-size="12.5" fill="#15212C">CAN → gateway XGW → T-Box gửi lên</text>
+<text x="668" y="182" font-size="12.5" fill="#15212C">server. Telemetry chỉ có những trường</text>
+<text x="668" y="198" font-size="12.5" fill="#15212C">T-Box được cấu hình gửi.</text>
+<text x="668" y="228" font-size="11" font-weight="700" letter-spacing="1.2" fill="#5A6775">HAY HỎNG</text>
+<text x="680" y="246" font-size="12.5" fill="#15212C">Mất giao tiếp (lost communication)</text>
+<circle cx="672" cy="242" r="2.2" fill="#E2552F"/>
+<text x="680" y="264" font-size="12.5" fill="#15212C">Phần mềm / hiệu chuẩn sai</text>
+<circle cx="672" cy="260" r="2.2" fill="#E2552F"/>
+<text x="668" y="294" font-size="11" font-weight="700" letter-spacing="1.2" fill="#5A6775">TELEMETRY</text>
+<text x="680" y="312" font-size="12.5" fill="#15212C">Telltale mất giao tiếp CCU, VCU, BMS</text>
+<circle cx="672" cy="308" r="2.2" fill="#E2552F"/>
+<text x="680" y="330" font-size="12.5" fill="#15212C">VCU … component error level</text>
+<circle cx="672" cy="326" r="2.2" fill="#E2552F"/>
+<text x="668" y="360" font-size="11" font-weight="700" letter-spacing="1.2" fill="#5A6775">NGUỒN</text>
+<text x="668" y="378" font-size="12.5" fill="#15212C">VinFast: hệ nhiệt hiệu chuẩn qua VCU</text>
+<text x="668" y="394" font-size="12.5" fill="#15212C">và CCU; VF 8 mới dùng máy tính trung</text>
+<text x="668" y="410" font-size="12.5" fill="#15212C">tâm CVC.</text>
+<rect x="32" y="596" width="18" height="6" rx="3" fill="#C2418A"/><text x="56" y="603" font-size="12" fill="#5A6775">Tín hiệu / CAN</text>
+<text x="928" y="620" font-size="11" fill="#5A6775" text-anchor="end">Hình minh họa kỹ thuật chung — không theo bản vẽ VinFast</text>
+</svg>

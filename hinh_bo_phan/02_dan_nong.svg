@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="640" viewBox="0 0 960 640" font-family="Segoe UI, Arial, sans-serif">
+<defs><marker id="ar_E2552F" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E2552F"/></marker><marker id="ar_F0912A" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#F0912A"/></marker><marker id="ar_2F86E0" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2F86E0"/></marker><marker id="ar_14A892" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#14A892"/></marker><marker id="ar_D49A12" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#D49A12"/></marker><marker id="ar_9A78E0" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#9A78E0"/></marker><marker id="ar_F07A1A" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#F07A1A"/></marker><marker id="ar_C2418A" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#C2418A"/></marker><marker id="ar_15212C" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#15212C"/></marker><marker id="ar_5A6775" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#5A6775"/></marker><marker id="ar_D0D8DF" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#D0D8DF"/></marker><marker id="ar_F6F8FA" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#F6F8FA"/></marker><marker id="ar_FFFFFF" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#FFFFFF"/></marker><marker id="ar_D5DCE2" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#D5DCE2"/></marker><marker id="ar_AEB8C2" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#AEB8C2"/></marker><marker id="ar_7E8A96" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7E8A96"/></marker><marker id="ar_2E363F" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2E363F"/></marker><marker id="ar_444E59" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#444E59"/></marker><marker id="ar_7FB3E6" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7FB3E6"/></marker></defs>
+<rect width="960" height="640" fill="#F6F8FA"/>
+<text x="32" y="46" font-size="26" font-weight="700" fill="#15212C">Dàn nóng (condenser)</text>
+<text x="32" y="70" font-size="14" fill="#5A6775">Condenser · đầu xe, sau cản · vòng gas lạnh</text>
+<line x1="32" y1="84" x2="928" y2="84" stroke="#D0D8DF"/>
+<text x="928" y="46" font-size="13" fill="#5A6775" text-anchor="end">#02</text>
+<g transform="translate(14,34) scale(0.86)">
+<polygon points="120,170 520,140 520,400 120,430" fill="#E8C4B5" stroke="#967f75" stroke-width="1.5"/>
+<line x1="128.7" y1="169.3" x2="128.7" y2="429.3" stroke="#00000026" stroke-width="1" stroke-linecap="round"/>
+<line x1="137.4" y1="168.7" x2="137.4" y2="428.7" stroke="#00000026" stroke-width="1" stroke-linecap="round"/>
+<line x1="146.1" y1="168.0" x2="146.1" y2="428.0" stroke="#00000026" stroke-width="1" stroke-linecap="round"/>
+<line x1="154.8" y1="167.4" x2="154.8" y2="427.4" stroke="#00000026" stroke-width="1" stroke-linecap="round"/>
+<line x1="163.5" y1="166.7" x2="163.5" y2="426.7" stroke="#00000026" stroke-width="1" stroke-linecap="round"/>
+<line x1="172.2" y1="166.1" x2="172.2" y2="426.1" stroke="#00000026" stroke-width="1" stroke-linecap="round"/>
+<line x1="180.9" y1="165.4" x2="180.9" y2="425.4" stroke="#00000026" stroke-width="1" stroke-linecap="round"/>
+<line x1="189.6" y1="164.8" x2="189.6" y2="424.8" stroke="#00000026" stroke-width="1" stroke-linecap="round"/>
+<line x1="198.3" y1="164.1" x2="198.3" y2="424.1" stroke="#00000026" stroke-width="1" stroke-linecap="round"/>
+<line x1="207.0" y1="163.5" x2="207.0" y2="423.5" stroke="#00000026" stroke-width="1" stroke-linecap="round"/>
+<line x1="215.7" y1="162.8" x2="215.7" y2="422.8" stroke="#00000026" stroke-width="1" stroke-linecap="round"/>
+<line x1="224.3" y1="162.2" x2="224.3" y2="422.2" stroke="#00000026" stroke-width="1" stroke-linecap="round"/>
+<line x1="233.0" y1="161.5" x2="233.0" y2="421.5" stroke="#00000026" stroke-width="1" stroke-linecap="round"/>
+<line x1="241.7" y1="160.9" x2="241.7" y2="420.9" stroke="#00000026" stroke-width="1" stroke-linecap="round"/>
+<line x1="250.4" y1="160.2" x2="250.4" y2="420.2" stroke="#00000026" stroke-width="1" stroke-linecap="round"/>
+<line x1="259.1" y1="159.6" x2="259.1" y2="419.6" stroke="#00000026" stroke-width="1" stroke-linecap="round"/>
+<line x1="267.8" y1="158.9" x2="267.8" y2="418.9" stroke="#00000026" stroke-width="1" stroke-linecap="round"/>
+<line x1="276.5" y1="158.3" x2="276.5" y2="418.3" stroke="#00000026" stroke-width="1" stroke-linecap="round"/>
+<line x1="285.2" y1="157.6" x2="285.2" y2="417.6" stroke="#00000026" stroke-width="1" stroke-linecap="round"/>
+<line x1="293.9" y1="157.0" x2="293.9" y2="417.0" stroke="#00000026" stroke-width="1" stroke-linecap="round"/>
+<line x1="302.6" y1="156.3" x2="302.6" y2="416.3" stroke="#00000026" stroke-width="1" stroke-linecap="round"/>
+<line x1="311.3" y1="155.7" x2="311.3" y2="415.7" stroke="#00000026" stroke-width="1" stroke-linecap="round"/>
+<line x1="320.0" y1="155.0" x2="320.0" y2="415.0" stroke="#00000026" stroke-width="1" stroke-linecap="round"/>
+<line x1="328.7" y1="154.3" x2="328.7" y2="414.3" stroke="#00000026" stroke-width="1" stroke-linecap="round"/>
+<line x1="337.4" y1="153.7" x2="337.4" y2="413.7" stroke="#00000026" stroke-width="1" stroke-linecap="round"/>
+<line x1="346.1" y1="153.0" x2="346.1" y2="413.0" stroke="#00000026" stroke-width="1" stroke-linecap="round"/>
+<line x1="354.8" y1="152.4" x2="354.8" y2="412.4" stroke="#00000026" stroke-width="1" stroke-linecap="round"/>
+<line x1="363.5" y1="151.7" x2="363.5" y2="411.7" stroke="#00000026" stroke-width="1" stroke-linecap="round"/>
+<line x1="372.2" y1="151.1" x2="372.2" y2="411.1" stroke="#00000026" stroke-width="1" stroke-linecap="round"/>
+<line x1="380.9" y1="150.4" x2="380.9" y2="410.4" stroke="#00000026" stroke-width="1" stroke-linecap="round"/>
+<line x1="389.6" y1="149.8" x2="389.6" y2="409.8" stroke="#00000026" stroke-width="1" stroke-linecap="round"/>
+<line x1="398.3" y1="149.1" x2="398.3" y2="409.1" stroke="#00000026" stroke-width="1" stroke-linecap="round"/>
+<line x1="407.0" y1="148.5" x2="407.0" y2="408.5" stroke="#00000026" stroke-width="1" stroke-linecap="round"/>
+<line x1="415.7" y1="147.8" x2="415.7" y2="407.8" stroke="#00000026" stroke-width="1" stroke-linecap="round"/>
+<line x1="424.3" y1="147.2" x2="424.3" y2="407.2" stroke="#00000026" stroke-width="1" stroke-linecap="round"/>
+<line x1="433.0" y1="146.5" x2="433.0" y2="406.5" stroke="#00000026" stroke-width="1" stroke-linecap="round"/>
+<line x1="441.7" y1="145.9" x2="441.7" y2="405.9" stroke="#00000026" stroke-width="1" stroke-linecap="round"/>
+<line x1="450.4" y1="145.2" x2="450.4" y2="405.2" stroke="#00000026" stroke-width="1" stroke-linecap="round"/>
+<line x1="459.1" y1="144.6" x2="459.1" y2="404.6" stroke="#00000026" stroke-width="1" stroke-linecap="round"/>
+<line x1="467.8" y1="143.9" x2="467.8" y2="403.9" stroke="#00000026" stroke-width="1" stroke-linecap="round"/>
+<line x1="476.5" y1="143.3" x2="476.5" y2="403.3" stroke="#00000026" stroke-width="1" stroke-linecap="round"/>
+<line x1="485.2" y1="142.6" x2="485.2" y2="402.6" stroke="#00000026" stroke-width="1" stroke-linecap="round"/>
+<line x1="493.9" y1="142.0" x2="493.9" y2="402.0" stroke="#00000026" stroke-width="1" stroke-linecap="round"/>
+<line x1="502.6" y1="141.3" x2="502.6" y2="401.3" stroke="#00000026" stroke-width="1" stroke-linecap="round"/>
+<line x1="511.3" y1="140.7" x2="511.3" y2="400.7" stroke="#00000026" stroke-width="1" stroke-linecap="round"/>
+<line x1="120.0" y1="202.5" x2="520.0" y2="172.5" stroke="#ffffff66" stroke-width="1.4" stroke-linecap="round"/>
+<line x1="120.0" y1="235.0" x2="520.0" y2="205.0" stroke="#ffffff66" stroke-width="1.4" stroke-linecap="round"/>
+<line x1="120.0" y1="267.5" x2="520.0" y2="237.5" stroke="#ffffff66" stroke-width="1.4" stroke-linecap="round"/>
+<line x1="120.0" y1="300.0" x2="520.0" y2="270.0" stroke="#ffffff66" stroke-width="1.4" stroke-linecap="round"/>
+<line x1="120.0" y1="332.5" x2="520.0" y2="302.5" stroke="#ffffff66" stroke-width="1.4" stroke-linecap="round"/>
+<line x1="120.0" y1="365.0" x2="520.0" y2="335.0" stroke="#ffffff66" stroke-width="1.4" stroke-linecap="round"/>
+<line x1="120.0" y1="397.5" x2="520.0" y2="367.5" stroke="#ffffff66" stroke-width="1.4" stroke-linecap="round"/>
+<polygon points="98,164 120,170 120,430 98,424" fill="#AEB8C2" stroke="#71777e"/>
+<polygon points="520,140 542,134 542,394 520,400" fill="#AEB8C2" stroke="#71777e"/>
+<line x1="98.0" y1="200.0" x2="50.0" y2="200.0" stroke="#E2552F" stroke-width="9" stroke-linecap="round"/>
+<line x1="98.0" y1="200.0" x2="50.0" y2="200.0" stroke="#ec9077" stroke-width="3.15" stroke-linecap="round"/>
+<line x1="564.0" y1="390.0" x2="612.0" y2="390.0" stroke="#F0912A" stroke-width="9" stroke-linecap="round"/>
+<line x1="564.0" y1="390.0" x2="612.0" y2="390.0" stroke="#f5b774" stroke-width="3.15" stroke-linecap="round"/>
+<line x1="80.0" y1="470.0" x2="110.0" y2="445.0" stroke="#7FB3E6" stroke-width="2" stroke-linecap="round" marker-end="url(#ar_7FB3E6)"/>
+<line x1="210.0" y1="470.0" x2="240.0" y2="445.0" stroke="#7FB3E6" stroke-width="2" stroke-linecap="round" marker-end="url(#ar_7FB3E6)"/>
+<line x1="340.0" y1="470.0" x2="370.0" y2="445.0" stroke="#7FB3E6" stroke-width="2" stroke-linecap="round" marker-end="url(#ar_7FB3E6)"/>
+<line x1="470.0" y1="470.0" x2="500.0" y2="445.0" stroke="#7FB3E6" stroke-width="2" stroke-linecap="round" marker-end="url(#ar_7FB3E6)"/>
+<text x="300" y="500" font-size="12" fill="#5A6775" font-weight="400" text-anchor="middle">gió đầu xe / quạt két thổi qua</text>
+<line x1="320.0" y1="260.0" x2="330.0" y2="128.0" stroke="#15212C" stroke-width="1" opacity=".55"/>
+<circle cx="320.0" cy="260.0" r="3.2" fill="#15212C"/>
+<text x="335.0" y="132.0" font-size="13" font-weight="600" fill="#15212C" text-anchor="start">Lá tản nhiệt + ống dẹt nhôm</text>
+<line x1="109.0" y1="330.0" x2="40.0" y2="520.0" stroke="#15212C" stroke-width="1" opacity=".55"/>
+<circle cx="109.0" cy="330.0" r="3.2" fill="#15212C"/>
+<text x="45.0" y="524.0" font-size="13" font-weight="600" fill="#15212C" text-anchor="start">Bình chứa hai bên</text>
+<line x1="60.0" y1="200.0" x2="60.0" y2="160.0" stroke="#15212C" stroke-width="1" opacity=".55"/>
+<circle cx="60.0" cy="200.0" r="3.2" fill="#15212C"/>
+<text x="65.0" y="164.0" font-size="13" font-weight="600" fill="#15212C" text-anchor="start">Gas nóng vào</text>
+<line x1="600.0" y1="390.0" x2="600.0" y2="430.0" stroke="#15212C" stroke-width="1" opacity=".55"/>
+<circle cx="600.0" cy="390.0" r="3.2" fill="#15212C"/>
+<text x="605.0" y="434.0" font-size="13" font-weight="600" fill="#15212C" text-anchor="start">Gas lỏng ra</text>
+</g>
+<rect x="652" y="104" width="276" height="478" rx="10" fill="#FFFFFF" stroke="#D0D8DF"/>
+<text x="668" y="132" font-size="11" font-weight="700" letter-spacing="1.2" fill="#5A6775">CHỨC NĂNG</text>
+<text x="668" y="150" font-size="12.5" fill="#15212C">Gas nóng cao áp đi qua các ống dẹt,</text>
+<text x="668" y="166" font-size="12.5" fill="#15212C">nhả nhiệt ra gió đầu xe và ngưng tụ</text>
+<text x="668" y="182" font-size="12.5" fill="#15212C">thành lỏng. Đặt trước két nước để nhận</text>
+<text x="668" y="198" font-size="12.5" fill="#15212C">gió mát nhất.</text>
+<text x="668" y="228" font-size="11" font-weight="700" letter-spacing="1.2" fill="#5A6775">HAY HỎNG</text>
+<text x="680" y="246" font-size="12.5" fill="#15212C">Bám bẩn, côn trùng</text>
+<circle cx="672" cy="242" r="2.2" fill="#E2552F"/>
+<text x="680" y="264" font-size="12.5" fill="#15212C">Lá móp, đá văng thủng → rò gas</text>
+<circle cx="672" cy="260" r="2.2" fill="#E2552F"/>
+<text x="668" y="294" font-size="11" font-weight="700" letter-spacing="1.2" fill="#5A6775">TELEMETRY</text>
+<text x="680" y="312" font-size="12.5" fill="#15212C">Không có áp suất cao áp</text>
+<circle cx="672" cy="308" r="2.2" fill="#E2552F"/>
+<text x="680" y="330" font-size="12.5" fill="#15212C">Thấy gián tiếp: điều hòa yếu khi xe</text>
+<circle cx="672" cy="326" r="2.2" fill="#E2552F"/>
+<text x="680" y="346" font-size="12.5" fill="#15212C">đứng</text>
+<rect x="32" y="596" width="18" height="6" rx="3" fill="#E2552F"/><text x="56" y="603" font-size="12" fill="#5A6775">Gas nóng cao áp</text>
+<rect x="161.0" y="596" width="18" height="6" rx="3" fill="#F0912A"/><text x="185.0" y="603" font-size="12" fill="#5A6775">Gas lỏng cao áp</text>
+<rect x="290.0" y="596" width="18" height="6" rx="3" fill="#9A78E0"/><text x="314.0" y="603" font-size="12" fill="#5A6775">Luồng gió</text>
+<text x="928" y="620" font-size="11" fill="#5A6775" text-anchor="end">Hình minh họa kỹ thuật chung — không theo bản vẽ VinFast</text>
+</svg>

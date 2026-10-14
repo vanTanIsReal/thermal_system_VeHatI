@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="640" viewBox="0 0 960 640" font-family="Segoe UI, Arial, sans-serif">
+<defs><marker id="ar_E2552F" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E2552F"/></marker><marker id="ar_F0912A" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#F0912A"/></marker><marker id="ar_2F86E0" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2F86E0"/></marker><marker id="ar_14A892" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#14A892"/></marker><marker id="ar_D49A12" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#D49A12"/></marker><marker id="ar_9A78E0" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#9A78E0"/></marker><marker id="ar_F07A1A" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#F07A1A"/></marker><marker id="ar_C2418A" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#C2418A"/></marker><marker id="ar_15212C" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#15212C"/></marker><marker id="ar_5A6775" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#5A6775"/></marker><marker id="ar_D0D8DF" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#D0D8DF"/></marker><marker id="ar_F6F8FA" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#F6F8FA"/></marker><marker id="ar_FFFFFF" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#FFFFFF"/></marker><marker id="ar_D5DCE2" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#D5DCE2"/></marker><marker id="ar_AEB8C2" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#AEB8C2"/></marker><marker id="ar_7E8A96" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7E8A96"/></marker><marker id="ar_2E363F" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2E363F"/></marker><marker id="ar_444E59" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#444E59"/></marker><marker id="ar_7FB3E6" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7FB3E6"/></marker></defs>
+<rect width="960" height="640" fill="#F6F8FA"/>
+<text x="32" y="46" font-size="26" font-weight="700" fill="#15212C">Sơ đồ tổng thể hệ thống nhiệt</text>
+<text x="32" y="70" font-size="14" fill="#5A6775">Thermal system overview · toàn xe · sơ đồ khối</text>
+<line x1="32" y1="84" x2="928" y2="84" stroke="#D0D8DF"/>
+<text x="928" y="46" font-size="13" fill="#5A6775" text-anchor="end">#00</text>
+<g transform="translate(14,34) scale(0.86)">
+<text x="180" y="117" font-size="11" fill="#2F86E0" font-weight="700" text-anchor="start">VÒNG GAS LẠNH</text>
+<rect x="40" y="124" width="110" height="50" rx="8" fill="#FFFFFF" stroke="#E2552F" stroke-width="2" opacity="1"/>
+<text x="95.0" y="149.0" font-size="13" fill="#15212C" font-weight="600" text-anchor="middle">Máy nén</text>
+<text x="95.0" y="167.0" font-size="11" fill="#5A6775" font-weight="400" text-anchor="middle">điện, cao áp</text>
+<rect x="210" y="124" width="110" height="50" rx="8" fill="#FFFFFF" stroke="#E2552F" stroke-width="2" opacity="1"/>
+<text x="265.0" y="149.0" font-size="13" fill="#15212C" font-weight="600" text-anchor="middle">Dàn nóng</text>
+<text x="265.0" y="167.0" font-size="11" fill="#5A6775" font-weight="400" text-anchor="middle">+ quạt két</text>
+<rect x="380" y="124" width="90" height="50" rx="8" fill="#FFFFFF" stroke="#F0912A" stroke-width="2" opacity="1"/>
+<text x="425.0" y="154.0" font-size="13" fill="#15212C" font-weight="600" text-anchor="middle">EXV</text>
+<rect x="510" y="124" width="110" height="50" rx="8" fill="#FFFFFF" stroke="#2F86E0" stroke-width="2" opacity="1"/>
+<text x="565.0" y="149.0" font-size="13" fill="#15212C" font-weight="600" text-anchor="middle">Dàn lạnh</text>
+<text x="565.0" y="167.0" font-size="11" fill="#5A6775" font-weight="400" text-anchor="middle">trong HVAC</text>
+<rect x="380" y="196" width="90" height="44" rx="8" fill="#FFFFFF" stroke="#F0912A" stroke-width="2" opacity="1"/>
+<text x="425.0" y="223.0" font-size="13" fill="#15212C" font-weight="600" text-anchor="middle">Van chiller</text>
+<rect x="510" y="196" width="110" height="44" rx="8" fill="#FFFFFF" stroke="#14A892" stroke-width="2" opacity="1"/>
+<text x="565.0" y="218.0" font-size="13" fill="#15212C" font-weight="600" text-anchor="middle">CHILLER</text>
+<text x="565.0" y="236.0" font-size="11" fill="#5A6775" font-weight="400" text-anchor="middle">gas ↔ nước</text>
+<line x1="150.0" y1="149.0" x2="206.0" y2="149.0" stroke="#E2552F" stroke-width="2.5" stroke-linecap="round" marker-end="url(#ar_E2552F)"/>
+<line x1="320.0" y1="149.0" x2="376.0" y2="149.0" stroke="#F0912A" stroke-width="2.5" stroke-linecap="round" marker-end="url(#ar_F0912A)"/>
+<line x1="470.0" y1="149.0" x2="506.0" y2="149.0" stroke="#2F86E0" stroke-width="2.5" stroke-linecap="round" marker-end="url(#ar_2F86E0)"/>
+<path d="M 345 174 L 345 218 L 376 218" fill="none" stroke="#F0912A" stroke-width="2.5" opacity="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="470.0" y1="218.0" x2="506.0" y2="218.0" stroke="#2F86E0" stroke-width="2.5" stroke-linecap="round" marker-end="url(#ar_2F86E0)"/>
+<path d="M 565 124 L 565 100 L 95 100 L 95 120" fill="none" stroke="#2F86E0" stroke-width="2.5" opacity="1" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="6 4"/>
+<text x="40" y="280" font-size="11" fill="#14A892" font-weight="700" text-anchor="start">VÒNG NƯỚC PIN</text>
+<rect x="40" y="292" width="110" height="46" rx="8" fill="#FFFFFF" stroke="#14A892" stroke-width="2" opacity="1"/>
+<text x="95.0" y="320.0" font-size="13" fill="#15212C" font-weight="600" text-anchor="middle">Bơm pin</text>
+<rect x="210" y="292" width="110" height="46" rx="8" fill="#FFFFFF" stroke="#E2552F" stroke-width="2" opacity="1"/>
+<text x="265.0" y="320.0" font-size="13" fill="#15212C" font-weight="600" text-anchor="middle">PTC nước</text>
+<rect x="380" y="292" width="150" height="46" rx="8" fill="#FFFFFF" stroke="#14A892" stroke-width="2" opacity="1"/>
+<text x="455.0" y="315.0" font-size="13" fill="#15212C" font-weight="600" text-anchor="middle">Tấm làm mát pin</text>
+<text x="455.0" y="333.0" font-size="11" fill="#5A6775" font-weight="400" text-anchor="middle">dưới các module</text>
+<rect x="560" y="292" width="70" height="46" rx="8" fill="#FFFFFF" stroke="#D49A12" stroke-width="2" opacity="1"/>
+<text x="595.0" y="315.0" font-size="13" fill="#15212C" font-weight="600" text-anchor="middle">Van</text>
+<text x="595.0" y="333.0" font-size="11" fill="#5A6775" font-weight="400" text-anchor="middle">4 ngả</text>
+<line x1="150.0" y1="315.0" x2="206.0" y2="315.0" stroke="#14A892" stroke-width="2.5" stroke-linecap="round" marker-end="url(#ar_14A892)"/>
+<line x1="320.0" y1="315.0" x2="376.0" y2="315.0" stroke="#14A892" stroke-width="2.5" stroke-linecap="round" marker-end="url(#ar_14A892)"/>
+<line x1="530.0" y1="315.0" x2="556.0" y2="315.0" stroke="#14A892" stroke-width="2.5" stroke-linecap="round" marker-end="url(#ar_14A892)"/>
+<path d="M 565 240 L 565 262 L 95 262 L 95 288" fill="none" stroke="#14A892" stroke-width="2.5" opacity="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 595 338 L 595 352 L 95 352 L 95 340" fill="none" stroke="#14A892" stroke-width="2.5" opacity="1" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="6 4"/>
+<text x="40" y="392" font-size="11" fill="#D49A12" font-weight="700" text-anchor="start">VÒNG NƯỚC MOTOR</text>
+<rect x="40" y="404" width="100" height="46" rx="8" fill="#FFFFFF" stroke="#D49A12" stroke-width="2" opacity="1"/>
+<text x="90.0" y="432.0" font-size="13" fill="#15212C" font-weight="600" text-anchor="middle">Bơm motor</text>
+<rect x="170" y="404" width="110" height="46" rx="8" fill="#FFFFFF" stroke="#D49A12" stroke-width="2" opacity="1"/>
+<text x="225.0" y="432.0" font-size="13" fill="#15212C" font-weight="600" text-anchor="middle">OBC · DC-DC</text>
+<rect x="310" y="404" width="120" height="46" rx="8" fill="#FFFFFF" stroke="#D49A12" stroke-width="2" opacity="1"/>
+<text x="370.0" y="432.0" font-size="13" fill="#15212C" font-weight="600" text-anchor="middle">Inverter · Motor</text>
+<rect x="460" y="404" width="100" height="46" rx="8" fill="#FFFFFF" stroke="#D49A12" stroke-width="2" opacity="1"/>
+<text x="510.0" y="427.0" font-size="13" fill="#15212C" font-weight="600" text-anchor="middle">Két nước</text>
+<text x="510.0" y="445.0" font-size="11" fill="#5A6775" font-weight="400" text-anchor="middle">+ quạt két</text>
+<line x1="140.0" y1="427.0" x2="166.0" y2="427.0" stroke="#D49A12" stroke-width="2.5" stroke-linecap="round" marker-end="url(#ar_D49A12)"/>
+<line x1="280.0" y1="427.0" x2="306.0" y2="427.0" stroke="#D49A12" stroke-width="2.5" stroke-linecap="round" marker-end="url(#ar_D49A12)"/>
+<line x1="430.0" y1="427.0" x2="456.0" y2="427.0" stroke="#D49A12" stroke-width="2.5" stroke-linecap="round" marker-end="url(#ar_D49A12)"/>
+<path d="M 510 450 L 510 470 L 90 470 L 90 452" fill="none" stroke="#D49A12" stroke-width="2.5" opacity="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 595 338 L 595 427 L 564 427" fill="none" stroke="#D49A12" stroke-width="2" opacity="1" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="3 4"/>
+<text x="612" y="400" font-size="10" fill="#D49A12" font-weight="400" text-anchor="start">nối khi cần</text>
+<text x="40" y="506" font-size="11" fill="#9A78E0" font-weight="700" text-anchor="start">HỘP HVAC CABIN</text>
+<rect x="40" y="518" width="108" height="40" rx="8" fill="#FFFFFF" stroke="#9A78E0" stroke-width="2" opacity="1"/>
+<text x="94.0" y="543.0" font-size="13" fill="#15212C" font-weight="600" text-anchor="middle">Lọc gió</text>
+<rect x="160" y="518" width="108" height="40" rx="8" fill="#FFFFFF" stroke="#9A78E0" stroke-width="2" opacity="1"/>
+<text x="214.0" y="543.0" font-size="13" fill="#15212C" font-weight="600" text-anchor="middle">Blower</text>
+<line x1="148.0" y1="538.0" x2="158.0" y2="538.0" stroke="#9A78E0" stroke-width="2.5" stroke-linecap="round" marker-end="url(#ar_9A78E0)"/>
+<rect x="280" y="518" width="108" height="40" rx="8" fill="#FFFFFF" stroke="#9A78E0" stroke-width="2" opacity="1"/>
+<text x="334.0" y="543.0" font-size="13" fill="#15212C" font-weight="600" text-anchor="middle">Dàn lạnh</text>
+<line x1="268.0" y1="538.0" x2="278.0" y2="538.0" stroke="#9A78E0" stroke-width="2.5" stroke-linecap="round" marker-end="url(#ar_9A78E0)"/>
+<rect x="400" y="518" width="108" height="40" rx="8" fill="#FFFFFF" stroke="#9A78E0" stroke-width="2" opacity="1"/>
+<text x="454.0" y="543.0" font-size="13" fill="#15212C" font-weight="600" text-anchor="middle">PTC / dàn ngưng</text>
+<line x1="388.0" y1="538.0" x2="398.0" y2="538.0" stroke="#9A78E0" stroke-width="2.5" stroke-linecap="round" marker-end="url(#ar_9A78E0)"/>
+<rect x="520" y="518" width="108" height="40" rx="8" fill="#FFFFFF" stroke="#9A78E0" stroke-width="2" opacity="1"/>
+<text x="574.0" y="543.0" font-size="13" fill="#15212C" font-weight="600" text-anchor="middle">Cửa gió → cabin</text>
+<line x1="508.0" y1="538.0" x2="518.0" y2="538.0" stroke="#9A78E0" stroke-width="2.5" stroke-linecap="round" marker-end="url(#ar_9A78E0)"/>
+</g>
+<rect x="652" y="104" width="276" height="478" rx="10" fill="#FFFFFF" stroke="#D0D8DF"/>
+<text x="668" y="132" font-size="11" font-weight="700" letter-spacing="1.2" fill="#5A6775">BA VÒNG + MỘT HỘP</text>
+<text x="668" y="150" font-size="12.5" fill="#15212C">Vòng gas lạnh làm lạnh cabin (qua dàn</text>
+<text x="668" y="166" font-size="12.5" fill="#15212C">lạnh) và pin (qua chiller). Vòng nước</text>
+<text x="668" y="182" font-size="12.5" fill="#15212C">pin giữ pin 20–40°C. Vòng nước motor</text>
+<text x="668" y="198" font-size="12.5" fill="#15212C">thải nhiệt motor, inverter, OBC, DC-DC</text>
+<text x="668" y="214" font-size="12.5" fill="#15212C">ra két nước. Hộp HVAC đưa gió đã làm</text>
+<text x="668" y="230" font-size="12.5" fill="#15212C">lạnh / sưởi vào cabin.</text>
+<text x="668" y="260" font-size="11" font-weight="700" letter-spacing="1.2" fill="#5A6775">HAI CẦU NỐI</text>
+<text x="680" y="278" font-size="12.5" fill="#15212C">Chiller: gas lạnh làm lạnh nước của</text>
+<circle cx="672" cy="274" r="2.2" fill="#E2552F"/>
+<text x="680" y="294" font-size="12.5" fill="#15212C">pin</text>
+<text x="680" y="312" font-size="12.5" fill="#15212C">Van chia nước: nối vòng motor sang</text>
+<circle cx="672" cy="308" r="2.2" fill="#E2552F"/>
+<text x="680" y="328" font-size="12.5" fill="#15212C">vòng pin để tận dụng nhiệt</text>
+<text x="668" y="358" font-size="11" font-weight="700" letter-spacing="1.2" fill="#5A6775">ĐIỀU KHIỂN</text>
+<text x="668" y="376" font-size="12.5" fill="#15212C">VCU, BMS, CCU đọc cảm biến và bật /</text>
+<text x="668" y="392" font-size="12.5" fill="#15212C">tắt máy nén, van, bơm, quạt, PTC.</text>
+<rect x="32" y="596" width="18" height="6" rx="3" fill="#E2552F"/><text x="56" y="603" font-size="12" fill="#5A6775">Gas nóng cao áp</text>
+<rect x="161.0" y="596" width="18" height="6" rx="3" fill="#F0912A"/><text x="185.0" y="603" font-size="12" fill="#5A6775">Gas lỏng cao áp</text>
+<rect x="290.0" y="596" width="18" height="6" rx="3" fill="#2F86E0"/><text x="314.0" y="603" font-size="12" fill="#5A6775">Gas lạnh thấp áp</text>
+<rect x="425.6" y="596" width="18" height="6" rx="3" fill="#14A892"/><text x="449.6" y="603" font-size="12" fill="#5A6775">Nước làm mát pin</text>
+<rect x="561.2" y="596" width="18" height="6" rx="3" fill="#D49A12"/><text x="585.2" y="603" font-size="12" fill="#5A6775">Nước làm mát motor</text>
+<rect x="710.0" y="596" width="18" height="6" rx="3" fill="#9A78E0"/><text x="734.0" y="603" font-size="12" fill="#5A6775">Luồng gió</text>
+<text x="928" y="620" font-size="11" fill="#5A6775" text-anchor="end">Hình minh họa kỹ thuật chung — không theo bản vẽ VinFast</text>
+</svg>

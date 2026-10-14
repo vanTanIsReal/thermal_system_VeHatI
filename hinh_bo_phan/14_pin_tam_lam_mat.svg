@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="640" viewBox="0 0 960 640" font-family="Segoe UI, Arial, sans-serif">
+<defs><marker id="ar_E2552F" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E2552F"/></marker><marker id="ar_F0912A" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#F0912A"/></marker><marker id="ar_2F86E0" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2F86E0"/></marker><marker id="ar_14A892" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#14A892"/></marker><marker id="ar_D49A12" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#D49A12"/></marker><marker id="ar_9A78E0" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#9A78E0"/></marker><marker id="ar_F07A1A" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#F07A1A"/></marker><marker id="ar_C2418A" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#C2418A"/></marker><marker id="ar_15212C" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#15212C"/></marker><marker id="ar_5A6775" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#5A6775"/></marker><marker id="ar_D0D8DF" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#D0D8DF"/></marker><marker id="ar_F6F8FA" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#F6F8FA"/></marker><marker id="ar_FFFFFF" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#FFFFFF"/></marker><marker id="ar_D5DCE2" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#D5DCE2"/></marker><marker id="ar_AEB8C2" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#AEB8C2"/></marker><marker id="ar_7E8A96" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7E8A96"/></marker><marker id="ar_2E363F" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2E363F"/></marker><marker id="ar_444E59" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#444E59"/></marker><marker id="ar_7FB3E6" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7FB3E6"/></marker></defs>
+<rect width="960" height="640" fill="#F6F8FA"/>
+<text x="32" y="46" font-size="26" font-weight="700" fill="#15212C">Pin cao áp + tấm làm mát</text>
+<text x="32" y="70" font-size="14" fill="#5A6775">HV battery &amp; cooling plate · dưới sàn xe · vòng nước pin</text>
+<line x1="32" y1="84" x2="928" y2="84" stroke="#D0D8DF"/>
+<text x="928" y="46" font-size="13" fill="#5A6775" text-anchor="end">#14</text>
+<g transform="translate(14,34) scale(0.86)">
+<polygon points="455.4,365.1 320.3,443.1 320.3,430.6 455.4,352.6" fill="#669a90" stroke="#476b64" stroke-width="1" opacity="1" stroke-linejoin="round"/>
+<polygon points="97.4,314.4 320.3,443.1 320.3,430.6 97.4,301.9" fill="#7ab8ac" stroke="#558078" stroke-width="1" opacity="1" stroke-linejoin="round"/>
+<polygon points="232.5,223.9 455.4,352.6 320.3,430.6 97.4,301.9" fill="#9cdace" stroke="#6d9890" stroke-width="1" opacity="1" stroke-linejoin="round"/>
+<line x1="232.5" y1="239.1" x2="428.3" y2="352.2" stroke="#14A892" stroke-width="3" stroke-linecap="round"/>
+<line x1="428.3" y1="352.2" x2="401.3" y2="367.8" stroke="#14A892" stroke-width="3" stroke-linecap="round"/>
+<line x1="205.4" y1="254.7" x2="401.3" y2="367.8" stroke="#14A892" stroke-width="3" stroke-linecap="round"/>
+<line x1="205.4" y1="254.7" x2="178.4" y2="270.3" stroke="#14A892" stroke-width="3" stroke-linecap="round"/>
+<line x1="178.4" y1="270.3" x2="374.3" y2="383.4" stroke="#14A892" stroke-width="3" stroke-linecap="round"/>
+<line x1="374.3" y1="383.4" x2="347.3" y2="399.0" stroke="#14A892" stroke-width="3" stroke-linecap="round"/>
+<line x1="151.4" y1="285.9" x2="347.3" y2="399.0" stroke="#14A892" stroke-width="3" stroke-linecap="round"/>
+<line x1="151.4" y1="285.9" x2="124.4" y2="301.5" stroke="#14A892" stroke-width="3" stroke-linecap="round"/>
+<line x1="124.4" y1="301.5" x2="320.3" y2="414.6" stroke="#14A892" stroke-width="3" stroke-linecap="round"/>
+<polygon points="279.7,216.9 222.3,250.0 222.3,203.2 279.7,170.1" fill="#4f5a64" stroke="#373e46" stroke-width="1" opacity="0.95" stroke-linejoin="round"/>
+<polygon points="175.0,222.8 222.3,250.0 222.3,203.2 175.0,176.0" fill="#5e6c78" stroke="#414b54" stroke-width="1" opacity="0.95" stroke-linejoin="round"/>
+<polygon points="232.5,142.8 279.7,170.1 222.3,203.2 175.0,176.0" fill="#7f8d99" stroke="#58626b" stroke-width="1" opacity="0.95" stroke-linejoin="round"/>
+<polygon points="215.6,254.0 158.1,287.1 158.1,240.3 215.6,207.2" fill="#4f5a64" stroke="#373e46" stroke-width="1" opacity="0.95" stroke-linejoin="round"/>
+<polygon points="110.9,259.8 158.1,287.1 158.1,240.3 110.9,213.0" fill="#5e6c78" stroke="#414b54" stroke-width="1" opacity="0.95" stroke-linejoin="round"/>
+<polygon points="168.3,179.8 215.6,207.2 158.1,240.3 110.9,213.0" fill="#7f8d99" stroke="#58626b" stroke-width="1" opacity="0.95" stroke-linejoin="round"/>
+<polygon points="333.8,248.1 276.4,281.2 276.4,234.5 333.8,201.3" fill="#4f5a64" stroke="#373e46" stroke-width="1" opacity="0.95" stroke-linejoin="round"/>
+<polygon points="229.1,254.0 276.4,281.2 276.4,234.5 229.1,207.2" fill="#5e6c78" stroke="#414b54" stroke-width="1" opacity="0.95" stroke-linejoin="round"/>
+<polygon points="286.5,174.0 333.8,201.3 276.4,234.5 229.1,207.2" fill="#7f8d99" stroke="#58626b" stroke-width="1" opacity="0.95" stroke-linejoin="round"/>
+<polygon points="269.6,285.1 212.2,318.3 212.2,271.5 269.6,238.3" fill="#4f5a64" stroke="#373e46" stroke-width="1" opacity="0.95" stroke-linejoin="round"/>
+<polygon points="164.9,291.0 212.2,318.3 212.2,271.5 164.9,244.2" fill="#5e6c78" stroke="#414b54" stroke-width="1" opacity="0.95" stroke-linejoin="round"/>
+<polygon points="222.3,211.0 269.6,238.3 212.2,271.5 164.9,244.2" fill="#7f8d99" stroke="#58626b" stroke-width="1" opacity="0.95" stroke-linejoin="round"/>
+<polygon points="387.8,279.3 330.4,312.4 330.4,265.6 387.8,232.5" fill="#4f5a64" stroke="#373e46" stroke-width="1" opacity="0.95" stroke-linejoin="round"/>
+<polygon points="283.1,285.1 330.4,312.4 330.4,265.6 283.1,238.3" fill="#5e6c78" stroke="#414b54" stroke-width="1" opacity="0.95" stroke-linejoin="round"/>
+<polygon points="340.5,205.2 387.8,232.5 330.4,265.6 283.1,238.3" fill="#7f8d99" stroke="#58626b" stroke-width="1" opacity="0.95" stroke-linejoin="round"/>
+<polygon points="323.6,316.3 266.2,349.5 266.2,302.7 323.6,269.5" fill="#4f5a64" stroke="#373e46" stroke-width="1" opacity="0.95" stroke-linejoin="round"/>
+<polygon points="218.9,322.2 266.2,349.5 266.2,302.7 218.9,275.4" fill="#5e6c78" stroke="#414b54" stroke-width="1" opacity="0.95" stroke-linejoin="round"/>
+<polygon points="276.4,242.2 323.6,269.5 266.2,302.7 218.9,275.4" fill="#7f8d99" stroke="#58626b" stroke-width="1" opacity="0.95" stroke-linejoin="round"/>
+<polygon points="441.9,310.5 384.4,343.6 384.4,296.9 441.9,263.7" fill="#4f5a64" stroke="#373e46" stroke-width="1" opacity="0.95" stroke-linejoin="round"/>
+<polygon points="337.2,316.3 384.4,343.6 384.4,296.9 337.2,269.5" fill="#5e6c78" stroke="#414b54" stroke-width="1" opacity="0.95" stroke-linejoin="round"/>
+<polygon points="394.6,236.4 441.9,263.7 384.4,296.9 337.2,269.5" fill="#7f8d99" stroke="#58626b" stroke-width="1" opacity="0.95" stroke-linejoin="round"/>
+<polygon points="377.7,347.5 320.3,380.7 320.3,333.9 377.7,300.8" fill="#4f5a64" stroke="#373e46" stroke-width="1" opacity="0.95" stroke-linejoin="round"/>
+<polygon points="273.0,353.4 320.3,380.7 320.3,333.9 273.0,306.6" fill="#5e6c78" stroke="#414b54" stroke-width="1" opacity="0.95" stroke-linejoin="round"/>
+<polygon points="330.4,273.5 377.7,300.8 320.3,333.9 273.0,306.6" fill="#7f8d99" stroke="#58626b" stroke-width="1" opacity="0.95" stroke-linejoin="round"/>
+<polygon points="489.1,384.6 448.6,408.0 448.6,361.2 489.1,337.8" fill="#4d412c" stroke="#352d1e" stroke-width="1" opacity="1" stroke-linejoin="round"/>
+<polygon points="421.6,392.4 448.6,408.0 448.6,361.2 421.6,345.6" fill="#5c4e35" stroke="#403625" stroke-width="1" opacity="1" stroke-linejoin="round"/>
+<polygon points="462.1,322.2 489.1,337.8 448.6,361.2 421.6,345.6" fill="#7c6e55" stroke="#564d3b" stroke-width="1" opacity="1" stroke-linejoin="round"/>
+<polygon points="421.6,423.6 381.1,447.0 381.1,415.8 421.6,392.4" fill="#303840" stroke="#21272c" stroke-width="1" opacity="1" stroke-linejoin="round"/>
+<polygon points="354.0,431.4 381.1,447.0 381.1,415.8 354.0,400.2" fill="#3a434c" stroke="#282e35" stroke-width="1" opacity="1" stroke-linejoin="round"/>
+<polygon points="394.6,376.8 421.6,392.4 381.1,415.8 354.0,400.2" fill="#5a636c" stroke="#3e454b" stroke-width="1" opacity="1" stroke-linejoin="round"/>
+<line x1="104.1" y1="304.3" x2="44.1" y2="334.3" stroke="#14A892" stroke-width="9" stroke-linecap="round"/>
+<line x1="104.1" y1="304.3" x2="44.1" y2="334.3" stroke="#66c6b8" stroke-width="3.15" stroke-linecap="round"/>
+<line x1="131.1" y1="288.7" x2="71.1" y2="318.7" stroke="#0f7e6d" stroke-width="9" stroke-linecap="round"/>
+<line x1="131.1" y1="288.7" x2="71.1" y2="318.7" stroke="#63aba0" stroke-width="3.15" stroke-linecap="round"/>
+<line x1="300.0" y1="228.6" x2="330.0" y2="112.0" stroke="#15212C" stroke-width="1" opacity=".55"/>
+<circle cx="300.0" cy="228.6" r="3.2" fill="#15212C"/>
+<text x="335.0" y="116.0" font-size="13" font-weight="600" fill="#15212C" text-anchor="start">Module cell (đặt trên tấm)</text>
+<line x1="239.2" y1="399.4" x2="300.0" y2="540.0" stroke="#15212C" stroke-width="1" opacity=".55"/>
+<circle cx="239.2" cy="399.4" r="3.2" fill="#15212C"/>
+<text x="305.0" y="544.0" font-size="13" font-weight="600" fill="#15212C" text-anchor="start">Tấm làm mát: nước chảy trong kênh</text>
+<line x1="164.9" y1="269.2" x2="30.0" y2="200.0" stroke="#15212C" stroke-width="1" opacity=".55"/>
+<circle cx="164.9" cy="269.2" r="3.2" fill="#15212C"/>
+<text x="35.0" y="204.0" font-size="13" font-weight="600" fill="#15212C" text-anchor="start">Lớp keo tản nhiệt</text>
+<text x="35.0" y="219.0" font-size="13" font-weight="400" fill="#5A6775" text-anchor="start">giữa cell và tấm</text>
+<line x1="455.4" y1="341.7" x2="520.0" y2="170.0" stroke="#15212C" stroke-width="1" opacity=".55"/>
+<circle cx="455.4" cy="341.7" r="3.2" fill="#15212C"/>
+<text x="525.0" y="174.0" font-size="13" font-weight="600" fill="#15212C" text-anchor="start">BDU</text>
+<text x="525.0" y="189.0" font-size="13" font-weight="400" fill="#5A6775" text-anchor="start">contactor, cầu chì</text>
+<line x1="387.8" y1="396.3" x2="540.0" y2="420.0" stroke="#15212C" stroke-width="1" opacity=".55"/>
+<circle cx="387.8" cy="396.3" r="3.2" fill="#15212C"/>
+<text x="545.0" y="424.0" font-size="13" font-weight="600" fill="#15212C" text-anchor="start">BMS</text>
+<text x="545.0" y="439.0" font-size="13" font-weight="400" fill="#5A6775" text-anchor="start">chính / phụ</text>
+<line x1="104.1" y1="304.3" x2="30.0" y2="470.0" stroke="#15212C" stroke-width="1" opacity=".55"/>
+<circle cx="104.1" cy="304.3" r="3.2" fill="#15212C"/>
+<text x="35.0" y="474.0" font-size="13" font-weight="600" fill="#15212C" text-anchor="start">Nước vào / ra pin</text>
+<text x="35.0" y="489.0" font-size="13" font-weight="400" fill="#5A6775" text-anchor="start">(có cảm biến nhiệt)</text>
+</g>
+<rect x="652" y="104" width="276" height="478" rx="10" fill="#FFFFFF" stroke="#D0D8DF"/>
+<text x="668" y="132" font-size="11" font-weight="700" letter-spacing="1.2" fill="#5A6775">CHỨC NĂNG</text>
+<text x="668" y="150" font-size="12.5" fill="#15212C">Các module cell đặt trên tấm làm mát;</text>
+<text x="668" y="166" font-size="12.5" fill="#15212C">nước chảy trong kênh của tấm để lấy</text>
+<text x="668" y="182" font-size="12.5" fill="#15212C">nhiệt ra hoặc đưa nhiệt vào, giữ cell</text>
+<text x="668" y="198" font-size="12.5" fill="#15212C">khoảng 20–45°C và đều nhau.</text>
+<text x="668" y="228" font-size="11" font-weight="700" letter-spacing="1.2" fill="#5A6775">HAY HỎNG</text>
+<text x="680" y="246" font-size="12.5" fill="#15212C">Kênh tắc, rò nước trong pin</text>
+<circle cx="672" cy="242" r="2.2" fill="#E2552F"/>
+<text x="680" y="264" font-size="12.5" fill="#15212C">Keo tản nhiệt kém → cell nóng cục bộ</text>
+<circle cx="672" cy="260" r="2.2" fill="#E2552F"/>
+<text x="668" y="294" font-size="11" font-weight="700" letter-spacing="1.2" fill="#5A6775">TELEMETRY</text>
+<text x="680" y="312" font-size="12.5" fill="#15212C">Max / Min Cell Temperature</text>
+<circle cx="672" cy="308" r="2.2" fill="#E2552F"/>
+<text x="680" y="330" font-size="12.5" fill="#15212C">Nhiệt nước vào / ra pin</text>
+<circle cx="672" cy="326" r="2.2" fill="#E2552F"/>
+<text x="680" y="348" font-size="12.5" fill="#15212C">Coolant Leakage warning</text>
+<circle cx="672" cy="344" r="2.2" fill="#E2552F"/>
+<text x="668" y="378" font-size="11" font-weight="700" letter-spacing="1.2" fill="#5A6775">NGUỒN</text>
+<text x="668" y="396" font-size="12.5" fill="#15212C">VF 5: pin LFP 116 cell, 7 khối, có</text>
+<text x="668" y="412" font-size="12.5" fill="#15212C">cổng nước vào / ra (VATC).</text>
+<rect x="32" y="596" width="18" height="6" rx="3" fill="#14A892"/><text x="56" y="603" font-size="12" fill="#5A6775">Nước làm mát pin</text>
+<rect x="167.6" y="596" width="18" height="6" rx="3" fill="#F07A1A"/><text x="191.6" y="603" font-size="12" fill="#5A6775">Điện cao áp</text>
+<text x="928" y="620" font-size="11" fill="#5A6775" text-anchor="end">Hình minh họa kỹ thuật chung — không theo bản vẽ VinFast</text>
+</svg>

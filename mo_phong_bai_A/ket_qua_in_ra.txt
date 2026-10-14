@@ -1,0 +1,52 @@
+=== MỨC ĐÁNG LẼ (học từ 20 phiên xe khỏe) ===
+độ lạnh của nước = {'he_so [c0, c·T_ngoai, c·cell_dau]': [14.303, 0.137, -0.248], 'sai_so_chuan_c': 0.39} | nước ra−vào {'trung_vi': 3.13, 'lon_nhat': 3.37} | k {'trung_vi': 0.0814, 'nho_nhat': 0.0805}
+
+=== TẦNG 1 + 2: các ca lỗi riêng lẻ ===
+ca                 sự thật        chậm? lý do        phút  cell đỉnh khâu kém            bộ phận #1                 SK lạnh SK k  ra−vào k       a      dàn lạnh
+hcm_bom_pin_40     pump=40@0min   có    pin_nong     2.0   47.1      nuoc_chay_kem       bom_pin 0.7                1.98    0.43  7.56   0.035   10.28  2.8     
+hcm_cam_bien_lech  offset=6@0min  —     pin_nong     0.9   46.2      cam_bien_nghi_sai   cam_bien_nuoc_vao_pin 0.8  0.41    0.48  -2.77  0.0389  8.51   2.8     
+hcm_chiller_15     chiller=15@0mi có    pin_nong     4.0   47.6      nuoc_khong_du_lanh  chiller_hoac_van_chiller 0.60.65    1.0   1.87   0.0814  10.29  0.4     
+hcm_chiller_50     chiller=50@0mi —     pin_nong     0.9   46.2      binh_thuong         —                          1.0     1.0   3.23   0.081   10.28  2.8     
+hcm_gas_65         gas=65@0min    có    pin_nong     3.3   47.4      nuoc_khong_du_lanh  thieu_gas 0.65             0.69    1.0   1.99   0.0817  10.29  22.4    
+hcm_khoe                          —     pin_nong     0.9   46.2      binh_thuong         —                          1.0     1.0   3.23   0.081   10.28  2.8     
+hcm_quat_chet      fan@0min       có    pin_nong     4.5   47.7      nuoc_khong_du_lanh  quat_ket 0.7               0.53    1.01  1.43   0.0825  10.31  24.6    
+hcm_van_ket        valve@0min     có    pin_nong     1.8   46.9      binh_thuong         van_4_nga 0.5              0.99    1.01  3.18   0.0822  10.3   2.8     
+hn_khoe                           —     pin_lanh     0.1   32.7      binh_thuong         —                          0.53    1.01  1.62   0.082   10.29  None    
+hn_ptc_hong        ptc@0min       có    pin_lanh     7.4   18.8      lam_am_kem          ptc_nuoc 0.8               None    1.06  None   0.0861  10.37  None    
+
+=== TẦNG 3: xe bị rò gas chậm ===
+ngưỡng: mất > 5.0 phút ở phiên chuẩn nặng ⇔ sức khỏe < 0.535 ⇔ gas thật < 56.4 % → thực tế chạm ở tuần 11.9
+   phiên chuẩn: gas 100 % → sức khỏe 1.0 , mất 0.9 phút
+   phiên chuẩn: gas 95 % → sức khỏe 1.0 , mất 0.9 phút
+   phiên chuẩn: gas 90 % → sức khỏe 1.0 , mất 0.9 phút
+   phiên chuẩn: gas 85 % → sức khỏe 0.96 , mất 1.1 phút
+   phiên chuẩn: gas 80 % → sức khỏe 0.9 , mất 1.5 phút
+   phiên chuẩn: gas 75 % → sức khỏe 0.83 , mất 2.0 phút
+   phiên chuẩn: gas 70 % → sức khỏe 0.76 , mất 2.6 phút
+   phiên chuẩn: gas 65 % → sức khỏe 0.69 , mất 3.3 phút
+   phiên chuẩn: gas 60 % → sức khỏe 0.6 , mất 4.2 phút
+   phiên chuẩn: gas 55 % → sức khỏe 0.51 , mất 5.3 phút
+   phiên chuẩn: gas 50 % → sức khỏe 0.42 , mất 8.1 phút
+tuần  1  gas thật 100%  T_ngoài 34.9  cell đầu 37.1  độ lạnh 10.15 (đáng lẽ  9.86)  sức khỏe 1.03  mất  0.6 phút  binh_thuong          —
+tuần  2  gas thật  96%  T_ngoài 34.3  cell đầu 36.9  độ lạnh  10.0 (đáng lẽ  9.83)  sức khỏe 1.02  mất  0.7 phút  binh_thuong          —
+tuần  3  gas thật  92%  T_ngoài 38.1  cell đầu 37.4  độ lạnh 10.03 (đáng lẽ 10.23)  sức khỏe 0.98  mất  0.8 phút  binh_thuong          —
+tuần  4  gas thật  88%  T_ngoài 36.0  cell đầu 37.3  độ lạnh 10.18 (đáng lẽ  9.96)  sức khỏe 1.02  mất  0.6 phút  binh_thuong          —
+tuần  5  gas thật  84%  T_ngoài 38.6  cell đầu 37.6  độ lạnh  9.19 (đáng lẽ 10.25)  sức khỏe 0.90  mất  1.2 phút  binh_thuong          —
+tuần  6  gas thật  80%  T_ngoài 34.4  cell đầu 37.2  độ lạnh  9.45 (đáng lẽ  9.77)  sức khỏe 0.97  mất  1.3 phút  binh_thuong          —
+tuần  7  gas thật  76%  T_ngoài 34.9  cell đầu 37.4  độ lạnh   8.8 (đáng lẽ  9.79)  sức khỏe 0.90  mất  1.1 phút  binh_thuong          —
+tuần  8  gas thật  72%  T_ngoài 38.2  cell đầu 38.2  độ lạnh  7.62 (đáng lẽ 10.04)  sức khỏe 0.76  mất  2.3 phút  nuoc_khong_du_lanh   thieu_gas
+tuần  9  gas thật  68%  T_ngoài 33.4  cell đầu 37.4  độ lạnh  7.77 (đáng lẽ  9.58)  sức khỏe 0.81  mất  2.8 phút  binh_thuong          —
+tuần 10  gas thật  64%  T_ngoài 33.4  cell đầu 37.5  độ lạnh  7.13 (đáng lẽ  9.56)  sức khỏe 0.75  mất  3.2 phút  nuoc_khong_du_lanh   thieu_gas
+tuần 11  gas thật  60%  T_ngoài 36.7  cell đầu 38.0  độ lạnh  5.96 (đáng lẽ  9.89)  sức khỏe 0.60  mất  4.3 phút  nuoc_khong_du_lanh   thieu_gas
+tuần 12  gas thật  56%  T_ngoài 36.5  cell đầu 38.1  độ lạnh  5.35 (đáng lẽ  9.83)  sức khỏe 0.54  mất  3.7 phút  nuoc_khong_du_lanh   thieu_gas
+đứng ở tuần  4: [mọi tuần] giảm 0.7%/tuần → chạm ngưỡng tuần 75.1 (khoảng [20.8, 149.6])   |   [5 tuần gần nhất] giảm 0.7%/tuần → chạm ngưỡng tuần 75.1
+đứng ở tuần  5: [mọi tuần] giảm 2.9%/tuần → chạm ngưỡng tuần 18.5 (khoảng [14.1, 50.5])   |   [5 tuần gần nhất] giảm 2.9%/tuần → chạm ngưỡng tuần 18.5
+đứng ở tuần  6: [mọi tuần] giảm 1.2%/tuần → chạm ngưỡng tuần 40.7 (khoảng [15.1, 136.6])   |   [5 tuần gần nhất] giảm 1.9%/tuần → chạm ngưỡng tuần 27.9
+đứng ở tuần  7: [mọi tuần] giảm 2.2%/tuần → chạm ngưỡng tuần 23.9 (khoảng [16.2, 42.3])   |   [5 tuần gần nhất] giảm 2.2%/tuần → chạm ngưỡng tuần 23.2
+đứng ở tuần  8: [mọi tuần] giảm 2.9%/tuần → chạm ngưỡng tuần 18.7 (khoảng [13.4, 27.7])   |   [5 tuần gần nhất] giảm 5.6%/tuần → chạm ngưỡng tuần 12.7
+đứng ở tuần  9: [mọi tuần] giảm 2.9%/tuần → chạm ngưỡng tuần 18.4 (khoảng [14.1, 23.3])   |   [5 tuần gần nhất] giảm 4.6%/tuần → chạm ngưỡng tuần 15.0
+đứng ở tuần 10: [mọi tuần] giảm 3.2%/tuần → chạm ngưỡng tuần 16.8 (khoảng [14.1, 21.1])   |   [5 tuần gần nhất] giảm 5.4%/tuần → chạm ngưỡng tuần 14.0
+đứng ở tuần 11: [mọi tuần] giảm 4.0%/tuần → chạm ngưỡng tuần 14.1 (khoảng [12.8, 18.7])   |   [5 tuần gần nhất] giảm 5.7%/tuần → chạm ngưỡng tuần 13.4
+đứng ở tuần 12: [mọi tuần] giảm 4.4%/tuần → chạm ngưỡng tuần 13.3 (khoảng [12.3, 16.9])   |   [5 tuần gần nhất] giảm 6.0%/tuần → chạm ngưỡng tuần 12.1
+
+Đã ghi ket_qua.json và 3 biểu đồ .svg

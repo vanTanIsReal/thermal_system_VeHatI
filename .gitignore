@@ -1,0 +1,11 @@
+# Từ điển telemetry nội bộ – không đưa lên repo public
+resource_dictionary_full.csv
+thermal_hvac_signals.csv
+thermal_hvac_signals.backup.csv
+truong_he_thong_nhiet_279.xlsx
+
+# Mô hình gốc 42 MB (tải lại từ Sketchfab, CC BY 4.0); bản lite đã có trong repo
+vinfast_vf9_model_no_interior.glb
+
+__pycache__/
+*.pyc

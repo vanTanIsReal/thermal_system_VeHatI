@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="640" viewBox="0 0 960 640" font-family="Segoe UI, Arial, sans-serif">
+<defs><marker id="ar_E2552F" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E2552F"/></marker><marker id="ar_F0912A" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#F0912A"/></marker><marker id="ar_2F86E0" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2F86E0"/></marker><marker id="ar_14A892" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#14A892"/></marker><marker id="ar_D49A12" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#D49A12"/></marker><marker id="ar_9A78E0" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#9A78E0"/></marker><marker id="ar_F07A1A" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#F07A1A"/></marker><marker id="ar_C2418A" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#C2418A"/></marker><marker id="ar_15212C" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#15212C"/></marker><marker id="ar_5A6775" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#5A6775"/></marker><marker id="ar_D0D8DF" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#D0D8DF"/></marker><marker id="ar_F6F8FA" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#F6F8FA"/></marker><marker id="ar_FFFFFF" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#FFFFFF"/></marker><marker id="ar_D5DCE2" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#D5DCE2"/></marker><marker id="ar_AEB8C2" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#AEB8C2"/></marker><marker id="ar_7E8A96" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7E8A96"/></marker><marker id="ar_2E363F" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2E363F"/></marker><marker id="ar_444E59" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#444E59"/></marker><marker id="ar_7FB3E6" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7FB3E6"/></marker></defs>
+<rect width="960" height="640" fill="#F6F8FA"/>
+<text x="32" y="46" font-size="26" font-weight="700" fill="#15212C">Cảm biến nhiệt (NTC)</text>
+<text x="32" y="70" font-size="14" fill="#5A6775">Temperature sensor · khắp hệ thống · đo lường</text>
+<line x1="32" y1="84" x2="928" y2="84" stroke="#D0D8DF"/>
+<text x="928" y="46" font-size="13" fill="#5A6775" text-anchor="end">#21</text>
+<g transform="translate(14,34) scale(0.86)">
+<rect x="150" y="280" width="140" height="40" rx="4" fill="#AEB8C2" stroke="#798087" stroke-width="1.2" opacity="1"/>
+<line x1="300.0" y1="284.0" x2="306.0" y2="316.0" stroke="#7E8A96" stroke-width="2" stroke-linecap="round"/>
+<line x1="312.0" y1="284.0" x2="318.0" y2="316.0" stroke="#7E8A96" stroke-width="2" stroke-linecap="round"/>
+<line x1="324.0" y1="284.0" x2="330.0" y2="316.0" stroke="#7E8A96" stroke-width="2" stroke-linecap="round"/>
+<line x1="336.0" y1="284.0" x2="342.0" y2="316.0" stroke="#7E8A96" stroke-width="2" stroke-linecap="round"/>
+<line x1="348.0" y1="284.0" x2="354.0" y2="316.0" stroke="#7E8A96" stroke-width="2" stroke-linecap="round"/>
+<line x1="360.0" y1="284.0" x2="366.0" y2="316.0" stroke="#7E8A96" stroke-width="2" stroke-linecap="round"/>
+<line x1="372.0" y1="284.0" x2="378.0" y2="316.0" stroke="#7E8A96" stroke-width="2" stroke-linecap="round"/>
+<line x1="384.0" y1="284.0" x2="390.0" y2="316.0" stroke="#7E8A96" stroke-width="2" stroke-linecap="round"/>
+<rect x="290" y="284" width="100" height="32" rx="2" fill="#D5DCE2" stroke="#959a9e" stroke-width="1.2" opacity="1"/>
+<path d="M 390 290 L 470 296 L 470 304 L 390 310 Z" fill="#AEB8C2" stroke="#7E8A96" stroke-width="1" opacity="1" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="462" cy="300" r="7" fill="#E2552F" stroke="#9e3b20" stroke-width="1.2" opacity="1"/>
+<rect x="70" y="270" width="80" height="60" rx="6" fill="#444E59" stroke="#2f363e" stroke-width="1.2" opacity="1"/>
+<rect x="40" y="286" width="30" height="10" rx="2" fill="#C9A227" stroke="#8c711b" stroke-width="1.2" opacity="1"/>
+<rect x="40" y="304" width="30" height="10" rx="2" fill="#C9A227" stroke="#8c711b" stroke-width="1.2" opacity="1"/>
+<path d="M 0 0" fill="none" stroke="none" stroke-width="2" opacity="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="462.0" y1="300.0" x2="500.0" y2="240.0" stroke="#15212C" stroke-width="1" opacity=".55"/>
+<circle cx="462.0" cy="300.0" r="3.2" fill="#15212C"/>
+<text x="505.0" y="244.0" font-size="13" font-weight="600" fill="#15212C" text-anchor="start">Hạt điện trở NTC</text>
+<text x="505.0" y="259.0" font-size="13" font-weight="400" fill="#5A6775" text-anchor="start">(đổi điện trở theo nhiệt)</text>
+<line x1="340.0" y1="300.0" x2="340.0" y2="400.0" stroke="#15212C" stroke-width="1" opacity=".55"/>
+<circle cx="340.0" cy="300.0" r="3.2" fill="#15212C"/>
+<text x="345.0" y="404.0" font-size="13" font-weight="600" fill="#15212C" text-anchor="start">Ren lắp vào ống / thân bộ phận</text>
+<line x1="110.0" y1="300.0" x2="110.0" y2="400.0" stroke="#15212C" stroke-width="1" opacity=".55"/>
+<circle cx="110.0" cy="300.0" r="3.2" fill="#15212C"/>
+<text x="105.0" y="404.0" font-size="13" font-weight="600" fill="#15212C" text-anchor="middle">Giắc 2 chân</text>
+</g>
+<rect x="652" y="104" width="276" height="478" rx="10" fill="#FFFFFF" stroke="#D0D8DF"/>
+<text x="668" y="132" font-size="11" font-weight="700" letter-spacing="1.2" fill="#5A6775">CHỨC NĂNG</text>
+<text x="668" y="150" font-size="12.5" fill="#15212C">Đo nhiệt nước, gió, cell, motor… bằng</text>
+<text x="668" y="166" font-size="12.5" fill="#15212C">điện trở NTC. Xe có hàng chục cảm</text>
+<text x="668" y="182" font-size="12.5" fill="#15212C">biến; mọi quyết định bật / tắt của hệ</text>
+<text x="668" y="198" font-size="12.5" fill="#15212C">nhiệt dựa vào chúng.</text>
+<text x="668" y="228" font-size="11" font-weight="700" letter-spacing="1.2" fill="#5A6775">HAY HỎNG</text>
+<text x="680" y="246" font-size="12.5" fill="#15212C">Trôi / lệch dần (drift, offset)</text>
+<circle cx="672" cy="242" r="2.2" fill="#E2552F"/>
+<text x="680" y="264" font-size="12.5" fill="#15212C">Đứng giá trị (stuck)</text>
+<circle cx="672" cy="260" r="2.2" fill="#E2552F"/>
+<text x="680" y="282" font-size="12.5" fill="#15212C">Chân cắm ăn mòn → nhiễu</text>
+<circle cx="672" cy="278" r="2.2" fill="#E2552F"/>
+<text x="668" y="312" font-size="11" font-weight="700" letter-spacing="1.2" fill="#5A6775">TELEMETRY</text>
+<text x="680" y="330" font-size="12.5" fill="#15212C">Nhiệt nước vào / ra pin, cell,</text>
+<circle cx="672" cy="326" r="2.2" fill="#E2552F"/>
+<text x="680" y="346" font-size="12.5" fill="#15212C">motor, EDS, dàn lạnh, cabin, ngoài</text>
+<text x="680" y="362" font-size="12.5" fill="#15212C">trời</text>
+<text x="680" y="380" font-size="12.5" fill="#15212C">Cờ lỗi cảm biến: VCU Tsen, BMS, EDS</text>
+<circle cx="672" cy="376" r="2.2" fill="#E2552F"/>
+<text x="668" y="410" font-size="11" font-weight="700" letter-spacing="1.2" fill="#5A6775">KHI HỎNG</text>
+<text x="668" y="428" font-size="12.5" fill="#15212C">Bộ điều khiển và thuật toán phía sau</text>
+<text x="668" y="444" font-size="12.5" fill="#15212C">kết luận sai → lọc cảm biến trước.</text>
+<rect x="32" y="596" width="18" height="6" rx="3" fill="#C2418A"/><text x="56" y="603" font-size="12" fill="#5A6775">Tín hiệu / CAN</text>
+<text x="928" y="620" font-size="11" fill="#5A6775" text-anchor="end">Hình minh họa kỹ thuật chung — không theo bản vẽ VinFast</text>
+</svg>

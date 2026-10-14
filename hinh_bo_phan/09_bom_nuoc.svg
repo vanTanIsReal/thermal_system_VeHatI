@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="640" viewBox="0 0 960 640" font-family="Segoe UI, Arial, sans-serif">
+<defs><marker id="ar_E2552F" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E2552F"/></marker><marker id="ar_F0912A" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#F0912A"/></marker><marker id="ar_2F86E0" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2F86E0"/></marker><marker id="ar_14A892" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#14A892"/></marker><marker id="ar_D49A12" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#D49A12"/></marker><marker id="ar_9A78E0" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#9A78E0"/></marker><marker id="ar_F07A1A" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#F07A1A"/></marker><marker id="ar_C2418A" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#C2418A"/></marker><marker id="ar_15212C" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#15212C"/></marker><marker id="ar_5A6775" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#5A6775"/></marker><marker id="ar_D0D8DF" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#D0D8DF"/></marker><marker id="ar_F6F8FA" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#F6F8FA"/></marker><marker id="ar_FFFFFF" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#FFFFFF"/></marker><marker id="ar_D5DCE2" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#D5DCE2"/></marker><marker id="ar_AEB8C2" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#AEB8C2"/></marker><marker id="ar_7E8A96" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7E8A96"/></marker><marker id="ar_2E363F" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2E363F"/></marker><marker id="ar_444E59" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#444E59"/></marker><marker id="ar_7FB3E6" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7FB3E6"/></marker></defs>
+<rect width="960" height="640" fill="#F6F8FA"/>
+<text x="32" y="46" font-size="26" font-weight="700" fill="#15212C">Bơm nước điện</text>
+<text x="32" y="70" font-size="14" fill="#5A6775">Electric coolant pump · khoang trước, phía dưới · vòng pin / motor</text>
+<line x1="32" y1="84" x2="928" y2="84" stroke="#D0D8DF"/>
+<text x="928" y="46" font-size="13" fill="#5A6775" text-anchor="end">#09</text>
+<g transform="translate(14,34) scale(0.86)">
+<rect x="140" y="238" width="230" height="124" rx="0" fill="#3d4650" stroke="#2a3138" stroke-width="1.2" opacity="1"/>
+<rect x="140" y="238" width="230" height="34.1" fill="#727a82" opacity=".55"/>
+<circle cx="400" cy="300" r="92" fill="#D5DCE2" stroke="#959a9e" stroke-width="1.2" opacity="1"/>
+<circle cx="400" cy="300" r="64" fill="#FFFFFF" stroke="#7E8A96" stroke-width="1.5" opacity="1"/>
+<path d="M 400 300 Q 435.1 319.2 437.3 347.0" fill="none" stroke="#7E8A96" stroke-width="4" opacity="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 400 300 Q 400.9 340.0 377.9 355.8" fill="none" stroke="#7E8A96" stroke-width="4" opacity="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 400 300 Q 365.8 320.8 340.6 308.8" fill="none" stroke="#7E8A96" stroke-width="4" opacity="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 400 300 Q 364.9 280.8 362.7 253.0" fill="none" stroke="#7E8A96" stroke-width="4" opacity="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 400 300 Q 399.1 260.0 422.1 244.2" fill="none" stroke="#7E8A96" stroke-width="4" opacity="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 400 300 Q 434.2 279.2 459.4 291.2" fill="none" stroke="#7E8A96" stroke-width="4" opacity="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="400.0" y1="210.0" x2="400.0" y2="150.0" stroke="#14A892" stroke-width="9" stroke-linecap="round"/>
+<line x1="400.0" y1="210.0" x2="400.0" y2="150.0" stroke="#66c6b8" stroke-width="3.15" stroke-linecap="round"/>
+<line x1="470.0" y1="245.0" x2="540.0" y2="210.0" stroke="#14A892" stroke-width="9" stroke-linecap="round"/>
+<line x1="470.0" y1="245.0" x2="540.0" y2="210.0" stroke="#66c6b8" stroke-width="3.15" stroke-linecap="round"/>
+<rect x="120" y="270" width="30" height="60" rx="4" fill="#C2418A" stroke="#872d60" stroke-width="1.2" opacity="1"/>
+<line x1="250.0" y1="290.0" x2="200.0" y2="400.0" stroke="#15212C" stroke-width="1" opacity=".55"/>
+<circle cx="250.0" cy="290.0" r="3.2" fill="#15212C"/>
+<text x="195.0" y="404.0" font-size="13" font-weight="600" fill="#15212C" text-anchor="end">Mô-tơ điện không chổi than</text>
+<line x1="400.0" y1="300.0" x2="520.0" y2="360.0" stroke="#15212C" stroke-width="1" opacity=".55"/>
+<circle cx="400.0" cy="300.0" r="3.2" fill="#15212C"/>
+<text x="525.0" y="364.0" font-size="13" font-weight="600" fill="#15212C" text-anchor="start">Buồng xoắn + cánh bơm</text>
+<text x="525.0" y="379.0" font-size="13" font-weight="400" fill="#5A6775" text-anchor="start">(mặt cắt)</text>
+<line x1="400.0" y1="160.0" x2="430.0" y2="128.0" stroke="#15212C" stroke-width="1" opacity=".55"/>
+<circle cx="400.0" cy="160.0" r="3.2" fill="#15212C"/>
+<text x="435.0" y="132.0" font-size="13" font-weight="600" fill="#15212C" text-anchor="start">Nước vào (tâm)</text>
+<line x1="530.0" y1="215.0" x2="560.0" y2="180.0" stroke="#15212C" stroke-width="1" opacity=".55"/>
+<circle cx="530.0" cy="215.0" r="3.2" fill="#15212C"/>
+<text x="565.0" y="184.0" font-size="13" font-weight="600" fill="#15212C" text-anchor="start">Nước ra (tiếp tuyến)</text>
+<line x1="135.0" y1="300.0" x2="40.0" y2="200.0" stroke="#15212C" stroke-width="1" opacity=".55"/>
+<circle cx="135.0" cy="300.0" r="3.2" fill="#15212C"/>
+<text x="45.0" y="204.0" font-size="13" font-weight="600" fill="#15212C" text-anchor="start">Giắc điều khiển</text>
+</g>
+<rect x="652" y="104" width="276" height="478" rx="10" fill="#FFFFFF" stroke="#D0D8DF"/>
+<text x="668" y="132" font-size="11" font-weight="700" letter-spacing="1.2" fill="#5A6775">CHỨC NĂNG</text>
+<text x="668" y="150" font-size="12.5" fill="#15212C">Bơm điện đẩy nước làm mát đi vòng. Xe</text>
+<text x="668" y="166" font-size="12.5" fill="#15212C">thường có 2 bơm: một cho vòng pin, một</text>
+<text x="668" y="182" font-size="12.5" fill="#15212C">cho vòng motor.</text>
+<text x="668" y="212" font-size="11" font-weight="700" letter-spacing="1.2" fill="#5A6775">HAY HỎNG</text>
+<text x="680" y="230" font-size="12.5" fill="#15212C">Mòn cánh, kẹt ổ bi</text>
+<circle cx="672" cy="226" r="2.2" fill="#E2552F"/>
+<text x="680" y="248" font-size="12.5" fill="#15212C">Lỗi điện / điều khiển</text>
+<circle cx="672" cy="244" r="2.2" fill="#E2552F"/>
+<text x="680" y="266" font-size="12.5" fill="#15212C">Có khí trong vòng → chạy không tải</text>
+<circle cx="672" cy="262" r="2.2" fill="#E2552F"/>
+<text x="668" y="296" font-size="11" font-weight="700" letter-spacing="1.2" fill="#5A6775">TELEMETRY</text>
+<text x="680" y="314" font-size="12.5" fill="#15212C">Battery / Motor electronic pump</text>
+<circle cx="672" cy="310" r="2.2" fill="#E2552F"/>
+<text x="680" y="330" font-size="12.5" fill="#15212C">state</text>
+<text x="680" y="348" font-size="12.5" fill="#15212C">Water pump failure (cờ)</text>
+<circle cx="672" cy="344" r="2.2" fill="#E2552F"/>
+<text x="680" y="366" font-size="12.5" fill="#15212C">Không có tốc độ bơm</text>
+<circle cx="672" cy="362" r="2.2" fill="#E2552F"/>
+<rect x="32" y="596" width="18" height="6" rx="3" fill="#14A892"/><text x="56" y="603" font-size="12" fill="#5A6775">Nước làm mát pin</text>
+<rect x="167.6" y="596" width="18" height="6" rx="3" fill="#C2418A"/><text x="191.6" y="603" font-size="12" fill="#5A6775">Tín hiệu / CAN</text>
+<text x="928" y="620" font-size="11" fill="#5A6775" text-anchor="end">Hình minh họa kỹ thuật chung — không theo bản vẽ VinFast</text>
+</svg>

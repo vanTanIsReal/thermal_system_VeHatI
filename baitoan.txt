@@ -1,0 +1,5 @@
+Nhiệt và điều hòa (Gồm: làm mát pin và motor, chiller, bơm, quạt, ống và kẹp ống, máy nén, HVAC,...)
+Hiện tại a đang có 4 bài toán gồm: Phát hiện rò hoặc thiếu nước làm mát và bất thường vòng làm mát; Phát hiện sớm lỗi điều hòa theo dòng xe và mùa; Điều hòa kém lạnh nhận ra từ telemetry và Phân biệt kiểu hỏng điều hòa và làm mát: không đủ lạnh / không hoạt động / máy nén / quạt / chiller. E thử xem ngoài 4 bài đó thì còn bài nào liên quan k, viết input output của các bài toán đó nhé 
+mn cơ bản tìm hiểu các bộ phận đó nó ở chỗ nào trên xe rồi có thể xảy ra lỗi gì, vấn đề gì với nó và bài toán liên quan đến nó có thể là gì; cứ đưa ra phát biểu bài toán và kỳ vọng output là gì; dữ liệu tìm k được thì cứ mạnh dạn fake đi; tên các trường telemetry thì mn đã có rồi nên nếu có liên quan thì dùng nhé 
+ 
+Không phải bài nào cũng là ML đâu nhé, có những bài nó chỉ thuần thống kê thôi nên đừng tìm hiểu sâu mấy cái model ML phức tạp làm gì, bài nào dùng ML thì cứ truyền thống trước xem ntn nhé 

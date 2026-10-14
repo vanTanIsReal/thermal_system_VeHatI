@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="640" viewBox="0 0 960 640" font-family="Segoe UI, Arial, sans-serif">
+<defs><marker id="ar_E2552F" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E2552F"/></marker><marker id="ar_F0912A" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#F0912A"/></marker><marker id="ar_2F86E0" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2F86E0"/></marker><marker id="ar_14A892" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#14A892"/></marker><marker id="ar_D49A12" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#D49A12"/></marker><marker id="ar_9A78E0" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#9A78E0"/></marker><marker id="ar_F07A1A" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#F07A1A"/></marker><marker id="ar_C2418A" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#C2418A"/></marker><marker id="ar_15212C" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#15212C"/></marker><marker id="ar_5A6775" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#5A6775"/></marker><marker id="ar_D0D8DF" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#D0D8DF"/></marker><marker id="ar_F6F8FA" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#F6F8FA"/></marker><marker id="ar_FFFFFF" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#FFFFFF"/></marker><marker id="ar_D5DCE2" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#D5DCE2"/></marker><marker id="ar_AEB8C2" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#AEB8C2"/></marker><marker id="ar_7E8A96" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7E8A96"/></marker><marker id="ar_2E363F" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2E363F"/></marker><marker id="ar_444E59" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#444E59"/></marker><marker id="ar_7FB3E6" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7FB3E6"/></marker></defs>
+<rect width="960" height="640" fill="#F6F8FA"/>
+<text x="32" y="46" font-size="26" font-weight="700" fill="#15212C">Bình nước phụ + cảm biến mức</text>
+<text x="32" y="70" font-size="14" fill="#5A6775">Expansion tank &amp; level sensor · khoang trước, điểm cao nhất · vòng nước</text>
+<line x1="32" y1="84" x2="928" y2="84" stroke="#D0D8DF"/>
+<text x="928" y="46" font-size="13" fill="#5A6775" text-anchor="end">#12</text>
+<g transform="translate(14,34) scale(0.86)">
+<rect x="200" y="160" width="240" height="300" rx="18" fill="#EEF3F6" stroke="#7E8A96" stroke-width="2" opacity="1"/>
+<rect x="204" y="300" width="232" height="156" rx="14" fill="#9FE0D3" stroke="none" stroke-width="1.2" opacity="1"/>
+<line x1="215.0" y1="230.0" x2="300.0" y2="230.0" stroke="#E2552F" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="5 3"/>
+<text x="305" y="234" font-size="11" fill="#E2552F" font-weight="700" text-anchor="start">MAX</text>
+<line x1="215.0" y1="330.0" x2="300.0" y2="330.0" stroke="#E2552F" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="5 3"/>
+<text x="305" y="334" font-size="11" fill="#E2552F" font-weight="700" text-anchor="start">MIN</text>
+<rect x="286" y="128" width="68" height="30" rx="0" fill="#3b444e" stroke="#292f36" stroke-width="1.2" opacity="1"/>
+<rect x="286" y="128" width="20.4" height="30" fill="#727a82" opacity=".45"/>
+<ellipse cx="320" cy="158" rx="34" ry="10.88" fill="#363e47" stroke="#252b31" stroke-width="1.2"/>
+<ellipse cx="320" cy="128" rx="34" ry="10.88" fill="#5a636c" stroke="#3e454b" stroke-width="1.2"/>
+<rect x="412" y="380" width="28" height="50" rx="4" fill="#C2418A" stroke="#872d60" stroke-width="1.2" opacity="1"/>
+<line x1="260.0" y1="460.0" x2="260.0" y2="520.0" stroke="#14A892" stroke-width="9" stroke-linecap="round"/>
+<line x1="260.0" y1="460.0" x2="260.0" y2="520.0" stroke="#66c6b8" stroke-width="3.15" stroke-linecap="round"/>
+<line x1="380.0" y1="460.0" x2="380.0" y2="520.0" stroke="#14A892" stroke-width="9" stroke-linecap="round"/>
+<line x1="380.0" y1="460.0" x2="380.0" y2="520.0" stroke="#66c6b8" stroke-width="3.15" stroke-linecap="round"/>
+<line x1="320.0" y1="140.0" x2="420.0" y2="118.0" stroke="#15212C" stroke-width="1" opacity=".55"/>
+<circle cx="320.0" cy="140.0" r="3.2" fill="#15212C"/>
+<text x="425.0" y="122.0" font-size="13" font-weight="600" fill="#15212C" text-anchor="start">Nắp có van an toàn</text>
+<line x1="300.0" y1="380.0" x2="120.0" y2="380.0" stroke="#15212C" stroke-width="1" opacity=".55"/>
+<circle cx="300.0" cy="380.0" r="3.2" fill="#15212C"/>
+<text x="115.0" y="384.0" font-size="13" font-weight="600" fill="#15212C" text-anchor="end">Nước làm mát</text>
+<text x="115.0" y="399.0" font-size="13" font-weight="400" fill="#5A6775" text-anchor="end">50% glycol</text>
+<line x1="426.0" y1="405.0" x2="470.0" y2="405.0" stroke="#15212C" stroke-width="1" opacity=".55"/>
+<circle cx="426.0" cy="405.0" r="3.2" fill="#15212C"/>
+<text x="475.0" y="409.0" font-size="13" font-weight="600" fill="#15212C" text-anchor="start">Cảm biến mức nước</text>
+<line x1="300.0" y1="230.0" x2="120.0" y2="230.0" stroke="#15212C" stroke-width="1" opacity=".55"/>
+<circle cx="300.0" cy="230.0" r="3.2" fill="#15212C"/>
+<text x="115.0" y="234.0" font-size="13" font-weight="600" fill="#15212C" text-anchor="end">Vạch MIN–MAX</text>
+<line x1="260.0" y1="510.0" x2="180.0" y2="540.0" stroke="#15212C" stroke-width="1" opacity=".55"/>
+<circle cx="260.0" cy="510.0" r="3.2" fill="#15212C"/>
+<text x="175.0" y="544.0" font-size="13" font-weight="600" fill="#15212C" text-anchor="end">Ống nối về vòng nước</text>
+</g>
+<rect x="652" y="104" width="276" height="478" rx="10" fill="#FFFFFF" stroke="#D0D8DF"/>
+<text x="668" y="132" font-size="11" font-weight="700" letter-spacing="1.2" fill="#5A6775">CHỨC NĂNG</text>
+<text x="668" y="150" font-size="12.5" fill="#15212C">Chứa phần nước dư khi giãn nở, tách</text>
+<text x="668" y="166" font-size="12.5" fill="#15212C">bọt khí ra khỏi vòng nước, có cảm biến</text>
+<text x="668" y="182" font-size="12.5" fill="#15212C">mức để cảnh báo thiếu nước.</text>
+<text x="668" y="212" font-size="11" font-weight="700" letter-spacing="1.2" fill="#5A6775">HAY HỎNG</text>
+<text x="680" y="230" font-size="12.5" fill="#15212C">Nứt bình</text>
+<circle cx="672" cy="226" r="2.2" fill="#E2552F"/>
+<text x="680" y="248" font-size="12.5" fill="#15212C">Cảm biến mức kẹt</text>
+<circle cx="672" cy="244" r="2.2" fill="#E2552F"/>
+<text x="668" y="278" font-size="11" font-weight="700" letter-spacing="1.2" fill="#5A6775">TELEMETRY</text>
+<text x="680" y="296" font-size="12.5" fill="#15212C">Low level coolant water (cờ)</text>
+<circle cx="672" cy="292" r="2.2" fill="#E2552F"/>
+<text x="680" y="314" font-size="12.5" fill="#15212C">Không có giá trị mức nước</text>
+<circle cx="672" cy="310" r="2.2" fill="#E2552F"/>
+<text x="668" y="344" font-size="11" font-weight="700" letter-spacing="1.2" fill="#5A6775">NGUỒN</text>
+<text x="668" y="362" font-size="12.5" fill="#15212C">VF 5: nước làm mát 50% glycol, có vạch</text>
+<text x="668" y="378" font-size="12.5" fill="#15212C">MIN–MAX (đại lý VinFast).</text>
+<rect x="32" y="596" width="18" height="6" rx="3" fill="#14A892"/><text x="56" y="603" font-size="12" fill="#5A6775">Nước làm mát pin</text>
+<rect x="167.6" y="596" width="18" height="6" rx="3" fill="#C2418A"/><text x="191.6" y="603" font-size="12" fill="#5A6775">Tín hiệu / CAN</text>
+<text x="928" y="620" font-size="11" fill="#5A6775" text-anchor="end">Hình minh họa kỹ thuật chung — không theo bản vẽ VinFast</text>
+</svg>

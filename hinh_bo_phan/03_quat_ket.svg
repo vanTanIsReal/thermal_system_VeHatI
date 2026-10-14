@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="640" viewBox="0 0 960 640" font-family="Segoe UI, Arial, sans-serif">
+<defs><marker id="ar_E2552F" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E2552F"/></marker><marker id="ar_F0912A" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#F0912A"/></marker><marker id="ar_2F86E0" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2F86E0"/></marker><marker id="ar_14A892" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#14A892"/></marker><marker id="ar_D49A12" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#D49A12"/></marker><marker id="ar_9A78E0" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#9A78E0"/></marker><marker id="ar_F07A1A" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#F07A1A"/></marker><marker id="ar_C2418A" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#C2418A"/></marker><marker id="ar_15212C" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#15212C"/></marker><marker id="ar_5A6775" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#5A6775"/></marker><marker id="ar_D0D8DF" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#D0D8DF"/></marker><marker id="ar_F6F8FA" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#F6F8FA"/></marker><marker id="ar_FFFFFF" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#FFFFFF"/></marker><marker id="ar_D5DCE2" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#D5DCE2"/></marker><marker id="ar_AEB8C2" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#AEB8C2"/></marker><marker id="ar_7E8A96" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7E8A96"/></marker><marker id="ar_2E363F" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2E363F"/></marker><marker id="ar_444E59" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#444E59"/></marker><marker id="ar_7FB3E6" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7FB3E6"/></marker></defs>
+<rect width="960" height="640" fill="#F6F8FA"/>
+<text x="32" y="46" font-size="26" font-weight="700" fill="#15212C">Quạt két</text>
+<text x="32" y="70" font-size="14" fill="#5A6775">Radiator / condenser fan · sau dàn nóng và két nước · dùng chung</text>
+<line x1="32" y1="84" x2="928" y2="84" stroke="#D0D8DF"/>
+<text x="928" y="46" font-size="13" fill="#5A6775" text-anchor="end">#03</text>
+<g transform="translate(14,34) scale(0.86)">
+<rect x="70" y="140" width="520" height="330" rx="16" fill="#2E363F" stroke="#20252c" stroke-width="1.2" opacity="1"/>
+<circle cx="200" cy="305" r="130" fill="#3A434D" stroke="#282e35" stroke-width="1.2" opacity="1"/>
+<circle cx="200" cy="305" r="122" fill="#1E252C" stroke="#15191e" stroke-width="1.2" opacity="1"/>
+<path d="M 218.0 305.0 Q 283.6 313.4 312.7 346.1 L 287.8 386.8 Q 252.7 354.1 214.9 315.2 Z" fill="#6B7682" stroke="#2E363F" stroke-width="1" opacity="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 211.2 319.1 Q 245.6 375.6 238.1 418.8 L 190.8 424.6 Q 194.5 376.8 201.3 323.0 Z" fill="#6B7682" stroke="#2E363F" stroke-width="1" opacity="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 196.0 322.5 Q 173.2 384.6 134.8 405.7 L 100.7 372.4 Q 140.4 345.4 186.8 317.2 Z" fill="#6B7682" stroke="#2E363F" stroke-width="1" opacity="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 183.8 312.8 Q 121.1 333.7 80.6 316.8 L 85.4 269.4 Q 131.2 283.6 182.2 302.3 Z" fill="#6B7682" stroke="#2E363F" stroke-width="1" opacity="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 183.8 297.2 Q 128.3 261.2 116.3 219.0 L 156.4 193.2 Q 173.8 237.9 191.0 289.4 Z" fill="#6B7682" stroke="#2E363F" stroke-width="1" opacity="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 196.0 287.5 Q 189.6 221.6 215.0 185.9 L 260.2 201.2 Q 236.1 242.7 206.6 288.3 Z" fill="#6B7682" stroke="#2E363F" stroke-width="1" opacity="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 211.2 290.9 Q 258.7 244.9 302.5 242.5 L 318.7 287.4 Q 271.2 294.4 217.2 299.7 Z" fill="#6B7682" stroke="#2E363F" stroke-width="1" opacity="1" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="200" cy="305" r="22" fill="#444E59" stroke="#2f363e" stroke-width="1.2" opacity="1"/>
+<circle cx="200" cy="305" r="9" fill="#AEB8C2" stroke="#798087" stroke-width="1.2" opacity="1"/>
+<circle cx="460" cy="305" r="130" fill="#3A434D" stroke="#282e35" stroke-width="1.2" opacity="1"/>
+<circle cx="460" cy="305" r="122" fill="#1E252C" stroke="#15191e" stroke-width="1.2" opacity="1"/>
+<path d="M 478.0 305.0 Q 543.6 313.4 572.7 346.1 L 547.8 386.8 Q 512.7 354.1 474.9 315.2 Z" fill="#6B7682" stroke="#2E363F" stroke-width="1" opacity="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 471.2 319.1 Q 505.6 375.6 498.1 418.8 L 450.8 424.6 Q 454.5 376.8 461.3 323.0 Z" fill="#6B7682" stroke="#2E363F" stroke-width="1" opacity="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 456.0 322.5 Q 433.2 384.6 394.8 405.7 L 360.7 372.4 Q 400.4 345.4 446.8 317.2 Z" fill="#6B7682" stroke="#2E363F" stroke-width="1" opacity="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 443.8 312.8 Q 381.1 333.7 340.6 316.8 L 345.4 269.4 Q 391.2 283.6 442.2 302.3 Z" fill="#6B7682" stroke="#2E363F" stroke-width="1" opacity="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 443.8 297.2 Q 388.3 261.2 376.3 219.0 L 416.4 193.2 Q 433.8 237.9 451.0 289.4 Z" fill="#6B7682" stroke="#2E363F" stroke-width="1" opacity="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 456.0 287.5 Q 449.6 221.6 475.0 185.9 L 520.2 201.2 Q 496.1 242.7 466.6 288.3 Z" fill="#6B7682" stroke="#2E363F" stroke-width="1" opacity="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 471.2 290.9 Q 518.7 244.9 562.5 242.5 L 578.7 287.4 Q 531.2 294.4 477.2 299.7 Z" fill="#6B7682" stroke="#2E363F" stroke-width="1" opacity="1" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="460" cy="305" r="22" fill="#444E59" stroke="#2f363e" stroke-width="1.2" opacity="1"/>
+<circle cx="460" cy="305" r="9" fill="#AEB8C2" stroke="#798087" stroke-width="1.2" opacity="1"/>
+<path d="M 330 470 C 330 520 420 520 420 560" fill="none" stroke="#C2418A" stroke-width="2.5" opacity="1" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="400" y="556" width="40" height="18" rx="3" fill="#2E363F" stroke="#20252c" stroke-width="1.2" opacity="1"/>
+<line x1="90.0" y1="160.0" x2="60.0" y2="118.0" stroke="#15212C" stroke-width="1" opacity=".55"/>
+<circle cx="90.0" cy="160.0" r="3.2" fill="#15212C"/>
+<text x="65.0" y="122.0" font-size="13" font-weight="600" fill="#15212C" text-anchor="start">Khung che (shroud)</text>
+<line x1="300.0" y1="230.0" x2="330.0" y2="112.0" stroke="#15212C" stroke-width="1" opacity=".55"/>
+<circle cx="300.0" cy="230.0" r="3.2" fill="#15212C"/>
+<text x="335.0" y="116.0" font-size="13" font-weight="600" fill="#15212C" text-anchor="start">Cánh quạt</text>
+<line x1="460.0" y1="305.0" x2="610.0" y2="250.0" stroke="#15212C" stroke-width="1" opacity=".55"/>
+<circle cx="460.0" cy="305.0" r="3.2" fill="#15212C"/>
+<text x="615.0" y="254.0" font-size="13" font-weight="600" fill="#15212C" text-anchor="start">Mô-tơ quạt</text>
+<text x="615.0" y="269.0" font-size="13" font-weight="400" fill="#5A6775" text-anchor="start">(điều khiển PWM)</text>
+<line x1="420.0" y1="565.0" x2="470.0" y2="590.0" stroke="#15212C" stroke-width="1" opacity=".55"/>
+<circle cx="420.0" cy="565.0" r="3.2" fill="#15212C"/>
+<text x="475.0" y="594.0" font-size="13" font-weight="600" fill="#15212C" text-anchor="start">Dây điều khiển từ VCU</text>
+</g>
+<rect x="652" y="104" width="276" height="478" rx="10" fill="#FFFFFF" stroke="#D0D8DF"/>
+<text x="668" y="132" font-size="11" font-weight="700" letter-spacing="1.2" fill="#5A6775">CHỨC NĂNG</text>
+<text x="668" y="150" font-size="12.5" fill="#15212C">Hút gió qua dàn nóng và két nước khi</text>
+<text x="668" y="166" font-size="12.5" fill="#15212C">xe chạy chậm hoặc đứng yên (đang sạc).</text>
+<text x="668" y="182" font-size="12.5" fill="#15212C">Dùng chung cho vòng gas và vòng nước</text>
+<text x="668" y="198" font-size="12.5" fill="#15212C">motor.</text>
+<text x="668" y="228" font-size="11" font-weight="700" letter-spacing="1.2" fill="#5A6775">HAY HỎNG</text>
+<text x="680" y="246" font-size="12.5" fill="#15212C">Mô-tơ cháy, kẹt ổ bi</text>
+<circle cx="672" cy="242" r="2.2" fill="#E2552F"/>
+<text x="680" y="264" font-size="12.5" fill="#15212C">Lỗi điều khiển PWM</text>
+<circle cx="672" cy="260" r="2.2" fill="#E2552F"/>
+<text x="680" y="282" font-size="12.5" fill="#15212C">Gãy cánh do vật lạ</text>
+<circle cx="672" cy="278" r="2.2" fill="#E2552F"/>
+<text x="668" y="312" font-size="11" font-weight="700" letter-spacing="1.2" fill="#5A6775">TELEMETRY</text>
+<text x="680" y="330" font-size="12.5" fill="#15212C">VCU Fan component error level (cờ)</text>
+<circle cx="672" cy="326" r="2.2" fill="#E2552F"/>
+<text x="680" y="348" font-size="12.5" fill="#15212C">Không có duty / tốc độ quạt</text>
+<circle cx="672" cy="344" r="2.2" fill="#E2552F"/>
+<text x="668" y="378" font-size="11" font-weight="700" letter-spacing="1.2" fill="#5A6775">KHI HỎNG</text>
+<text x="668" y="396" font-size="12.5" fill="#15212C">Điều hòa yếu khi xe đứng, chiller yếu</text>
+<text x="668" y="412" font-size="12.5" fill="#15212C">→ sạc chậm, motor nóng → giảm công</text>
+<text x="668" y="428" font-size="12.5" fill="#15212C">suất.</text>
+<rect x="32" y="596" width="18" height="6" rx="3" fill="#C2418A"/><text x="56" y="603" font-size="12" fill="#5A6775">Tín hiệu / CAN</text>
+<text x="928" y="620" font-size="11" fill="#5A6775" text-anchor="end">Hình minh họa kỹ thuật chung — không theo bản vẽ VinFast</text>
+</svg>

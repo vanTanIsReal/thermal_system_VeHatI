@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="640" viewBox="0 0 960 640" font-family="Segoe UI, Arial, sans-serif">
+<defs><marker id="ar_E2552F" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E2552F"/></marker><marker id="ar_F0912A" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#F0912A"/></marker><marker id="ar_2F86E0" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2F86E0"/></marker><marker id="ar_14A892" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#14A892"/></marker><marker id="ar_D49A12" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#D49A12"/></marker><marker id="ar_9A78E0" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#9A78E0"/></marker><marker id="ar_F07A1A" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#F07A1A"/></marker><marker id="ar_C2418A" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#C2418A"/></marker><marker id="ar_15212C" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#15212C"/></marker><marker id="ar_5A6775" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#5A6775"/></marker><marker id="ar_D0D8DF" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#D0D8DF"/></marker><marker id="ar_F6F8FA" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#F6F8FA"/></marker><marker id="ar_FFFFFF" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#FFFFFF"/></marker><marker id="ar_D5DCE2" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#D5DCE2"/></marker><marker id="ar_AEB8C2" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#AEB8C2"/></marker><marker id="ar_7E8A96" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7E8A96"/></marker><marker id="ar_2E363F" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2E363F"/></marker><marker id="ar_444E59" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#444E59"/></marker><marker id="ar_7FB3E6" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7FB3E6"/></marker></defs>
+<rect width="960" height="640" fill="#F6F8FA"/>
+<text x="32" y="46" font-size="26" font-weight="700" fill="#15212C">Lưới tản nhiệt chủ động (AGS)</text>
+<text x="32" y="70" font-size="14" fill="#5A6775">Active grille shutter · cản trước · dùng chung</text>
+<line x1="32" y1="84" x2="928" y2="84" stroke="#D0D8DF"/>
+<text x="928" y="46" font-size="13" fill="#5A6775" text-anchor="end">#05</text>
+<g transform="translate(14,34) scale(0.86)">
+<rect x="90" y="170" width="470" height="260" rx="10" fill="#3A434D" stroke="#282e35" stroke-width="1.2" opacity="1"/>
+<rect x="104" y="184" width="442" height="232" rx="6" fill="#1E252C" stroke="#15191e" stroke-width="1.2" opacity="1"/>
+<rect x="114" y="199" width="422" height="14" rx="4" fill="#7E8A96" stroke="#3A434D" transform="rotate(-8.75 325 205)"/>
+<rect x="114" y="235" width="422" height="14" rx="4" fill="#7E8A96" stroke="#3A434D" transform="rotate(-8.75 325 241)"/>
+<rect x="114" y="271" width="422" height="14" rx="4" fill="#7E8A96" stroke="#3A434D" transform="rotate(-8.75 325 277)"/>
+<rect x="114" y="307" width="422" height="14" rx="4" fill="#7E8A96" stroke="#3A434D" transform="rotate(0.0 325 313)"/>
+<rect x="114" y="343" width="422" height="14" rx="4" fill="#7E8A96" stroke="#3A434D" transform="rotate(0.0 325 349)"/>
+<rect x="114" y="379" width="422" height="14" rx="4" fill="#7E8A96" stroke="#3A434D" transform="rotate(0.0 325 385)"/>
+<polygon points="96.2,405.0 61.5,425.0 61.5,375.0 96.2,355.0" fill="#303840" stroke="#21272c" stroke-width="1" opacity="1" stroke-linejoin="round"/>
+<polygon points="9.6,395.0 61.5,425.0 61.5,375.0 9.6,345.0" fill="#3a434c" stroke="#282e35" stroke-width="1" opacity="1" stroke-linejoin="round"/>
+<polygon points="44.2,325.0 96.2,355.0 61.5,375.0 9.6,345.0" fill="#5a636c" stroke="#3e454b" stroke-width="1" opacity="1" stroke-linejoin="round"/>
+<line x1="325.0" y1="210.0" x2="330.0" y2="130.0" stroke="#15212C" stroke-width="1" opacity=".55"/>
+<circle cx="325.0" cy="210.0" r="3.2" fill="#15212C"/>
+<text x="335.0" y="134.0" font-size="13" font-weight="600" fill="#15212C" text-anchor="start">Lá chắn (đang mở)</text>
+<line x1="325.0" y1="350.0" x2="330.0" y2="470.0" stroke="#15212C" stroke-width="1" opacity=".55"/>
+<circle cx="325.0" cy="350.0" r="3.2" fill="#15212C"/>
+<text x="335.0" y="474.0" font-size="13" font-weight="600" fill="#15212C" text-anchor="start">Lá chắn (đang đóng)</text>
+<line x1="150.0" y1="300.0" x2="40.0" y2="470.0" stroke="#15212C" stroke-width="1" opacity=".55"/>
+<circle cx="150.0" cy="300.0" r="3.2" fill="#15212C"/>
+<text x="45.0" y="474.0" font-size="13" font-weight="600" fill="#15212C" text-anchor="start">Mô-tơ chấp hành</text>
+<line x1="560.0" y1="230.0" x2="610.0" y2="230.0" stroke="#7FB3E6" stroke-width="2.5" stroke-linecap="round" marker-end="url(#ar_7FB3E6)"/>
+<text x="605" y="215" font-size="12" fill="#5A6775" font-weight="400" text-anchor="middle">gió</text>
+</g>
+<rect x="652" y="104" width="276" height="478" rx="10" fill="#FFFFFF" stroke="#D0D8DF"/>
+<text x="668" y="132" font-size="11" font-weight="700" letter-spacing="1.2" fill="#5A6775">CHỨC NĂNG</text>
+<text x="668" y="150" font-size="12.5" fill="#15212C">Đóng / mở lá chắn ở cản trước: đóng để</text>
+<text x="668" y="166" font-size="12.5" fill="#15212C">giảm cản gió và giữ nhiệt khi trời</text>
+<text x="668" y="182" font-size="12.5" fill="#15212C">lạnh, mở khi dàn nóng / két nước cần</text>
+<text x="668" y="198" font-size="12.5" fill="#15212C">gió.</text>
+<text x="668" y="228" font-size="11" font-weight="700" letter-spacing="1.2" fill="#5A6775">HAY HỎNG</text>
+<text x="680" y="246" font-size="12.5" fill="#15212C">Kẹt đóng → thiếu gió làm mát</text>
+<circle cx="672" cy="242" r="2.2" fill="#E2552F"/>
+<text x="680" y="264" font-size="12.5" fill="#15212C">Kẹt mở → tốn điện, sưởi chậm</text>
+<circle cx="672" cy="260" r="2.2" fill="#E2552F"/>
+<text x="680" y="282" font-size="12.5" fill="#15212C">Mô-tơ chấp hành hỏng</text>
+<circle cx="672" cy="278" r="2.2" fill="#E2552F"/>
+<text x="668" y="312" font-size="11" font-weight="700" letter-spacing="1.2" fill="#5A6775">TELEMETRY</text>
+<text x="680" y="330" font-size="12.5" fill="#15212C">VCU Ags component error level</text>
+<circle cx="672" cy="326" r="2.2" fill="#E2552F"/>
+<text x="680" y="348" font-size="12.5" fill="#15212C">Active Grille Shutters stuck (đèn</text>
+<circle cx="672" cy="344" r="2.2" fill="#E2552F"/>
+<text x="680" y="364" font-size="12.5" fill="#15212C">báo)</text>
+<rect x="32" y="596" width="18" height="6" rx="3" fill="#9A78E0"/><text x="56" y="603" font-size="12" fill="#5A6775">Luồng gió</text>
+<text x="928" y="620" font-size="11" fill="#5A6775" text-anchor="end">Hình minh họa kỹ thuật chung — không theo bản vẽ VinFast</text>
+</svg>
